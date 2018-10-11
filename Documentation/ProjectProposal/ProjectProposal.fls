@@ -84,6 +84,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ProjectProposal.bbl
 INPUT ProjectProposal.bbl
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT images/workPlanOLD.png
 INPUT ./images/workPlanOLD.png
 INPUT ./images/workPlanOLD.png
@@ -95,3 +97,5 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
