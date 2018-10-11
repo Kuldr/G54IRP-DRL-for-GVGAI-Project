@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex ProjectProposal"] 1539277995 "ProjectProposal.aux" "ProjectProposal.bbl" "ProjectProposal" 1539278042
+["bibtex ProjectProposal"] 1539279171 "ProjectProposal.aux" "ProjectProposal.bbl" "ProjectProposal" 1539279333
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "ProjectProposal.aux" 1539278040 591 547320d59a59b4ac0d12b25390cac850 ""
+  "ProjectProposal.aux" 1539279172 591 5799b7978f70f8bdc1cae3eabb5ae7e7 ""
   "ProjectProposal.bib" 1539266475 2615 6cd86c1ccf6527c845730949e4bee4cc ""
   (generated)
   "ProjectProposal.bbl"
   "ProjectProposal.blg"
-["pdflatex"] 1539278039 "ProjectProposal.tex" "ProjectProposal.pdf" "ProjectProposal" 1539278042
+["pdflatex"] 1539279171 "ProjectProposal.tex" "ProjectProposal.pdf" "ProjectProposal" 1539279333
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -64,11 +64,11 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1539007694 4220280 ca86b60d95aa7be7fc0da94ff6162dab ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "ProjectProposal.aux" 1539278040 591 547320d59a59b4ac0d12b25390cac850 ""
-  "ProjectProposal.bbl" 1539277996 2134 af1d215a38f5192c761aefdf3fc1aede "bibtex ProjectProposal"
-  "ProjectProposal.tex" 1539278042 3529 0531b30968a25665821bcc46df161ba5 ""
+  "ProjectProposal.aux" 1539279172 591 5799b7978f70f8bdc1cae3eabb5ae7e7 ""
+  "ProjectProposal.bbl" 1539279171 2134 af1d215a38f5192c761aefdf3fc1aede "bibtex ProjectProposal"
+  "ProjectProposal.tex" 1539279333 3878 73d26a2489162af5067498f7d53d240c ""
   "images/workPlanOLD.png" 1538651665 83507 e51812e740edb6777b64ac183be959e9 ""
   (generated)
   "ProjectProposal.aux"
-  "ProjectProposal.pdf"
   "ProjectProposal.log"
+  "ProjectProposal.pdf"
