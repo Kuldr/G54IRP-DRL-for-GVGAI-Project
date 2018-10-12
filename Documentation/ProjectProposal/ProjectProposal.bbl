@@ -1,62 +1,10 @@
 \begin{thebibliography}{1}
 
-\bibitem{deepBlue}
-Murray Campbell, A~Joseph Hoane, and Feng-hsiung Hsu.
-\newblock Deep blue.
-\newblock {\em Artificial intelligence}, 134(1-2):57--83, 2002.
-
-\bibitem{teamEarnings}
-Esports Earnings.
-\newblock Highest overall team earnings.
-\newblock \url{https://www.esportsearnings.com/teams}, October 2017.
-
-\bibitem{eSportsPrize}
-Esports Earnings.
-\newblock Largest overall prize pools in esports.
-\newblock \url{https://www.esportsearnings.com/tournaments}, October 2017.
-
-\bibitem{hearthstoneAI}
-Pablo Garc{\'\i}a-S{\'a}nchez, Alberto Tonda, Giovanni Squillero, Antonio Mora,
-  and Juan~J Merelo.
-\newblock Evolutionary deckbuilding in hearthstone.
-\newblock In {\em Computational Intelligence and Games (CIG), 2016 IEEE
-  Conference on}, pages 1--8. IEEE, 2016.
-
-\bibitem{wolfeTeam}
-Wolfe~Glick Justin~Fylnn.
-\newblock Movesets for pokemon champion wolfe glick's london international's
-  team.
-\newblock
-  \url{http://pokemonforever.com/Thread-VGC-Movesets-for-Pokemon-Champion-Wolfe-Glick-s-London-International-s-Team},
-  December 2017.
-
-\bibitem{worldsOverview}
-Griffin McElroy.
-\newblock Becoming the very best: The pokemon world championships.
-\newblock
-  \url{https://www.polygon.com/2013/7/20/4539528/becoming-the-very-best-the-pokemon-world-championships},
-  July 2013.
-
-\bibitem{alphaGo}
-David Silver, Aja Huang, Chris~J Maddison, Arthur Guez, Laurent Sifre, George
-  Van Den~Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda
-  Panneershelvam, Marc Lanctot, et~al.
-\newblock Mastering the game of go with deep neural networks and tree search.
-\newblock {\em Nature}, 529(7587):484--489, 2016.
-
-\bibitem{starcraftEA}
-Quintin Smith.
-\newblock Algorithms discover build order from hell.
-\newblock
-  \url{https://www.rockpapershotgun.com/2010/11/02/genetic-algorithms-find-build-order-from-hell/},
-  November 2010.
-
-\bibitem{openAI}
-T.C. Sottek.
-\newblock The world’s best dota 2 players just got destroyed by a killer ai
-  from elon musk’s startup.
-\newblock
-  \url{https://www.theverge.com/2017/8/11/16137388/dota-2-dendi-open-ai-elon-musk},
-  August 2017.
+\bibitem{GVGAI2014}
+Diego Perez-Liebana, Spyridon Samothrakis, Julian Togelius, Tom Schaul, Simon~M
+  Lucas, Adrien Cou{\"e}toux, Jerry Lee, Chong-U Lim, and Tommy Thompson.
+\newblock The 2014 general video game playing competition.
+\newblock {\em IEEE Transactions on Computational Intelligence and AI in
+  Games}, 8(3):229--243, 2016.
 
 \end{thebibliography}
