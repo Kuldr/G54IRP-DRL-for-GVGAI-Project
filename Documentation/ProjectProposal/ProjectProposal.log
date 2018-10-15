@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.8)  12 OCT 2018 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.8)  12 OCT 2018 12:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -206,24 +206,24 @@ Overfull \hbox (58.851pt too wide) in paragraph at lines 88--90
  []
 
 [2] (./ProjectProposal.bbl) [3]
-<images/workPlanOLD.png, id=20, 626.34pt x 1650.165pt>
-File: images/workPlanOLD.png Graphic file (type png)
-<use images/workPlanOLD.png>
-Package pdftex.def Info: images/workPlanOLD.png  used on input line 144.
-(pdftex.def)             Requested size: 267.83002pt x 705.62843pt.
+<images/workPlan.png, id=20, 888.921pt x 1716.1716pt>
+File: images/workPlan.png Graphic file (type png)
+<use images/workPlan.png>
+Package pdftex.def Info: images/workPlan.png  used on input line 144.
+(pdftex.def)             Requested size: 365.49083pt x 705.62843pt.
  [4
 
- <./images/workPlanOLD.png>] (./ProjectProposal.aux) ) 
+ <./images/workPlan.png>] (./ProjectProposal.aux) ) 
 Here is how much of TeX's memory you used:
  2676 strings out of 492649
- 36975 string characters out of 6129622
+ 36960 string characters out of 6129622
  214212 words of memory out of 5000000
  6532 multiletter control sequences out of 15000+600000
  8241 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,35p,282b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ProjectProposal.pdf (4 pages, 154760 bytes).
+Output written on ProjectProposal.pdf (4 pages, 492515 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
