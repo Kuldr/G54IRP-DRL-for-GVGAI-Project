@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.8)  18 OCT 2018 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.8)  18 OCT 2018 14:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -197,9 +197,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 77.
+(Font)              <7> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 77.
+(Font)              <5> on input line 78.
  [2] (./ProjectProposal.bbl
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
@@ -209,7 +209,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 <images/workPlan.png, id=18, 888.921pt x 1716.1716pt>
 File: images/workPlan.png Graphic file (type png)
 <use images/workPlan.png>
-Package pdftex.def Info: images/workPlan.png  used on input line 188.
+Package pdftex.def Info: images/workPlan.png  used on input line 189.
 (pdftex.def)             Requested size: 365.49083pt x 705.62843pt.
  [4
 
@@ -223,7 +223,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  41i,6n,35p,282b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on ProjectProposal.pdf (4 pages, 454508 bytes).
+Output written on ProjectProposal.pdf (4 pages, 454504 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
