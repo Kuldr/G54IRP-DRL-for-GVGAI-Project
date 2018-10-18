@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex ProjectProposal"] 1539867314 "ProjectProposal.aux" "ProjectProposal.bbl" "ProjectProposal" 1539867588
+["bibtex ProjectProposal"] 1539867314 "ProjectProposal.aux" "ProjectProposal.bbl" "ProjectProposal" 1539867871
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "ProjectProposal.aux" 1539867587 404 423d729c82e75385b539abcfe7aaf7b6 ""
+  "ProjectProposal.aux" 1539867861 404 423d729c82e75385b539abcfe7aaf7b6 ""
   "ProjectProposal.bib" 1539336470 432 e8a8d77e6048239881da30b739a96ce9 ""
   (generated)
-  "ProjectProposal.bbl"
   "ProjectProposal.blg"
-["pdflatex"] 1539867586 "ProjectProposal.tex" "ProjectProposal.pdf" "ProjectProposal" 1539867588
+  "ProjectProposal.bbl"
+["pdflatex"] 1539867860 "ProjectProposal.tex" "ProjectProposal.pdf" "ProjectProposal" 1539867871
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1480098701 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1480098701 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -62,9 +62,9 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1539007694 4220280 ca86b60d95aa7be7fc0da94ff6162dab ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "ProjectProposal.aux" 1539867587 404 423d729c82e75385b539abcfe7aaf7b6 ""
+  "ProjectProposal.aux" 1539867861 404 423d729c82e75385b539abcfe7aaf7b6 ""
   "ProjectProposal.bbl" 1539867314 388 7fd241754e409d228b95ed702e8f0843 "bibtex ProjectProposal"
-  "ProjectProposal.tex" 1539867586 9084 749a5a511e8e560ee736bd18386bcc31 ""
+  "ProjectProposal.tex" 1539867871 9049 a5369b28bb11a6a8b0cdb23b15dd39c3 ""
   "images/workPlan.png" 1539342301 571494 3398ec31e68a7936bf2d492cd2ba57ca ""
   (generated)
   "ProjectProposal.pdf"
