@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex ProjectProposal"] 1539871453 "ProjectProposal.aux" "ProjectProposal.bbl" "ProjectProposal" 1539871525
+["bibtex ProjectProposal"] 1539871453 "ProjectProposal.aux" "ProjectProposal.bbl" "ProjectProposal" 1539871849
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "ProjectProposal.aux" 1539871525 404 423d729c82e75385b539abcfe7aaf7b6 ""
+  "ProjectProposal.aux" 1539871849 404 423d729c82e75385b539abcfe7aaf7b6 ""
   "ProjectProposal.bib" 1539336470 432 e8a8d77e6048239881da30b739a96ce9 ""
   (generated)
-  "ProjectProposal.blg"
   "ProjectProposal.bbl"
-["pdflatex"] 1539871524 "ProjectProposal.tex" "ProjectProposal.pdf" "ProjectProposal" 1539871525
+  "ProjectProposal.blg"
+["pdflatex"] 1539871848 "ProjectProposal.tex" "ProjectProposal.pdf" "ProjectProposal" 1539871849
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1480098668 2327 9d6df24f9c4f7368395224341a95523a ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/lmex10.tfm" 1480098712 992 ce925c9346c7613270a79afbee98c070 ""
@@ -78,11 +78,11 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1539007694 4220280 ca86b60d95aa7be7fc0da94ff6162dab ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "ProjectProposal.aux" 1539871525 404 423d729c82e75385b539abcfe7aaf7b6 ""
+  "ProjectProposal.aux" 1539871849 404 423d729c82e75385b539abcfe7aaf7b6 ""
   "ProjectProposal.bbl" 1539871453 388 7fd241754e409d228b95ed702e8f0843 "bibtex ProjectProposal"
-  "ProjectProposal.tex" 1539871524 9992 dba8a670f6ed7869aa78281c514d67cb ""
+  "ProjectProposal.tex" 1539871848 10235 c8c010c9cf52c9e0c6e936f28d399003 ""
   "images/workPlan.png" 1539342301 571494 3398ec31e68a7936bf2d492cd2ba57ca ""
   (generated)
-  "ProjectProposal.pdf"
   "ProjectProposal.log"
+  "ProjectProposal.pdf"
   "ProjectProposal.aux"
