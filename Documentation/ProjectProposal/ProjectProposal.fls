@@ -111,10 +111,11 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmss8.tfm
 INPUT ProjectProposal.bbl
 INPUT ProjectProposal.bbl
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmsso10.tfm
-INPUT images/workPlan.png
-INPUT ./images/workPlan.png
-INPUT ./images/workPlan.png
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmtt.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmtt.fd
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmtt12.tfm
 INPUT ProjectProposal.aux
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss12.pfb
@@ -122,3 +123,4 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss17.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsso10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb
