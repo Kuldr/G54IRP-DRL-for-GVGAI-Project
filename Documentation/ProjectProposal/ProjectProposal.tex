@@ -51,6 +51,32 @@ Some of the following reasons show why games make good AI problems:
 The history of AI game playing begins near the start of artificial intelligence as a field, in the 1950s.
 Strachey created a draughts player for one of the first general computing machines (Manchester Ferranti Mark I) which by  1952 could ``play a complete game of draughts at a reasonable speed''\cite{BreifHistoryComputing}.
 Prinz wrote a simplified chess player for the Manchester Machine as well which could solve the mate-in-two, which if there was a checkmate solution in 2 turns it could find it\cite{BreifHistoryComputing}.
+\par
+Currently most simple board games have been solved with AI techniques.
+In 1997 IBM managed to beat the reigning world champion, Garry Kasparov, using Deep Blue.
+Deep Blue used a combination of alpha-beta search trees with specialised hardware to generate the possible moves\cite{deepBlue}.
+Google DeepMind recently took a long standing goal of AI game playing by beating a GO champion with AlphaGo\cite{AlphaGo}.
+This done using a Monte Carlo Tree Search with the moves it chooses from being learnt from training a deep neural network that has been trained on human and computer play.
+AlphaGo was then extended by Google DeepMind to create AlphaGoZero which didn't train with human data only self play\cite{alphaGoZero}.
+\par
+\begin{itemize}
+    \item \large{ToDo}
+    \item History of Video Game AI playing
+    \begin{itemize}
+        \item In Game AI
+        \item Game Playing
+    \end{itemize}
+\end{itemize}
+
+% @MISC{openAI,
+%     author = {T.C. Sottek},
+%     title = {The world’s best Dota 2 players just got destroyed by a killer AI from Elon Musk’s startup},
+%     month = aug,
+%     year = {2017},
+%     howpublished = {\url{https://www.theverge.com/2017/8/11/16137388/dota-2-dendi-open-ai-elon-musk}}
+% }
+%
+% Initially this has been seen with traditional board games like Chess[1] and Go[6]. During The International 2017 for DotA 2 this all changed as the worlds of AI and eSports came together in a 1v1 show match[8]. Elon Musk, backer of this initiative, said that this is ‘Vastly more complex than traditional board games like chess & Go’[8].Typically in these set ups their is no decisions to be made prior to the game itself, in fact to limit the DotA 2 AI they limited it to a preselected character to play with.
 
 \section{Aims and Objectives}
 This research project sets out to create and implement a General AI to play video games.
