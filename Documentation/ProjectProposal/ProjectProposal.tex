@@ -54,8 +54,9 @@ Prinz wrote a simplified chess player for the Manchester Machine as well which c
 Currently most simple board games have been solved with AI techniques.
 In 1997 IBM managed to beat the reigning world champion, Garry Kasparov, using Deep Blue.
 Deep Blue used a combination of alpha-beta search trees with specialised hardware to generate the possible moves\cite{deepBlue}.
-Google DeepMind recently took a long standing goal of AI game playing by beating a GO champion with AlphaGo\cite{AlphaGo}.
-This done using a Monte Carlo Tree Search with the moves it chooses from being learnt from training a deep neural network that has been trained on human and computer play.
+Google DeepMind recently took a long standing goal of AI game playing by beating a Go champion with AlphaGo\cite{AlphaGo}.
+This was done with a combination of Monte Carlo Tree Search and 2 Deep Neural Networks trained with reinforcement learning, one was a value network to assess the board predicting the winner and the other a policy network to predict which move would be played next by an expert.
+These networks were combined in the Monte Carlo Tree Search, the policy network would predict the next moves to play and the value network would evaluate each leaf in the tree.
 AlphaGo was then extended by Google DeepMind to create AlphaGoZero which didn't train with human data only self play\cite{alphaGoZero}.
 \par
 Artificial Intelligence has been a key component for video games as designers have tried to create compelling single player experiences.
@@ -71,7 +72,7 @@ While it cannot currently beat a professional team it does hold up against them 
     \item History of Video Game AI playing
     \begin{itemize}
         \item Game Playing
-        \item Atari Game Playing AI
+        \item Atari Game Playing AI (DeepMind?)
     \end{itemize}
 \end{itemize}
 \subsection{General AI}
