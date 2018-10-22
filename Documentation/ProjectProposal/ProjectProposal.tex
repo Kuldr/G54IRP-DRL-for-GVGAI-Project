@@ -33,11 +33,10 @@
 \vspace{-7ex}
 
 \section{Background and Motivation}
-\subsection{AI Game Playing}
 Game playing has often been used in Artificial Intelligence (AI) research to help push the field forward, developing new techniques to tackle harder and harder problems.
 Many of these AI techniques developed have since been applied to further applications proving that this field of study is not just producing novel solutions.
 \par
-Game Playing is a good playground to test AI techniques as games have many features that are helpful to testing AIs.
+Game Playing is a good testbed to test AI techniques as games have many features that are helpful to testing AIs.
 Some of the following reasons show why games make good AI problems:
 \begin{itemize}[noitemsep,nolistsep]
     \item Clear win states leading to easy objective evaluation
@@ -54,10 +53,10 @@ Prinz wrote a simplified chess player for the Manchester Machine as well which c
 Currently most simple board games have been solved with AI techniques.
 In 1997 IBM managed to beat the reigning world champion, Garry Kasparov, using Deep Blue.
 Deep Blue used a combination of alpha-beta search trees with specialised hardware to generate the possible moves\cite{deepBlue}.
-Google DeepMind recently took a long standing goal of AI game playing by beating a Go champion with AlphaGo\cite{AlphaGo}.
+DeepMind recently took a long standing goal of AI game playing by beating a Go champion with AlphaGo\cite{AlphaGo}.
 This was done with a combination of Monte Carlo Tree Search and 2 Deep Neural Networks trained with reinforcement learning, one was a value network to assess the board predicting the winner and the other a policy network to predict which move would be played next by an expert.
 These networks were combined in the Monte Carlo Tree Search, the policy network would predict the next moves to play and the value network would evaluate each leaf in the tree.
-AlphaGo was then extended by Google DeepMind to create AlphaGoZero which didn't train with human data only self play\cite{alphaGoZero}.
+AlphaGo was then extended by DeepMind to create AlphaGoZero which didn't train with human data only self play\cite{alphaGoZero}.
 \par
 Artificial Intelligence has been a key component for video games as designers have tried to create compelling single player experiences.
 Often AI in video games aren't highly complex often being simple agents optimised for making the player experience fun rather than optimising to win.
@@ -67,15 +66,15 @@ In recent years research into video game playing AIs have begun, due to many sim
 One of the most notable examples is OpenAI who have created a team of 5 bots that can play a limited version of DotA 2\cite{OpenAIFive}.
 This was done using an LSTM neural network and has managed to beat several amateur and semi-pro teams.
 While it cannot currently beat a professional team it does hold up against them quite well.
+\par
+DeepMind has also been working on video game playing making a model that could play a sample of Atari 2600 games\cite{playingAtari}.
+While introducing a new form of reinforcement learning called Q-Learning they have shown that it can successfully learn to play video games.
+Although not a general AI they did show that they could use the same model and hyperparameters to train for each game, showing that game playing AI aren't always specialised in design.
+General AI, the ability to create an AI that is deemed generally inteligent that it can complete a wide variety of tasks in many fields, is the ``holy grail'' of the AI field.
+Often this level of intelligence is compared to humans, or other animals, as they are good at adapting their knowledge to unseen problems.
+Many tests have been thought up to test how to compare the general intelligence of AIs such as the Turing test, Coffee Test or Robot College Student test\cite{AGITests}.
 
-\begin{itemize}
-    \item History of Video Game AI playing
-    \begin{itemize}
-        \item Game Playing
-        \item Atari Game Playing AI (DeepMind?)
-    \end{itemize}
-\end{itemize}
-\subsection{General AI}
+
 \begin{itemize}
     \item General AIs
 \end{itemize}
