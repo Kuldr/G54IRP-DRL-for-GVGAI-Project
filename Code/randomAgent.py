@@ -9,6 +9,8 @@ env.reset()
 score = 0
 # Run game for 2000 game ticks
 for i in range(2000):
+    # Render the game to the screen
+    env.render()
     # Select a random action from the action space
     action_id = env.action_space.sample()
     # Perform the action choosen and get the info from the environment
@@ -21,3 +23,6 @@ for i in range(2000):
     if isOver:
         print("Game over at game tick " + str(i+1) + " with player " + info['winner'])
         break
+
+# Close the environment render after game is finished
+env.close()
