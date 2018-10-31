@@ -1,8 +1,12 @@
 import gym
 import gym_gvgai
+import random
+
+# Get all of the GVGAI Environments
+envs = [env.id for env in gym.envs.registry.all() if env.id.startswith('gvgai')]
 
 # Create and reset the enivronment
-env = gym.make('gvgai-aliens-lvl0-v0')
+env = gym.make(random.choice(envs)) # gym.make('gvgai-aliens-lvl0-v0') <- Code to load a specific environment
 env.reset()
 
 # Set the score counter to 0
