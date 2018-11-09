@@ -9,6 +9,20 @@ MILLISECONDS_PER_FRAME = 40
 
 env = gym.make('gvgai-aliens-lvl0-v0')
 
+# Creates 2 dictionaries keys and actions which have a mapping for keys to actions and actions to action_ids
+POSSIBLE_ACTIONS = ["ACTION_NIL", "ACTION_USE", "ACTION_LEFT", "ACTION_RIGHT", "ACTION_DOWN", "ACTION_UP"]
+# Get the dictionary of actions in the env
+actions = dict(zip(env.unwrapped.actions, [i for i in range(env.unwrapped.action_space.n)]))
+# Add the other actions to the dictionary if required
+#       This is to make sure that all inputs have a valid action
+for x in POSSIBLE_ACTIONS:
+    if x not in actions:
+        actions[x] = actions["ACTION_NIL"]
+#       119: W            97: A              115: S              100: D               106: J
+KEYS = {119: "ACTION_UP", 97: "ACTION_LEFT", 115: "ACTION_DOWN", 100: "ACTION_RIGHT", 106: "ACTION_USE"}
+# Set the NIL ACTION
+NIL_ACTION = actions["ACTION_NIL"]
+
 ACTIONS = env.action_space.n
 SKIP_CONTROL = 0    # Use previous control decision SKIP_CONTROL times, that's how you
                     # can test what skip is still usable.
