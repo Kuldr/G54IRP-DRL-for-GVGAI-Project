@@ -35,6 +35,10 @@ def key_press(key, mod):
     if key==0xff0d: # If return is pressed restart
         human_wants_restart = True
     elif key==32:  # If space is press pause
+        if human_sets_pause:
+            print("UNPAUSED")
+        else:
+            print("PAUSED")
         human_sets_pause = not human_sets_pause
     elif key in KEYS: # If a key is pressed then perform the corisponding action
         human_agent_action = actions[KEYS[key]]
@@ -78,7 +82,6 @@ def rollout(env):
             break
         while human_sets_pause:
             env.render()
-            time.sleep(MILLISECONDS_PER_FRAME*0.001)
         time.sleep(MILLISECONDS_PER_FRAME*0.001)
     print("timesteps %i reward %0.2f" % (total_timesteps, total_reward))
 
@@ -89,7 +92,7 @@ print("SPACE for pause")
 print("RETURN for restart")
 print("------------------\n")
 # Tell the player that the game is initially paused
-print("The game starts paused so press SPACE to unpause")
+print("The game starts paused so press SPACE to unpause\n\n")
 
 while 1:
     window_still_open = rollout(env)
