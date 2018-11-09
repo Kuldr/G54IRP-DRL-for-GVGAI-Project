@@ -7,6 +7,7 @@ import gym_gvgai
 # Set time between frames (and actions) to the same as the agents will get
 MILLISECONDS_PER_FRAME = 40
 
+# Load the game here, can be changed to different games
 env = gym.make('gvgai-aliens-lvl0-v0')
 
 # Creates 2 dictionaries keys and actions which have a mapping for keys to actions and actions to action_ids
@@ -56,15 +57,15 @@ def rollout(env):
     env.reset()
     score = 0
     timestep = 0
-    while 1:
+    while True:
         actionToTake = human_agent_action
         _, reward, isOver, info = env.step(actionToTake)
         score += reward
         if reward != 0: # If gained a reward print out score and reward
             print("Score = %d, Reward = %d" % (score, reward))
         window_still_open = env.render()
-        if window_still_open == False:
-            return False
+        if not window_still_open:
+            return window_still_open
         if isOver:
             print("\n\n-----RESTART-----")
             print("Game Finished")
@@ -96,7 +97,7 @@ print("------------------\n")
 # Tell the player that the game is initially paused
 print("The game starts paused so press SPACE to unpause\n\n")
 
-while 1:
+while True:
     window_still_open = rollout(env)
-    if window_still_open == False:
+    if not window_still_open:
         break
