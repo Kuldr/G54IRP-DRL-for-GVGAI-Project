@@ -20,7 +20,7 @@ SKIP_CONTROL = 0    # Use previous control decision SKIP_CONTROL times, that's h
 
 human_agent_action = 0
 human_wants_restart = False
-human_sets_pause = False
+human_sets_pause = True # Starts the game paused needs to press space to start
 
 def key_press(key, mod):
     global human_agent_action, human_wants_restart, human_sets_pause
@@ -71,9 +71,13 @@ def rollout(env):
         time.sleep(0.1)
     print("timesteps %i reward %0.2f" % (total_timesteps, total_reward))
 
-print("ACTIONS={}".format(ACTIONS))
+print("\n\n-----CONTROLS-----")
 print("Press keys 1 2 3 ... to take actions 1 2 3 ...")
-print("No keys pressed is taking action 0")
+print("SPACE for pause")
+print("RETURN for restart")
+print("------------------\n")
+# Tell the player that the game is initially paused
+print("The game starts paused so press SPACE to unpause")
 
 while 1:
     window_still_open = rollout(env)
