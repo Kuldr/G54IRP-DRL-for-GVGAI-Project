@@ -23,9 +23,6 @@ KEYS = {119: "ACTION_UP", 97: "ACTION_LEFT", 115: "ACTION_DOWN", 100: "ACTION_RI
 # Set the NIL ACTION
 NIL_ACTION = actions["ACTION_NIL"]
 
-SKIP_CONTROL = 0    # Use previous control decision SKIP_CONTROL times, that's how you
-                    # can test what skip is still usable.
-
 human_agent_action = NIL_ACTION
 human_wants_restart = False
 human_sets_pause = True # Starts the game paused needs to press space to start
@@ -57,18 +54,10 @@ def rollout(env):
     global human_agent_action, human_wants_restart, human_sets_pause
     human_wants_restart = False
     obser = env.reset()
-    skip = 0
     score = 0
     timestep = 0
     while 1:
-        if not skip:
-            #print("taking action {}".format(human_agent_action))
-            a = human_agent_action
-            timestep += 1
-            skip = SKIP_CONTROL
-        else:
-            skip -= 1
-
+        a = human_agent_action
         obser, r, done, info = env.step(a)
         score += r
         if r != 0: # If gained a reward print out score and reward
@@ -97,8 +86,6 @@ def rollout(env):
     # Pause game for the start of the next game
     human_sets_pause = not human_sets_pause
     print("The game starts paused so press SPACE to unpause\n\n")
-
-
 
 print("\n\n-----CONTROLS-----")
 print("WASD for Directional control")
