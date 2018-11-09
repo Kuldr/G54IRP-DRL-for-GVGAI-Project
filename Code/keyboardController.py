@@ -58,7 +58,7 @@ def rollout(env):
     human_wants_restart = False
     obser = env.reset()
     skip = 0
-    total_reward = 0
+    score = 0
     total_timesteps = 0
     while 1:
         if not skip:
@@ -70,9 +70,9 @@ def rollout(env):
             skip -= 1
 
         obser, r, done, info = env.step(a)
-        if r != 0:
-            print("reward %0.3f" % r)
-        total_reward += r
+        score += r
+        if r != 0: # If gained a reward print out score and reward
+            print("Score = %d, Reward = %d" % (score, r))
         window_still_open = env.render()
         if window_still_open == False:
             return False
@@ -83,7 +83,7 @@ def rollout(env):
         while human_sets_pause:
             env.render()
         time.sleep(MILLISECONDS_PER_FRAME*0.001)
-    print("timesteps %i reward %0.2f" % (total_timesteps, total_reward))
+    print("timesteps %i reward %0.2f" % (total_timesteps, score))
 
 print("\n\n-----CONTROLS-----")
 print("WASD for Directional control")
