@@ -23,11 +23,10 @@ KEYS = {119: "ACTION_UP", 97: "ACTION_LEFT", 115: "ACTION_DOWN", 100: "ACTION_RI
 # Set the NIL ACTION
 NIL_ACTION = actions["ACTION_NIL"]
 
-ACTIONS = env.action_space.n
 SKIP_CONTROL = 0    # Use previous control decision SKIP_CONTROL times, that's how you
                     # can test what skip is still usable.
 
-human_agent_action = 0
+human_agent_action = NIL_ACTION
 human_wants_restart = False
 human_sets_pause = True # Starts the game paused needs to press space to start
 
