@@ -5,11 +5,12 @@ import random
 RENDER_TO_SCREEN = False
 GAME_TICKS = 2000
 
-# Get all of the GVGAI Environments
-envs = [env.id for env in gym.envs.registry.all() if env.id.startswith('gvgai')]
+# Get all of the GVGAI Environments w/o ghostbuster as it crashes
+envs = [env.id for env in gym.envs.registry.all() if env.id.startswith('gvgai') and not env.id.startswith('gvgai-ghostbuster') ]
 
 # Create and reset the enivronment
-env = gym.make(random.choice(envs)) # gym.make('gvgai-aliens-lvl0-v0') <- Code to load a specific environment
+# env = gym.make('gvgai-aliens-lvl0-v0')
+env = gym.make(random.choice(envs))
 env.reset()
 
 # Print the current enivronment
