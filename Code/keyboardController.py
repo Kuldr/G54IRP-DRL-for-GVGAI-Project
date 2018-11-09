@@ -9,8 +9,6 @@ MILLISECONDS_PER_FRAME = 40
 
 env = gym.make('gvgai-aliens-lvl0-v0')
 
-if not hasattr(env.action_space, 'n'):
-    raise Exception('Keyboard agent only supports discrete action spaces')
 ACTIONS = env.action_space.n
 SKIP_CONTROL = 0    # Use previous control decision SKIP_CONTROL times, that's how you
                     # can test what skip is still usable.
