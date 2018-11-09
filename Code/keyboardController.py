@@ -53,19 +53,19 @@ env.unwrapped.viewer.window.on_key_release = key_release
 def rollout(env):
     global human_agent_action, human_wants_restart, human_sets_pause
     human_wants_restart = False
-    obser = env.reset()
+    env.reset()
     score = 0
     timestep = 0
     while 1:
-        a = human_agent_action
-        obser, r, done, info = env.step(a)
-        score += r
-        if r != 0: # If gained a reward print out score and reward
-            print("Score = %d, Reward = %d" % (score, r))
+        actionToTake = human_agent_action
+        _, reward, isOver, info = env.step(actionToTake)
+        score += reward
+        if reward != 0: # If gained a reward print out score and reward
+            print("Score = %d, Reward = %d" % (score, reward))
         window_still_open = env.render()
         if window_still_open == False:
             return False
-        if done:
+        if isOver:
             print("\n\n-----RESTART-----")
             print("Game Finished")
             print("Timesteps = %d" % timestep)
