@@ -37,17 +37,13 @@ def key_press(key, mod):
         human_wants_restart = True
     elif key==32:  # If space is press pause
         human_sets_pause = not human_sets_pause
-
-    a = int( key - ord('0') )
-    if a <= 0 or a >= ACTIONS: return
-    human_agent_action = a
+    elif key in KEYS: # If a key is pressed then perform the corisponding action
+        human_agent_action = actions[KEYS[key]]
 
 def key_release(key, mod):
     global human_agent_action
-    a = int( key - ord('0') )
-    if a <= 0 or a >= ACTIONS: return
-    if human_agent_action == a:
-        human_agent_action = 0
+    if key in KEYS: # If a key is released return to NIL action
+        human_agent_action = NIL_ACTION
 
 # Open the window and set the relevant key actions to the functions
 env.render()
@@ -88,7 +84,8 @@ def rollout(env):
     print("timesteps %i reward %0.2f" % (total_timesteps, total_reward))
 
 print("\n\n-----CONTROLS-----")
-print("Press keys 1 2 3 ... to take actions 1 2 3 ...")
+print("WASD for Directional control")
+print("J for use/action")
 print("SPACE for pause")
 print("RETURN for restart")
 print("------------------\n")
