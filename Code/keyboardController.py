@@ -1,10 +1,8 @@
-#!/usr/bin/env python
-from __future__ import print_function
-
 # Initial code for keyboard controller taken from the Open AI Gym framework
 #   https://github.com/openai/gym/blob/master/examples/agents/keyboard_agent.py
 
 import sys, gym, time
+import gym_gvgai
 
 #
 # Test yourself as a learning agent! Pass environment name as a command-line argument, for example:
@@ -12,7 +10,7 @@ import sys, gym, time
 # python keyboard_agent.py SpaceInvadersNoFrameskip-v4
 #
 
-env = gym.make('LunarLander-v2' if len(sys.argv)<2 else sys.argv[1])
+env = gym.make('gvgai-aliens-lvl0-v0')
 
 if not hasattr(env.action_space, 'n'):
     raise Exception('Keyboard agent only supports discrete action spaces')
