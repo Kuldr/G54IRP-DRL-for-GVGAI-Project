@@ -59,12 +59,12 @@ def rollout(env):
     obser = env.reset()
     skip = 0
     score = 0
-    total_timesteps = 0
+    timestep = 0
     while 1:
         if not skip:
             #print("taking action {}".format(human_agent_action))
             a = human_agent_action
-            total_timesteps += 1
+            timestep += 1
             skip = SKIP_CONTROL
         else:
             skip -= 1
@@ -77,13 +77,28 @@ def rollout(env):
         if window_still_open == False:
             return False
         if done:
+            print("\n\n-----RESTART-----")
+            print("Game Finished")
+            print("Timesteps = %d" % timestep)
+            print("Score = %d" % score)
+            print("Winner = " + info['winner'])
+            print("-----------------\n")
             break
         if human_wants_restart:
+            print("\n\n-----RESTART-----")
+            print("Player Reset")
+            print("Timesteps = %d" % timestep)
+            print("Score = %d" % score)
+            print("-----------------\n")
             break
         while human_sets_pause:
             env.render()
         time.sleep(MILLISECONDS_PER_FRAME*0.001)
-    print("timesteps %i reward %0.2f" % (total_timesteps, score))
+    # Pause game for the start of the next game
+    human_sets_pause = not human_sets_pause
+    print("The game starts paused so press SPACE to unpause\n\n")
+
+
 
 print("\n\n-----CONTROLS-----")
 print("WASD for Directional control")
