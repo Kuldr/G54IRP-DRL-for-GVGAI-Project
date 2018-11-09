@@ -4,11 +4,8 @@
 import sys, gym, time
 import gym_gvgai
 
-#
-# Test yourself as a learning agent! Pass environment name as a command-line argument, for example:
-#
-# python keyboard_agent.py SpaceInvadersNoFrameskip-v4
-#
+# Set time between frames (and actions) to the same as the agents will get
+MILLISECONDS_PER_FRAME = 40
 
 env = gym.make('gvgai-aliens-lvl0-v0')
 
@@ -74,8 +71,8 @@ def rollout(env):
             break
         while human_sets_pause:
             env.render()
-            time.sleep(0.1)
-        time.sleep(0.1)
+            time.sleep(MILLISECONDS_PER_FRAME*0.001)
+        time.sleep(MILLISECONDS_PER_FRAME*0.001)
     print("timesteps %i reward %0.2f" % (total_timesteps, total_reward))
 
 print("\n\n-----CONTROLS-----")
