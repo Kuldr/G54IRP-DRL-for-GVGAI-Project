@@ -24,8 +24,11 @@ human_sets_pause = True # Starts the game paused needs to press space to start
 
 def key_press(key, mod):
     global human_agent_action, human_wants_restart, human_sets_pause
-    if key==0xff0d: human_wants_restart = True
-    if key==32: human_sets_pause = not human_sets_pause
+    if key==0xff0d: # If return is pressed restart
+        human_wants_restart = True
+    elif key==32:  # If space is press pause
+        human_sets_pause = not human_sets_pause
+
     a = int( key - ord('0') )
     if a <= 0 or a >= ACTIONS: return
     human_agent_action = a
@@ -37,6 +40,7 @@ def key_release(key, mod):
     if human_agent_action == a:
         human_agent_action = 0
 
+# Open the window and set the relevant key actions to the functions
 env.render()
 env.unwrapped.viewer.window.on_key_press = key_press
 env.unwrapped.viewer.window.on_key_release = key_release
@@ -62,9 +66,12 @@ def rollout(env):
             print("reward %0.3f" % r)
         total_reward += r
         window_still_open = env.render()
-        if window_still_open==False: return False
-        if done: break
-        if human_wants_restart: break
+        if window_still_open == False:
+            return False
+        if done:
+            break
+        if human_wants_restart:
+            break
         while human_sets_pause:
             env.render()
             time.sleep(0.1)
@@ -81,4 +88,5 @@ print("The game starts paused so press SPACE to unpause")
 
 while 1:
     window_still_open = rollout(env)
-    if window_still_open==False: break
+    if window_still_open == False:
+        break
