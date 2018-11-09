@@ -30,9 +30,9 @@ human_sets_pause = True # Starts the game paused needs to press space to start
 
 def key_press(key, mod):
     global human_agent_action, human_wants_restart, human_sets_pause
-    if key==0xff0d: # If return is pressed restart
+    if key == 0xff0d: # If return is pressed restart
         human_wants_restart = True
-    elif key==32:  # If space is press pause
+    elif key == 32:  # If space is press pause
         if human_sets_pause:
             print("UNPAUSED")
         else:
