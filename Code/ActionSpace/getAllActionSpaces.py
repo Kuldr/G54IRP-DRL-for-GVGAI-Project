@@ -5,6 +5,21 @@ import datetime
 import os
 import sys
 
+def getActionSpaceInfo(env):
+    # Make the environment while supressing the output to terminal of the server
+    original_stdout = sys.stdout
+    sys.stdout = open(os.devnull, 'w')
+    env = gym.make(env)
+    sys.stdout.close()
+    sys.stdout = original_stdout
+
+    # Wrap the relevant info in a dictionary and append it to the results list
+    actionsResult = {"Game" : env.unwrapped.game,
+                     "Level" : env.unwrapped.lvl,
+                     "Version" : env.unwrapped.version,
+                     "Actions" : env.unwrapped.actions}
+    return actionsResult
+
 # Get and print the start time
 startTime = datetime.datetime.now()
 print("Start Time: %s" % startTime.time())
@@ -18,19 +33,7 @@ actionsResults = []
 # Test every environment
 for i, env in enumerate(envs):
 
-    # Make the environment while supressing the output to terminal of the server
-    original_stdout = sys.stdout
-    sys.stdout = open(os.devnull, 'w')
-    env = gym.make(env)
-    sys.stdout.close()
-    sys.stdout = original_stdout
-
-    # Wrap the relevant info in a dictionary and append it to the results list
-    actionsResult = {"Game" : env.unwrapped.game,
-                     "Level" : env.unwrapped.lvl,
-                     "Version" : env.unwrapped.version,
-                     "Actions" : env.unwrapped.actions}
-    actionsResults.append(actionsResult)
+    actionsResults.append(getActionSpaceInfo(env))
 
     # Print out progression info
     i += 1
