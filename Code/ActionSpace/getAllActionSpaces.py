@@ -1,5 +1,6 @@
 import gym
 import gym_gvgai
+import json
 
 # Get all of the GVGAI Environments w/o ghostbuster as it crashes
 envs = [env.id for env in gym.envs.registry.all() if env.id.startswith('gvgai') and not env.id.startswith('gvgai-ghostbuster') ]
@@ -9,9 +10,6 @@ actionsResults = []
 
 # Test every environment
 for x in envs:
-    # print("%d/%d Environments Evalutated, Elapsed Time: %s" % (xi, len(envs), str(datetime.datetime.now()-startTime)))
-    # if xi != 0:
-    #     print("Estimated time remaining = %s" % str((datetime.datetime.now()-startTime)*len(envs)/xi))
 
     # Make the environment
     env = gym.make(x)
@@ -23,4 +21,6 @@ for x in envs:
                      "Actions" : env.unwrapped.actions}
     actionsResults.append(actionsResult)
 
-print(actionsResults)
+# Save as a json file
+with open("actionSpaceResults.json", "w") as outfile:
+    json.dump(actionsResults, outfile, indent = "\t")
