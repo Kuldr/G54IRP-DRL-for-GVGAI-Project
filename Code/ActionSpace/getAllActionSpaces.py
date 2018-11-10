@@ -32,11 +32,13 @@ for i, env in enumerate(envs):
                      "Actions" : env.unwrapped.actions}
     actionsResults.append(actionsResult)
 
-    print("%d/%d Environments Evalutated, Elapsed Time: %s"
-        % ((i+1), len(envs), datetime.datetime.now() - startTime))
+    # Print out progression info
+    i += 1
     elapsedTime = datetime.datetime.now() - startTime
-    remainingTime = (elapsedTime/(i+1))*(len(envs)-i)
-    print("Estimated time remaining: %s" % remainingTime)
+    remainingTime = elapsedTime/i * (len(envs)-i)
+    print("%3d/%3d Environments Evalutated" % (i, len(envs)))
+    print(" "*8 + "Elapsed Time: %s" % elapsedTime)
+    print(" "*8 + "Time Left   : %s" % remainingTime)
 
 # Save as a json file
 with open("actionSpaceResults.json", "w") as outfile:
