@@ -34,6 +34,9 @@ for i, env in enumerate(envs):
 
     print("%d/%d Environments Evalutated, Elapsed Time: %s"
         % ((i+1), len(envs), datetime.datetime.now() - startTime))
+    elapsedTime = datetime.datetime.now() - startTime
+    remainingTime = (elapsedTime/(i+1))*(len(envs)-i)
+    print("Estimated time remaining: %s" % remainingTime)
 
 # Save as a json file
 with open("actionSpaceResults.json", "w") as outfile:
