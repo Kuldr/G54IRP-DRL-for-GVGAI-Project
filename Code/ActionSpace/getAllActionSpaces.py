@@ -4,6 +4,7 @@ import json
 import datetime
 import os
 import sys
+import multiprocessing
 
 def getActionSpaceInfo(env):
     # Make the environment while supressing the output to terminal of the server
@@ -29,19 +30,24 @@ envs = [env.id for env in gym.envs.registry.all() if env.id.startswith('gvgai') 
 
 # Create an results list
 actionsResults = []
+# Set up the multiprocessing pool
+cpus = multiprocessing.cpu_count()
+with multiprocessing.Pool(cpus) as pool:
+    # Get the data for every environment
+    for i, result in enumerate(pool.imap_unordered(getActionSpaceInfo, envs)):
+        # Add the result to the list of results
+        actionsResults.append(result)
+        # Print out progression info
+        i += 1
+        elapsedTime = datetime.datetime.now() - startTime
+        remainingTime = elapsedTime/i * (len(envs)-i) # Time taken per item * items remaining
+        print("%3d/%3d Environments Evalutated" % (i, len(envs)))
+        print(" "*8 + "Elapsed Time: %s" % elapsedTime)
+        print(" "*8 + "Time Left   : %s" % remainingTime)
 
-# Test every environment
-for i, env in enumerate(envs):
-
-    actionsResults.append(getActionSpaceInfo(env))
-
-    # Print out progression info
-    i += 1
-    elapsedTime = datetime.datetime.now() - startTime
-    remainingTime = elapsedTime/i * (len(envs)-i) # Time taken per item * items remaining
-    print("%3d/%3d Environments Evalutated" % (i, len(envs)))
-    print(" "*8 + "Elapsed Time: %s" % elapsedTime)
-    print(" "*8 + "Time Left   : %s" % remainingTime)
+    # Reallign the processes before saving results
+    pool.close()
+    pool.join()
 
 # Save as a json file
 with open("actionSpaceResults.json", "w") as outfile:
