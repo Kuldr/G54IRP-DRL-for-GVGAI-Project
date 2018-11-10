@@ -6,8 +6,49 @@ import os
 import sys
 import multiprocessing
 
-def multi(env):
-    return actionsResult
+GAME_TICKS = 2000
+RUNS_PER_ENV = 5
+
+def runAgentInEnvironment(env):
+    # Make the environment while supressing the output to terminal of the server
+    original_stdout = sys.stdout
+    sys.stdout = open(os.devnull, 'w')
+    env = gym.make(env)
+    sys.stdout.close()
+    sys.stdout = original_stdout
+
+    # Create a list to return all the results in
+    results = []
+
+    # Run each environment a number of times to get multiple samples per environment
+    #   This should help avoid random flukes
+    for y in range(RUNS_PER_ENV):
+        # Reset the enivronment and score
+        env.reset()
+        score = 0
+
+        # Run game for a number game ticks
+        for i in range(GAME_TICKS):
+            # Select a random action from the action space
+            # TODO: Update this to new random
+            action = env.action_space.sample()
+            # Perform the action choosen and get the info from the environment
+            state, reward, isOver, info = env.step(action)
+            # Update the cumilative score based upon the reward given
+            score += reward
+
+            if isOver:
+                # Add the result to the result list
+                result = {"Game" : env.unwrapped.game,
+                          "Level" : env.unwrapped.lvl,
+                          "Version" : env.unwrapped.version,
+                          "Score" : score,
+                          "Winner" : info['winner'],
+                          "GameTick" : (i+1)}
+                results.append(result)
+                break
+
+    return results
 
 # Get and print the start time
 startTime = datetime.datetime.now()
@@ -22,7 +63,7 @@ gameResults = []
 cpus = multiprocessing.cpu_count()
 with multiprocessing.Pool(cpus) as pool:
     # Get the data for every environment
-    for i, result in enumerate(pool.imap_unordered(multi, envs)):
+    for i, result in enumerate(pool.imap_unordered(runAgentInEnvironment, envs)):
         # Add the result to the list of results
         gameResults.append(result)
         # Print out progression info
