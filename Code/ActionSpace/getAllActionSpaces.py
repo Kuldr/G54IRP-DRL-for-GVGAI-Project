@@ -12,13 +12,13 @@ print("Start Time: %s" % startTime.time())
 # Get all of the GVGAI Environments w/o ghostbuster as it crashes
 envs = [env.id for env in gym.envs.registry.all() if env.id.startswith('gvgai') and not env.id.startswith('gvgai-ghostbuster') ]
 
-# Create an list results
+# Create an results list
 actionsResults = []
 
 # Test every environment
 for i, env in enumerate(envs):
 
-    # Make the environment
+    # Make the environment while supressing the output to terminal of the server
     original_stdout = sys.stdout
     sys.stdout = open(os.devnull, 'w')
     env = gym.make(env)
@@ -35,7 +35,7 @@ for i, env in enumerate(envs):
     # Print out progression info
     i += 1
     elapsedTime = datetime.datetime.now() - startTime
-    remainingTime = elapsedTime/i * (len(envs)-i)
+    remainingTime = elapsedTime/i * (len(envs)-i) # Time taken per item * items remaining
     print("%3d/%3d Environments Evalutated" % (i, len(envs)))
     print(" "*8 + "Elapsed Time: %s" % elapsedTime)
     print(" "*8 + "Time Left   : %s" % remainingTime)
