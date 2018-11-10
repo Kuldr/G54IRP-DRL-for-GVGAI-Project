@@ -1,0 +1,6534 @@
+[
+	{
+		"Game": "chopper",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chopper",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chopper",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "themole",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "themole",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "themole",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "themole",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "themole",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chopper",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bait",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chopper",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bait",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bait",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bait",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bait",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lemmings",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lemmings",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lemmings",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cookmepasta",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cookmepasta",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lemmings",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lemmings",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cookmepasta",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cookmepasta",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cookmepasta",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "seaquest",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "seaquest",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "seaquest",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "pokemon",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "seaquest",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "seaquest",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "pokemon",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "pokemon",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "pokemon",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "factorymanager",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "pokemon",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "factorymanager",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "factorymanager",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "factorymanager",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "factorymanager",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "roguelike",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "thesnowman",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "roguelike",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "roguelike",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "roguelike",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "thesnowman",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "thesnowman",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "roguelike",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "thesnowman",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "thesnowman",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boloadventures",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boloadventures",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "thecitadel",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boloadventures",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boloadventures",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boloadventures",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "thecitadel",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "thecitadel",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "thecitadel",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "thecitadel",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "beltmanager",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "beltmanager",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "beltmanager",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "beltmanager",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "labyrinth",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "labyrinth",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "labyrinth",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "beltmanager",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "labyrinth",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "labyrinth",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "investdie",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cakybaky",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cakybaky",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "roadfighter",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cakybaky",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "roadfighter",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cakybaky",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "roadfighter",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "roadfighter",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cakybaky",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "roadfighter",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "sheriff",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "sheriff",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "sheriff",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "superman",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "sheriff",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "sheriff",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "superman",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "superman",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "superman",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "superman",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bomber",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bomber",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bomber",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bomber",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bomber",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "modality",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "modality",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "modality",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "modality",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "modality",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "frogs",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "frogs",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "frogs",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "flower",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "frogs",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "frogs",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "brainman",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "brainman",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "brainman",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "brainman",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "brainman",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "enemycitadel",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "enemycitadel",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "enemycitadel",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "enemycitadel",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "enemycitadel",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "testgame2",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "testgame2",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "shipwreck",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "shipwreck",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "fireman",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "shipwreck",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "shipwreck",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "fireman",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "fireman",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "shipwreck",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "fireman",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "fireman",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "eighthpassenger",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "surround",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "eighthpassenger",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "eighthpassenger",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "eighthpassenger",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "eighthpassenger",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "surround",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "surround",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "surround",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "catapults",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "surround",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "catapults",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "catapults",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "catapults",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "catapults",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "assemblyline",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chainreaction",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chainreaction",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "assemblyline",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "assemblyline",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chainreaction",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "assemblyline",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "assemblyline",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chainreaction",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "missilecommand",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "missilecommand",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "missilecommand",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "missilecommand",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "missilecommand",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chainreaction",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "firestorms",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "firestorms",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "firestorms",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "firestorms",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "firestorms",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "blacksmoke",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "blacksmoke",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "blacksmoke",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "blacksmoke",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "survivezombies",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "blacksmoke",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "survivezombies",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "survivezombies",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "survivezombies",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "solarfox",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "solarfox",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "survivezombies",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "solarfox",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "solarfox",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "mirrors",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "solarfox",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "mirrors",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "mirrors",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "mirrors",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "mirrors",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "colourescape",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "colourescape",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "colourescape",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "colourescape",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "colourescape",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "intersection",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "intersection",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "intersection",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "portals",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "intersection",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "portals",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "intersection",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "portals",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chase",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "portals",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "portals",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chase",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chase",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chase",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chase",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "zelda",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "zelda",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "zelda",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "zelda",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "eggomania",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "eggomania",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "eggomania",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "zelda",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "eggomania",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "sokoban",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "sokoban",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "eggomania",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "sokoban",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "sokoban",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "overload",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "sokoban",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "overload",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "overload",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "overload",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "overload",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "invest",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "hungrybirds",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "hungrybirds",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "wrapsokoban",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "wrapsokoban",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "hungrybirds",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "hungrybirds",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "hungrybirds",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "wrapsokoban",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "wrapsokoban",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "wrapsokoban",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "testgame3",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "testgame3",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "waves",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "waves",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "waves",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "waves",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "aliens",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "waves",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "aliens",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "aliens",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "aliens",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "aliens",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "butterflies",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "butterflies",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "butterflies",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "butterflies",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "butterflies",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "realportals",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "realportals",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "realportals",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "realportals",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "realportals",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boulderchase",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boulderchase",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "avoidgeorge",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "avoidgeorge",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boulderchase",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boulderchase",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boulderchase",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "avoidgeorge",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "avoidgeorge",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "realsokoban",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "realsokoban",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "realsokoban",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "realsokoban",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "realsokoban",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "avoidgeorge",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "vortex",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "vortex",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "vortex",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "vortex",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "vortex",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chipschallenge",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chipschallenge",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chipschallenge",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "deceptizelda",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chipschallenge",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "deceptizelda",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "chipschallenge",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "deceptizelda",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "deceptizelda",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "deceptizelda",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cops",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cops",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cops",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "iceandfire",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cops",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "cops",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "iceandfire",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "iceandfire",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "iceandfire",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "racebet2",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "iceandfire",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "racebet2",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "x-racer",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "racebet2",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "x-racer",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "racebet2",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "racebet2",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "x-racer",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "x-racer",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "x-racer",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "islands",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "islands",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "islands",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "islands",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "islands",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "doorkoban",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "doorkoban",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "doorkoban",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "doorkoban",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "waferthinmintsexit",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "doorkoban",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "escape",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "escape",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "escape",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "ikaruga",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "ikaruga",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "escape",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "ikaruga",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "ikaruga",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "ikaruga",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT"
+		]
+	},
+	{
+		"Game": "escape",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "zenpuzzle",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "testgame1",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "zenpuzzle",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "testgame1",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "zenpuzzle",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "zenpuzzle",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "zenpuzzle",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "sistersavior",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "sistersavior",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "racebet",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "racebet",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "racebet",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "racebet",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "racebet",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "camelRace",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "camelRace",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "camelRace",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "camelRace",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "run",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "run",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "camelRace",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "run",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "run",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "run",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lasers",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lasers",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lasers",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lasers",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "pacman",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "pacman",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "pacman",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lasers",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "pacman",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "killBillVol1",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "pacman",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "killBillVol1",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "killBillVol1",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "killBillVol1",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "theshepherd",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "killBillVol1",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "theshepherd",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "theshepherd",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "theshepherd",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "crossfire",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "crossfire",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "crossfire",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bomberman",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "crossfire",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "crossfire",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "theshepherd",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bomberman",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bomberman",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bomberman",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "bomberman",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boulderdash",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boulderdash",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boulderdash",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boulderdash",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "boulderdash",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "rivers",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "watergame",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "watergame",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "rivers",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "rivers",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "watergame",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "rivers",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "rivers",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "watergame",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "watergame",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "infection",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "infection",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "infection",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "infection",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "infection",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "gymkhana",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "gymkhana",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "gymkhana",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "gymkhana",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "firecaster",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "firecaster",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "firecaster",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "gymkhana",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "firecaster",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "firecaster",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "angelsdemons",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "wildgunman",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "angelsdemons",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "angelsdemons",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "wildgunman",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "angelsdemons",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "angelsdemons",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "wildgunman",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "wildgunman",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "wildgunman",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "witnessprotected",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "witnessprotected",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "witnessprotected",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "witnessprotected",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "witnessprotected",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "digdug",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "digdug",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "digdug",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "waferthinmints",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "digdug",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "waitforbreakfast",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "waitforbreakfast",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "digdug",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "waitforbreakfast",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "labyrinthdual",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "waitforbreakfast",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "waitforbreakfast",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "labyrinthdual",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "labyrinthdual",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "labyrinthdual",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "labyrinthdual",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "garbagecollector",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "garbagecollector",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "garbagecollector",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "dungeon",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "dungeon",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "dungeon",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "garbagecollector",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "garbagecollector",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "dungeon",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "dungeon",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "deflection",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "deflection",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "tercio",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "deflection",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "deflection",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "deflection",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "tercio",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "whackamole",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "tercio",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "whackamole",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "whackamole",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "tercio",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "whackamole",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "tercio",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "whackamole",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "donkeykong",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "defem",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "donkeykong",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "donkeykong",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "defem",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "donkeykong",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "donkeykong",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "defem",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "defem",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "defem",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "jaws",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "jaws",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "jaws",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "jaws",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "jaws",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "clusters",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "clusters",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "painter",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "clusters",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "painter",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "clusters",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "painter",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "clusters",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "painter",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "painter",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lasers2",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lasers2",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lasers2",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lasers2",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "lasers2",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "defender",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "defender",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "defender",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "defender",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "defender",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "plants",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "plants",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "plants",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "plants",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "plants",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "freeway",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "freeway",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "freeway",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "freeway",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "witnessprotection",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "witnessprotection",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "freeway",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "witnessprotection",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "witnessprotection",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "witnessprotection",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "decepticoins",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "decepticoins",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "decepticoins",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "decepticoins",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "decepticoins",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "plaqueattack",
+		"Level": 0,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "plaqueattack",
+		"Level": 1,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "plaqueattack",
+		"Level": 2,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "plaqueattack",
+		"Level": 3,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	},
+	{
+		"Game": "plaqueattack",
+		"Level": 4,
+		"Version": 0,
+		"Actions": [
+			"ACTION_NIL",
+			"ACTION_USE",
+			"ACTION_LEFT",
+			"ACTION_RIGHT",
+			"ACTION_DOWN",
+			"ACTION_UP"
+		]
+	}
+]
