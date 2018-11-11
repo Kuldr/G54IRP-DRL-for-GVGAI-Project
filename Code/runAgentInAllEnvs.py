@@ -5,9 +5,11 @@ import datetime
 import os
 import sys
 import multiprocessing
+import random
 
 GAME_TICKS = 2000
 RUNS_PER_ENV = 5
+POSSIBLE_ACTIONS = ["ACTION_NIL", "ACTION_USE", "ACTION_LEFT", "ACTION_RIGHT", "ACTION_DOWN", "ACTION_UP"]
 
 def runAgentInEnvironment(env):
     # Make the environment while supressing the output to terminal of the server
@@ -20,6 +22,9 @@ def runAgentInEnvironment(env):
     # Create a list to return all the results in
     results = []
 
+    # Get the dictionary of actions in the env with their ids
+    actions = dict(zip(env.unwrapped.actions, [i for i in range(env.unwrapped.action_space.n)]))
+
     # Run each environment a number of times to get multiple samples per environment
     #   This should help avoid random flukes
     for y in range(RUNS_PER_ENV):
@@ -29,9 +34,13 @@ def runAgentInEnvironment(env):
 
         # Run game for a number game ticks
         for i in range(GAME_TICKS):
-            # Select a random action from the action space
-            # TODO: Update this to new random
-            action = env.action_space.sample()
+            # Select a random action from all possible actions and check its valid
+            action = None
+            while action == None:
+                x = random.choice(POSSIBLE_ACTIONS)
+                if x in actions:
+                    action = actions[x]
+
             # Perform the action choosen and get the info from the environment
             state, reward, isOver, info = env.step(action)
             # Update the cumilative score based upon the reward given
