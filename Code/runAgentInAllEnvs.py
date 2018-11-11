@@ -54,8 +54,8 @@ def runAgentInEnvironment(env):
 startTime = datetime.datetime.now()
 print("Start Time: %s" % startTime.time())
 
-# Get all of the GVGAI Environments w/o ghostbuster as it crashes
-envs = [env.id for env in gym.envs.registry.all() if env.id.startswith('gvgai') and not env.id.startswith('gvgai-ghostbuster') ]
+# Get all of the GVGAI Environments w/o ghostbuster, and killBill as they crash (in different ways)
+envs = [env.id for env in gym.envs.registry.all() if env.id.startswith('gvgai') and not env.id.startswith('gvgai-ghostbuster') and not env.id.startswith('gvgai-killBillVol1') ]
 
 # Create an results list
 gameResults = []

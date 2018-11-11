@@ -6,8 +6,8 @@ RENDER_TO_SCREEN = False
 GAME_TICKS = 2000
 POSSIBLE_ACTIONS = ["ACTION_NIL", "ACTION_USE", "ACTION_LEFT", "ACTION_RIGHT", "ACTION_DOWN", "ACTION_UP"]
 
-# Get all of the GVGAI Environments w/o ghostbuster as it crashes
-envs = [env.id for env in gym.envs.registry.all() if env.id.startswith('gvgai') and not env.id.startswith('gvgai-ghostbuster') ]
+# Get all of the GVGAI Environments w/o ghostbuster, and killBill as they crash (in different ways)
+envs = [env.id for env in gym.envs.registry.all() if env.id.startswith('gvgai') and not env.id.startswith('gvgai-ghostbuster') and not env.id.startswith('gvgai-killBillVol1') ]
 
 # Create and reset the enivronment
 # env = gym.make('gvgai-aliens-lvl0-v0')
