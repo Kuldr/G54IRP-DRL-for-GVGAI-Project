@@ -93,8 +93,10 @@
     \item
     \item Go --- previous interim report / PP
     \item Chess --- previous interim report / PP
-    \item OpenAIFive
+    \item ALE --- Learning works for games
+    \item OpenAIFive --- Learning works on big games too, and MP
     \item GET MORE THINGS FROM PP
+    \item Conclusion for this section
     \item
     \item Dartmouth Workshop
 \end{itemize}
@@ -125,7 +127,33 @@ IBM had proven that search methods could achieve strong results against human op
 The expert knowledge came from other grandmasters and was used in the form of an opening/closing move database and the special purpose hardware to evaluate board states.
 While higher computing power will always benefit AI techniques, later techniques have been developed to reduce the need of expert knowledge and to make more efficient use of hardware available.
 
-\subsubsection{Go}
+\subsubsection{AlphaGo and Successors}
+\begin{itemize}
+    \item Concept
+    \item AlphaGo Fan, Lee and Master
+    \item AlphaGo Zero
+    \item AlphaZero (Chess and Shogi? too)
+\end{itemize}
+\par
+Although Deep Blue had proven that AI systems could beat an expert in games, the methods used wouldn't scale to more complex games such as Go, new methods would be needed to tackle more complex games and to further the field of AI\@.
+Go was set as the next milestone in AI game playing by the community as it proved vastly more complex than chess while still having few rules and a simple goal, like chess.
+To compare the difficulty between the 2 games, chess uses a 8\(\times \)8 board while Go uses a 19\(\times \)19 board.
+What is a better indicator of the AI performance is the branching factor of the games for each move, as this more accurately shows how large the search tree grows for each possible move.
+On average, Chess has a branching factor of 35 and Go has a branching factor of 250\cite{BranchingFactor}.
+In 2016 DeepMind reached this milestone with AlphaGo claiming its victory against a 9th dan professional Go player, Lee Sedol, in March 2016\cite{alphaGo}.
+\par
+This achievement was accomplished with a combination of Monte Carlo Tree Search (MCTS) and 2 Deep Neural Networks trained with reinforcement learning, one was a value network to assess the board predicting the winner and the other a policy network to predict which move would be played next by an expert.
+By augmenting MCTS with the policy network, the problem of the large branching factor was greatly reduced, the value network made the addition that it was quicker and more accurate at determining who would win than conventional methods and didn't require an ending game state to be reached.
+Initially these networks were trained on a large number of human played games as a labeled dataset, after this `boot strapping' phase they were trained through instance of self play.
+
+\subsubsection{Conclusions}
+\begin{itemize}
+    \item Deep Blue proves that games can effectively use forward planning to beat human experts, early techniques require a lot of power so intelligent methods are needed to speed up results/improve search depth
+    \item AlphaGo Fan, Lee and Master show planning is still effective but by using more advanced techniques we can generate search trees better (ANNs).
+    Also shows how learning can benefit AI techniques and boost the powerful planning techniques.
+    \item AlphaGo Zero shows how learning doesn't need to require expert knowledge and can just learn from lots of experience in the environment
+    \item AlphaZero shows how more generic systems can still perform well allowing for techniques that could be transplanted into many environments and still perform well.
+\end{itemize}
 
 
 \subsection{GVGAI and VGDL}
