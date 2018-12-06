@@ -112,7 +112,7 @@ This lead to Turning starting to program `Turbochamp' a chess program that would
 \par
 These simple games were made before the term artificial intelligence was being used even in an academic setting showing how natural AI and game playing go together.
 
-\subsubsection{Deep Blue and Chess}
+\subsubsection{Deep Blue --- Chess}
 Chess was an early and significant example in the history of AI game playing.
 In 1997 IBM managed to beat the reigning world champion, Garry Kasparov, using their custom developed machine, Deep Blue\cite{deepBlue}.
 This was significant as, at the time, creating a winning chess AI was seen to be the next big milestone at the time in AI\@.
@@ -127,7 +127,7 @@ IBM had proven that search methods could achieve strong results against human op
 The expert knowledge came from other grandmasters and was used in the form of an opening/closing move database and the special purpose hardware to evaluate board states.
 While higher computing power will always benefit AI techniques, later techniques have been developed to reduce the need of expert knowledge and to make more efficient use of hardware available.
 
-\subsubsection{AlphaGo}
+\subsubsection{AlphaGo --- Go}
 Although Deep Blue had proven that AI systems could beat an expert in games, the methods used wouldn't scale to more complex games such as Go, new methods would be needed to tackle more complex games and to further the field of AI\@.
 Go was set as the next milestone in AI game playing by the community as it proved vastly more complex than chess while still having few rules and a simple goal, like chess.
 To compare the difficulty between the 2 games, chess uses a 8\(\times \)8 board while Go uses a 19\(\times \)19 board.
@@ -146,7 +146,7 @@ AlphaGo Master was the final version of the system and was named after the onlin
 It finally retired at the Future of Go summit where it played a further few games beating another champion Ke Jie and a human team of 5 Go professionals.
 After the summit it was clear that AlphaGo was a champion of the game and as a gift to the Go community they presented a series of 50 games for people to analyse.
 
-\subsubsection{AlphaGo Zero}
+\subsubsection{AlphaGo Zero --- Go}
 After retiring AlphaGo Deep Mind was already working on a successor that would seek to fix some of the downsides of the AlphaGo system.
 They sought to create a system that could play `tabula rasa' (latin for from a blank slate) requiring human expert decisions to learn from as they say that `Expert data sets are often expensive, unreliable or simply unavailable'\cite{alphaGoZero}.
 The problem came from the initial supervised learning stage of AlphaGo's development, as it required millions of human expert games with the correct outcomes to initially learn from before it began using reinforcement learning and self play to hone its skills.
@@ -183,19 +183,46 @@ Although AlphaGo Zero was intended to work without any human domain knowledge, s
 In particular the game of Go is invariant under rotation, reflection and colour transposition allowing for the same board to be used for training multiple times, vastly increasing the amount of training data generated for the neural network.
 The MCTS that was used to help train the network (not play) was given perfect knowledge of the rules of Go as well.
 
-\subsubsection{OpenAI Five}
+\subsubsection{OpenAI Five --- DotA 2}
+While board games have found great success in the AI game playing space, video games haven't seen as much popularity due to complexity of both the games and integrating the AI system and the game together.
+\par
+An attempt to combine AI and game playing was the OpenAI team in the game DotA 2.
+DotA 2 is typically a 5v5 team game with a cast of over 100 characters with multiple abilities and items they can use.
+It is played from a top down perspective with each game taking place on the same map every time.
+As of the time of writing the have been over 10 million unique players in the last month\cite{DotA2}
+\par
+To help with the complexity of the problem the initial challenge that was tackled was a simpler version of DotA 2 namely 1v1 matches.
+Even though this is a scaled down version of the whole game; Elon Musk, backer of this initiative, said that this is `Vastly more complex than traditional board games like chess \& Go'\cite{OpenAI}.
+On top of being scaling down the game the team further limited the games to only be played with a single character for both players so that the bot didn't have to learn several character although most 1v1 DotA tournaments use this rule.
+The system was first shown off during the 2017 International, the largest DotA 2 tournament featuring a prize pool of nearly \$25 million (USD), to a live audience of DotA 2 fans.
+It played a best of 3 1v1 match against one of the best DotA 2 players in history, Dendi, where the AI convincingly won game 1 and Dendi conceded the second game when he realised he was unable to win.
+\par
+To achieve this astonishing result against not only Dendi but several other professional DotA 2 players, a LSTM Neural Network was trained using selfplay reinforcement learning.
+By using the games API it had access to the game state rather than just using the screen input, although this could be seen as an advantage to the AI no information can be got from the API that wouldn't be available to the player looking at the screen.
+This allowed for the AI to very easily take input from the game into its neural network and the output to be a valid actions.
+\par
+The system has been extended into one know as `OpenAI Five', named after the 5 individual neural networks used to create a 5 player team of DotA 2 AIs.
+Each of the 5 neural networks are identical but train to play a different character.
+These neural networks trained with no human data like AlphaGo Zero, once again proving that contrary to popular belief this isn't needed to create powerful systems.
+Unlike a human team the OpenAI Five didn't have a communication channel between the different AIs but were trained to work together and not maximise their reward at the detriment of the teams.
+This is a massive step forward towards playing a full game of DotA 2 but there are still some limitations of the system, such as it can only play the same 5 characters and the opposing team also needs to use the same 5 characters.
+Certain mechanics of the game were also not implemented into the neural network structure so they can't be used by either the OpenAI Five or its opponents.
+Since the initial report some of these restrictions have been lifted and the OpenAI Five can play and play against 18 characters vs 5 originally.
+\par
+So far OpenAI Five has been performing well against amateur to semi-professional teams, even going as far as beating a team composed of players in the top 99.95th percentile of DotA 2 players.
+During the International 8 in August 2018, OpenAI Five played against a top professional team who trained together with most of the restrictions lifted.
+This resulted in a game that most people believed to be much closer to the full DotA 2 game.
+Unfortunately OpenAI Five lost these games but the team said `Remarkably, the games were exciting and close'\cite{OpenAIInternational}.
+The team behind OpenAI Five, OpenAI, believes that the rule changes weren't why they lost, but they need to move forward reducing the number of scripted logic in the system, removing bugs and letting the system train for longer.
 
-In recent years research into video game playing AIs have begun, due to many simpler games being played to a high level via AI techniques and the field moving towards tackling more complex systems.
-One of the most notable examples is OpenAI who have created a team of 5 bots that can play a limited version of DotA 2\cite{OpenAIFive}.
-This was done using an LSTM neural network and has managed to beat several amateur and semi-pro teams.
-While it cannot currently beat a professional team it does hold up against them quite well.
-
-
-\subsubsection{notes}
-
+\subsubsection{Atari}
 \begin{itemize}
-    \item OpenAI Five
-    \item Atari
+    \item No Idea about this would have to do some significant research into the topic to write it up.
+\end{itemize}
+
+\subsubsection{AlphaZero}
+\begin{itemize}
+    \item No Idea about this would have to do some significant research into the topic to write it up.
 \end{itemize}
 
 \subsubsection{Conclusions}
