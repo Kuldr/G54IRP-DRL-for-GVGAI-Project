@@ -201,7 +201,7 @@ To achieve this astonishing result against not only Dendi but several other prof
 By using the games API it had access to the game state rather than just using the screen input, although this could be seen as an advantage to the AI no information can be got from the API that wouldn't be available to the player looking at the screen.
 This allowed for the AI to very easily take input from the game into its neural network and the output to be a valid actions.
 \par
-The system has been extended into one know as `OpenAI Five', named after the 5 individual neural networks used to create a 5 player team of DotA 2 AIs.
+The system has been extended into one know as `OpenAI Five', named after the 5 individual neural networks used to create a 5 player team of DotA 2 AIs\cite{OpenAIFive}.
 Each of the 5 neural networks are identical but train to play a different character.
 These neural networks trained with no human data like AlphaGo Zero, once again proving that contrary to popular belief this isn't needed to create powerful systems.
 Unlike a human team the OpenAI Five didn't have a communication channel between the different AIs but were trained to work together and not maximise their reward at the detriment of the teams.
@@ -257,24 +257,127 @@ The team behind OpenAI Five, OpenAI, believes that the rule changes weren't why 
     \item Where does reinforcement learning come into this bad buoy
 \end{itemize}
 
+\section{Description of Work}
+
+\section{Progress}
+In this section the progress made up until the writing of this report will be discussed alongside any modifications that were made to the work plan, changes to future plans based upon the work so far will be discussed in the next section.
+\subsection{Modifications to the Work Plan}
+Some tasks have been modified to due to various factors, such as them taking longer than expected or new additions to help make easier progress.
+An up to date version of the work plan has been included in the appendix showing an accurate depiction of what tasks were completed over the previous term, with changes highlighted in a bold box.
+This can be seen in TODO INSERT SECTION 6.2.1.
+Below is a list of modifications that have been made and the reasons behind these changes.
+\begin{description}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{0pt}
+\item [\large{Documentation}]
+\item [D4--Interim Report Outline Sections]
+This was pushed back a week to accommodate for the addition of task C5.
+\item [D5--Interim Report Related Work]
+Extended the writing of the related work section due to the larger amount of research done that was needed to be talked about.
+This is due to the project taking a large research focus for the first term than initially expected and compared to previous projects.
+\item [D6--Interim Report Draft]
+This was pushed back a week to accommodate for the addition of task C5.
+\end{description}
+
+\begin{description}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{0pt}
+\item [\large{Research}]
+\item [R5--Other Related Works]
+This was extended from 2 to 4 weeks to accommodate for the addition of task C5 and to allow for more papers to be researched after seeing a wide variety of relevant and informative papers.
+\end{description}
+
+\begin{description}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{0pt}
+\item [\large{Development}]
+\item [S3--Run available previous agents]
+As there was no previous agents available using the latest framework, previous agents couldn't be ran in the same framework that the project was being developed in.
+Rather than spending time installing a previously used framework it was decided that it would be simpler and more effective to just use the results in the research articles instead of running the agents to compare them.
+\item [S5--Develop Keyboard Controller]
+While trying to debug some issues with the framework it became clear that it would be easier to test if the GVGAI games could be directly controlled by a user.
+For this reason a keyboard controller was made to allow for user controlled games.
+\end{description}
+
+\begin{description}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{0pt}
+\item [\large{Miscellaneous}]
+\item [M4--Plan 2\textsuperscript{nd} Stage of the Project]
+This part was brought forward a week to align with the writing of this report.
+This allows for this report to contain a plan for the second stage and moving it forward doesn't massively clash with other aspects of the project.
+\end{description}
+
+\begin{description}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{0pt}
+\item [\large{Other Commitments}]
+\item [C5--GameSoc Varsity \& HackNotts]
+This was added as 2 large university society events that I was volunteering at were taking place during this time.
+This meant that project work was postponed to allow concentration on the successful running of these events
+\end{description}
+
+\subsection{Current Achievements}
+\begin{itemize}
+    \item Keyboard controller
+\end{itemize}
+
+\subsection{Reflections on Current Progress}
+On the whole the work plan has been stuck to, allowing for easy knowledge of where the project is up to at any time and clear progress to be made.
+The minor changes to the work plan have on the whole been made to aid with management of large tasks and other commitments.
+Although a few tasks were delayed the major milestones have been stuck to so far, namely finishing of development tasks and writing the interim report.
+\par
+A personal issue with progress was the lack of deliverables with the major research section of the project.
+This section took up over 50\% of the time spent on the project so far.
+This time was spent by self guided study, finding and reading relevant works to the project.
+With the lack of deliverables it was hard to judge if enough research had been completed, or if a wide enough scope was researched.
+Another issue with the research was time spent researching and understanding older frameworks which bare little to no relevance on the project moving forward.
+Spending hours researching a topic to only realise it is not what you thought it was on initially led to some frustration.
+\par
+To aid with project management and accountability meetings have taken place, with a regular slot set aside to allow for agile meetings.
+These have often discussed upcoming tasks in relation to the work plan and what work has taken place.
+For each meeting a short set of minutes was created and emailed to attendees, allowing for all parties to know what was discussed and what was to happen before the next meeting.
+All of the minutes can be found in the appendix, section TODO INSERT SECTION 6.1.
+
+\section{Next Steps}
+\begin{itemize}
+    \item Addition of Task S6 --- Refactor to match Agent Structure. \\
+    What needs doing for this and how long.
+\end{itemize}
 
 \pagebreak
 \section{Appendix}
-
-\subsection{Meeting Minutes}
-
-
-\pagebreak
-\subsection{Work Plan}
-% \begin{center}
-    % \includegraphics[height=24.8cm]{workPlan.png}
-% \end{center}
-
-
 %Bibliography
 \subsection{References}
+\renewcommand\refname{\vspace{-1cm}}
 \bibliography{InterimReport}
 \bibliographystyle{plain}
+
+\subsection{Meeting Minutes}
+\subparagraph{25th October}
+Recap of the submitted project proposal. \\
+Discussed the lack of proposed methodology in the proposal, due to competition framework not being researched fully. Agreed to have a stronger idea with the interim report. \\
+Overview for the next stage of the work plan, researching and understanding the GVGAI Framework --- specifically looking into the Learning track. \\
+Agreed to meet on Wednesdays 2--2:30 as required.
+
+\subparagraph{14th November}
+Progress report. \\
+Created a keyboard controller interface to play games. \\
+Created a random agent and a way to run this on all 100 games to provide a comparison point. \\
+Unable to run previous agents as none are available from the new framework although some may be available soon. \\
+Could run a baseline learning implementation as discussed although this will take some time to implement and run. \\
+Current research is going well ready to start work on the interim report specifically background research. \\
+Will look into overleaf for sharing of the interim report drafts.
+
+\subsection{Work Plan}
+\subsubsection{24\textsuperscript{th} September --- 7\textsuperscript{th} December}
+\begin{center}
+\includegraphics[width=17cm]{workPlan-7Dec.pdf} %17cm is 21cm of A4 width - (2cm * 2) margins
+\end{center}
+\subsubsection{7\textsuperscript{th} September --- 17\textsuperscript{th} May}
+\begin{center}
+\includegraphics[width=17cm]{workPlan-17May.pdf} %17cm is 21cm of A4 width - (2cm * 2) margins
+\end{center}
 
 
 \end{document}
