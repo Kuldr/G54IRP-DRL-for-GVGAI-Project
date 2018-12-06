@@ -158,28 +158,45 @@ This was to say that if a system learnt from human experts then it would only sl
 AlphaGo had shown evidence of this when it played a so-called `divine move' against Lee Sedol indicating there was more potential for innovation in strategy even in an ancient classic game like Go.
 Furthermore by also not having a reliance on human expert knowledge an AI system could be developed to complete task where there is limited or no expert knowledge to help guide it.
 \par
+AlphaGo Zero differs in 4 key ways to its predecessor AlphaGo:
 \begin{itemize}
-    \item How did it work
-    \item Achievements
+    \item It trained by selfplay reinforcement learning exclusively, starting with random play.
+    \item It only used the 19x19 board with the stone colours as input.
+    \item It used a single neural network rather than 2.
+    \item A simpler tree search was used not requiring a Monte Carlo rollouts
 \end{itemize}
+By using this form of selfplay it means that AlphaGo Zero gradually improved after every game, but it also allowed for it to have an equally strong opponent at every step of the learning process.
+This results in games which much more can be learnt from as it is hard to learn from a system if you are always winning or losing.
+\par
+The single neural network was designed to take in the raw current board state and output a prediction value of the chance to win and a vector of move probabilities.
+This was compared with the true winner of the game from the self play and the search tree probabilities.
+The comparison formed the loss function of the neural network and was updated via gradient descent.
+\par
+The network is used by the search algorithm by selecting the likely moves to make and searching a few moves forward, using the networks winner prediction to select a strong move to make where it has the greatest chance of winning.
+\par
+Ultimately when tested against different versions of AlphaGo, AlphaGo Zero won with conclusive results.
+Winning 100--0 against AlphaGo Lee and 89--11 against AlphaGo Master.
+They also gave a rating to a version of AlphaGo Zero that just used the neural network, selecting the move it thought would have the highest probability of winning without using a tree to look ahead.
+This neural network only system didn't out perform any version of AlphaGo but it came about 3\% lower than AlphaGo Fan and was 50\% stronger than any other Go AI tested.
+\par
+Although AlphaGo Zero was intended to work without any human domain knowledge, some was used to help the training process.
+In particular the game of Go is invariant under rotation, reflection and colour transposition allowing for the same board to be used for training multiple times, vastly increasing the amount of training data generated for the neural network.
+The MCTS that was used to help train the network (not play) was given perfect knowledge of the rules of Go as well.
+
+\subsubsection{OpenAI Five}
+
+In recent years research into video game playing AIs have begun, due to many simpler games being played to a high level via AI techniques and the field moving towards tackling more complex systems.
+One of the most notable examples is OpenAI who have created a team of 5 bots that can play a limited version of DotA 2\cite{OpenAIFive}.
+This was done using an LSTM neural network and has managed to beat several amateur and semi-pro teams.
+While it cannot currently beat a professional team it does hold up against them quite well.
+
 
 \subsubsection{notes}
 
 \begin{itemize}
-    \item AlphaGo Zero
-    \item AlphaZero (Chess and Shogi? too)
+    \item OpenAI Five
+    \item Atari
 \end{itemize}
-
-
-AlphaGo was then extended by DeepMind to create AlphaGoZero which didn't train with human data only self play\cite{alphaGoZero}.
-\par
-Recently AlphaGo has been beaten by a variation of itself AlphaGoZero, named as it had learnt from zero human knowledge\cite{alphaGoZero}.
-AlphaGoZero learnt entirely from self-play and achieved super human performance.
-This shows that not only can AI techniques successfully solve tasks but it is possible to do so with no expert knowledge.
-
-AlphaGo Zero still had some human expert knowledge (maybe how the network was crafted to interpret the Go board)
-
-
 
 \subsubsection{Conclusions}
 \begin{itemize}
@@ -189,6 +206,7 @@ AlphaGo Zero still had some human expert knowledge (maybe how the network was cr
     \item AlphaGo Zero shows how learning doesn't need to require expert knowledge and can just learn from lots of experience in the environment
     \item AlphaZero shows how more generic systems can still perform well allowing for techniques that could be transplanted into many environments and still perform well.
     Also showing that although dedicated hardware was used no purpose built hardware or software was used to exploit features of the games unlike previous versions or Deep Blue.
+    \item AlphaGO Zero using only the network doesn't achieve state of the art performance but comes close and doesn't rely on a look ahead style search tree.
 \end{itemize}
 
 
