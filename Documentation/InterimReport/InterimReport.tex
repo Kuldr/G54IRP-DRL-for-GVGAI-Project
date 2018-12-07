@@ -9,12 +9,14 @@
 \usepackage{xcolor}
 \usepackage{lmodern}
 \usepackage{enumitem}
+\usepackage{multicol}
 \renewcommand{\familydefault}{\sfdefault}
 \graphicspath{ {images/} }
 
 \begin{document}
 
 % TODO: Anything else needed for titlepage
+% TODO: Adjust the spacing between bullet point sections
 \begin{titlepage}
 	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 	\center{}
@@ -264,7 +266,7 @@ In this section the progress made up until the writing of this report will be di
 \subsection{Modifications to the Work Plan}
 Some tasks have been modified to due to various factors, such as them taking longer than expected or new additions to help make easier progress.
 An up to date version of the work plan has been included in the appendix showing an accurate depiction of what tasks were completed over the previous term, with changes highlighted in a bold box.
-This can be seen in TODO INSERT SECTION 6.2.1.
+This can be seen in TODO INSERT SECTION 6.3.1.
 Below is a list of modifications that have been made and the reasons behind these changes.
 \begin{description}
 \setlength{\itemsep}{0pt}
@@ -318,9 +320,93 @@ This meant that project work was postponed to allow concentration on the success
 \end{description}
 
 \subsection{Current Achievements}
+In this part, any significant progress will be described outlining what was done and how it has helped the project move forwards.
+
+\subsubsection{Learning the GVGAI, OpenAI Gym and GVGAI Gym Frameworks}
+A lot of time has been spent learning various frameworks that are used within the GVGAI competition and will be used in this project.
+By using these frameworks significant amounts of work that would be required to create games or successfully interface with previous ones has been reduced.
+Despite this time has still been spent on learning hope the frameworks operate to use them effectively.
+Some of the following achievements put the knowledge gained from learning these frameworks to use in creating useful tools.
+
+\subsubsection{Action Space Analysis}
+Due to how recent the GVGAI Gym framework is, some elements of the how the games worked were unclear.
+One such element was the action space of the agents which corresponds to the inputs for the games.
+To answer any questions, a small script was written to analyse the action space of all the environments.
+\par
+The following was discovered:
+\begin{description}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{0pt}
+\item [Total number of actions]
+Across all the games the same 6 actions were used, listed below with their typical meanings.
+\begin{multicols}{2}
+    \begin{itemize}
+        \item ACTION\_NIL --- Make no action
+        \item ACTION\_USE --- Interact in game
+        \item ACTION\_LEFT --- Move the character left
+        \item ACTION\_RIGHT --- Move the character right
+        \item ACTION\_DOWN --- Move the character down
+        \item ACTION\_UP --- Move the character up
+    \end{itemize}
+\end{multicols}
+\item [Not all games used all actions]
+While every game had a ACTION\_NIL action, some games didn't use all of the other actions.
+This means that for some games the action space is smaller than others and this would have to be taken into account when making an AI to play all the games, as trying to use an incorrect action could cause unpredictable behaviour in a AI system but will also result in disqualification in the GVGAI competition.
+Simple solutions to this problem could be passing an ACTION\_NIL if the AI tries to use an action that isn't available in the current game, or to selected the next best choice of action as given by the AI\@.
+\item [The Actions weren't numbered the same]
+The action descriptions have been used so far to give an idea of what each action does, the labels are from the old GVGAI framework where these where used as an enum to describe each action.
+In a discrete OpenAI Gym environment, which the current GVGAI Gym is, the action space is represented as a set of numbers corresponding to the actions order.
+While the actions are always ordered the same way (ACTION\_NIL will always be first and ACTION\_UP last) if an action is not used in that game and therefore not present it will mess up the numbering.
+This means care needs to be taken in games that don't use all the actions so that the correct action is given to the environment.
+\end{description}
+
+\subsubsection{Keyboard Controller}
+It became apparent that a way for a human to interact with the various environments would prove useful for development and debugging.
+The majority of the code for this was reused from the OpenAI Gym keyboard controller\cite{OpenAIGym}, which can be found in their GitHub repository.
+\par
+The modifications made allowed for relevant logging to the console, better controls, displaying the controls to the user at the start, and setting a game tick rate/ frame rate to be the same as the GVGAI competition.
+The WASD keys were bound to movement and use on the J key, this is closer to what typical games would use making it easier to pick up for people used to playing on a keyboard already.
+The frame rate is set rather low for games at 25fps but it can be changed in the program, 25fps is used as that is both smooth enough and gives the same decision and reaction time as the AI system will get.
+Although this does make it much simpler for any human player to succeed in trickier parts of a game, even making frame perfect timing relatively easy for most humans.
+\par
+Although originally intended to aid development this tool could be used to compare an AI system against human skill of varying levels.
+
+\subsubsection{Random Agent}
+To help understand the framework and to generate a point of comparison, a simple random agent was made.
+It works by knowing the the possible actions across all games and choosing one at random, if that action isn't in the list of actions in the game currently being played it will then reselect an action.
+This is a simple solution to get around the fact that not all actions are used in all games.
+It samples all actions uniformly with no bias to a particular action.
+\par
+The random agent is wrapped in a program that allows it to be ran in any of the environments.
+There are also settings to allow the choice of rendering the game screen to the user so the agent actions can easily be shown, as well as a setting to modify the number of game ticks that the game will be ran for.
+
+\subsubsection{Testing Agent in multiple Environments}
+Another help tooler created was one that could run a given agent in multiple of the environments to test how well it performs in the environments.
+It is currently set up to run the random agent in all of the environments (bar a few that have been crashing).
+It also runs the agent in each environment a few times so that random variation (in the game or agent) can be accounted for.
+\par
+As there are many environments to run the agent in, this tool makes effective use of multiprocessing allowing a significant speed up in the generating of data.
+For each run in an environment the following data is collected:
+\begin{multicols}{2}
+    \begin{itemize}
+        \item Game --- The game being played
+        \item Level --- The level of the game
+        \item Version --- The game version
+        \item Score --- The final score at the game end
+        \item Winner --- Wether the agent won
+        \item Game Tick --- The game tick when the game ended
+    \end{itemize}
+\end{multicols}
+These results are stored as a json object and parsed together with all the other results to create a list of all of the results.
+As the list is in a json format it can be easily analysed at a later date, or combined with other runs to create a larger dataset.
+\par
 \begin{itemize}
-    \item Keyboard controller
+    \item Do I analyse and put the random agent results in here?
 \end{itemize}
+\par
+This tool will become incredibly useful when testing an agents performance across a variety of games due to its quick running time.
+It is also simple to test multiple agents using this tool so that they can be compared to each other.
+As the tool returns the raw data it can be analysed in whatever way suits the current scenario, such as even though the random agent has been run in all of the environments we can easily compare it to another agent in a handful of those environments by simply selecting the correct data points from the random agent results for comparison.
 
 \subsection{Reflections on Current Progress}
 On the whole the work plan has been stuck to, allowing for easy knowledge of where the project is up to at any time and clear progress to be made.
@@ -337,7 +423,7 @@ Spending hours researching a topic to only realise it is not what you thought it
 To aid with project management and accountability meetings have taken place, with a regular slot set aside to allow for agile meetings.
 These have often discussed upcoming tasks in relation to the work plan and what work has taken place.
 For each meeting a short set of minutes was created and emailed to attendees, allowing for all parties to know what was discussed and what was to happen before the next meeting.
-All of the minutes can be found in the appendix, section TODO INSERT SECTION 6.1.
+All of the minutes can be found in the appendix, section TODO INSERT SECTION 6.2.
 
 \section{Next Steps}
 \begin{itemize}
