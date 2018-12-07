@@ -206,6 +206,16 @@ Although AlphaGo Zero was intended to work without any human domain knowledge, s
 In particular the game of Go is invariant under rotation, reflection and colour transposition allowing for the same board to be used for training multiple times, vastly increasing the amount of training data generated for the neural network.
 The MCTS that was used to help train the network (not play) was given perfect knowledge of the rules of Go as well.
 
+\subsubsection{Q-Learning and Arcadet Learning Environment}
+One of the first studies of not just AI video game playing, but tackling the problem with deep reinforcement learning was by Mnih et Al.\ with the use of Q-Learning to play Atari games.
+One remarkable thing for the time was the use of raw input from the screen with no specially crafted features.
+Another remarkable feature of this research was that only a single network was used for all of the games, although it was retrained for each game.
+Both of these elements show that the structure of the network can be applied to game playing in general and no special features are required on a game by game basis.
+\par
+The Deep Q-networks (DQN) being presented `gave state-of-the-art results in six of the seven games it was tested on, with no adjustment of the
+architecture or hyperparameters'\cite{ALE} and in 3 of the games the agent managed to out perform a human expert.
+While the DQN was not trained to perform general play the fact that it uses the same network architecture and no human crafted features implies general performance maybe achievable with the larger modern day networks and quicker training times.
+
 \subsubsection{OpenAI Five --- DotA 2}
 While board games have found great success in the AI game playing space, video games haven't seen as much popularity due to complexity of both the games and integrating the AI system and the game together.
 \par
@@ -238,25 +248,15 @@ This resulted in a game that most people believed to be much closer to the full 
 Unfortunately OpenAI Five lost these games but the team said `Remarkably, the games were exciting and close'\cite{OpenAIInternational}.
 The team behind OpenAI Five, OpenAI, believes that the rule changes weren't why they lost, but they need to move forward reducing the number of scripted logic in the system, removing bugs and letting the system train for longer.
 
-\subsubsection{Atari}
-\begin{itemize}
-    \item No Idea about this would have to do some significant research into the topic to write it up.
-\end{itemize}
-
-\subsubsection{AlphaZero}
-\begin{itemize}
-    \item No Idea about this would have to do some significant research into the topic to write it up.
-\end{itemize}
-
 \subsubsection{Conclusions}
-\begin{itemize}
-    \item Deep Blue proves that games can effectively use forward planning to beat human experts, early techniques require a lot of power so intelligent methods are needed to speed up results/improve search depth
-    \item AlphaGo Fan, Lee and Master show planning is still effective but by using more advanced techniques we can generate search trees better (ANNs).
-    Also shows how learning can benefit AI techniques and boost the powerful planning techniques.
-    \item AlphaGo Zero shows how learning doesn't need to require expert knowledge and can just learn from lots of experience in the environment
-    \item AlphaZero shows how more generic systems can still perform well allowing for techniques that could be transplanted into many environments and still perform well.
-    Also showing that although dedicated hardware was used no purpose built hardware or software was used to exploit features of the games unlike previous versions or Deep Blue.
-    \item AlphaGO Zero using only the network doesn't achieve state of the art performance but comes close and doesn't rely on a look ahead style search tree.
+Conclusions from previous video game playing AIs shown in this section can be summarised as follows.
+\begin{itemize}[noitemsep,nolistsep]
+    \item Deep Blue shows that game playing AIs can achieve super human performance, although early techniques required a lot of brute force power, human crafted features and sophisticated expert knowledge.
+    \item Alpha Go shows that while planning techniques are still effective, ANNs can be used to provided strong performance in games with large search spaces.
+    \item AlphaGo Zero and DQN in ALE show that reinforcement learning can be successfully applied to game playing with zero expert knowledge being hand crafted into the system or human knowledge being used to initially train upon.
+    \item DQN in ALE and the raw network of Alpha Go Zero show how pure RL algorithms can give strong performance in game playing where a forward model for planning may not be available.
+    \item DQN in ALE shows that raw screen input can give strong performance in game playing while OpenAI Five shows that game state maybe sufficient on its own.
+    \item OpenAI Five shows that game playing isn't limited to older and simpler games but current popular titles with complex game states can be trained upon to gain near human expert performance.
 \end{itemize}
 
 
@@ -298,8 +298,8 @@ It was shown in this study that the GVGAI gym environments on average don't perf
 This could possibly be attributed to the advantage a forward planning model provides or simply because the planning agents were taken from strong agents from past competitions and the RL agents were only simple implementations.
 What was shown was that on certain games (ones without a binary reward state on completion) were highly successful when applied to RL methods.
 \par
-Another comparison that can be made is to RL agents trained in the Atari Learning Environment as many of the games in the GVGAI framework are based upon simple Atari games, as well as both environments giving the raw screen data as a form of input\cite{ALE}.
-Although not directly comparable as the games are different the results suggest that the GVGAI Gym variants perform as well as Atari Learning Environment counterparts suggesting that this performance maybe extended to other games in the GVGAI Gym framework.
+Another comparison that can be made is to RL agents trained in the Arcade Learning Environment as many of the games in the GVGAI framework are based upon simple Atari games, as well as both environments giving the raw screen data as a form of input\cite{ALE}.
+Although not directly comparable as the games are different the results suggest that the GVGAI Gym variants perform as well as Arcade Learning Environment counterparts suggesting that this performance maybe extended to other games in the GVGAI Gym framework.
 \par
 The fact that this study doesn't test the general performance of the baselines library on the GVGAI Gym environments allows for a strong opening for furthering this area of research which is what this project aims to investigate and tackle.
 
