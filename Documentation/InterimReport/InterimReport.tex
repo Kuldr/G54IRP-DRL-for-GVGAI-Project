@@ -123,6 +123,7 @@ The objectives of this project are as follows:
 The aims and objectives have changed slightly from the project proposal as implementing a single reinforcement learning algorithm for training didn't seem necessary.
 Also although the initial study introducing the GVGAI Gym framework appears to give a baseline evaluation of general AI performance, it trains a separate agent for each of the results allowing for this kind of baseline study to give strong preliminary results to reinforcement learning performance in general video game playing.
 
+\pagebreak
 \section{Related Work}
 \subsection{AI and Game Playing}
 \subsubsection{Early Artificial Intelligence}
@@ -206,7 +207,7 @@ Although AlphaGo Zero was intended to work without any human domain knowledge, s
 In particular the game of Go is invariant under rotation, reflection and colour transposition allowing for the same board to be used for training multiple times, vastly increasing the amount of training data generated for the neural network.
 The MCTS that was used to help train the network (not play) was given perfect knowledge of the rules of Go as well.
 
-\subsubsection{Q-Learning and Arcadet Learning Environment}
+\subsubsection{Q-Learning and Arcade Learning Environment}
 One of the first studies of not just AI video game playing, but tackling the problem with deep reinforcement learning was by Mnih et Al.\ with the use of Q-Learning to play Atari games.
 One remarkable thing for the time was the use of raw input from the screen with no specially crafted features.
 Another remarkable feature of this research was that only a single network was used for all of the games, although it was retrained for each game.
@@ -259,11 +260,34 @@ Conclusions from previous video game playing AIs shown in this section can be su
     \item OpenAI Five shows that game playing isn't limited to older and simpler games but current popular titles with complex game states can be trained upon to gain near human expert performance.
 \end{itemize}
 
+\subsection{VGDL and GVGAI competition}
+Levine et Al.\ set out to create a framework to allow for the use of video game playing to be used to help progress the field of general AI\cite{GVGP}.
+A similar more naive version of this already existed at the time but focused on board games.
+The idea was that a video game playing framework could be used to create a competition to help incentivise research in the area and allow for methods to be shared by many researchers.
+This later evolved into the GVGAI framework and competition.
+\par
+Schaul created a simple way to describe 2D games in their Video Game Description Language (VGDL)\cite{VGDL}.
+This allowed for games to be quickly implemented to give a large set of games and levels to train and test on.
+Another advantage of the VGDL has been used to spawn a separate track of the GVGAI competition, where an AI has to design new games and levels.
+This could be used to dynamically generate more training levels for games without any human skill being required, or even generating entirely new games to test upon.
+\par
+The current GVGAI competition runs 5 tracks, 2 dedicated to game generation and 3 to game playing.
+In particular there is a single player planning, single player learning and 2 player playing tracks.
+While the difference between the single and 2 player tracks shows the differences in single and multi agent systems, the planning and learning track show the difference between 2 major forms of game playing algorithms.
+\par
+Planning methods have a forward model that can be used to internally look ahead at the outcomes after a series of actions have been performed.
+The use of this forward model allows the agent to see into the future and chose an action that will give greater long term results.
+For planning methods the agents aren't given a chance to train in the environment before running meaning the agent has no prior knowledge of the game before playing it.
+Learning methods focus on allowing the agent to practice playing the game (or some close variation of it such as other levels) during a training phase before tackling the problem.
+This is closer to how a human expert gets good at game playing and means that it can be used in games/environments where a forward model is complex or not available.
+Learning models seem to be more applicable to real world applications due to the lack of a forward model in most scenarios.
+\par
+After the 2014 GVGAI competition, the organisers, Perez et Al.\ compiled a comparison paper of the entries and how well they performed\cite{GVGAI2014}.
+This report clearly shows that planning agents are strongest but could have been due to the lack of a strong RL interface for the GVGAI framework.
+Very few of the entries achieved better results than sample agents, with some entries performing worse than random input.
+This shows that despite strong evidence that AI can tackle game playing it struggles when moving towards general game playing.
+This opens up the opportunity for further research into how best to take general gameplaying forward. 
 
-\subsection{GVGAI and VGDL}
-\begin{itemize}
-    \item TODO Make some notes up here
-\end{itemize}
 \subsection{OpenAI Gym and GVGAI Gym}
 \subsubsection{OpenAI Gym}
 Recently the GVGAI framework has been made to support the OpenAI Gym framework, allowing for each level of every game to be a compatible gym environment.
@@ -310,6 +334,7 @@ The fact that this study doesn't test the general performance of the baselines l
     \item Where does reinforcement learning come into this bad buoy
 \end{itemize}
 
+\pagebreak
 \section{Progress}
 In this section the progress made up until the writing of this report will be discussed alongside any modifications that were made to the work plan, changes to future plans based upon the work so far will be discussed in the next section.
 \subsection{Modifications to the Work Plan}
@@ -474,6 +499,7 @@ These have often discussed upcoming tasks in relation to the work plan and what 
 For each meeting a short set of minutes was created and emailed to attendees, allowing for all parties to know what was discussed and what was to happen before the next meeting.
 All of the minutes can be found in the appendix, section TODO INSERT SECTION 5.2.
 
+\pagebreak
 \section{Next Steps}
 This section will outline the next steps in the project as directed by the research done into what methods are effective.
 All of these steps are also outlined in the work plan and can be seen in the appendix section TODO INSERT SECTION 5.3.2.
