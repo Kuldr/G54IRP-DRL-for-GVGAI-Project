@@ -65,15 +65,36 @@
 \pagenumbering{arabic}
 \section{Introduction}
 \subsection{Introduction}
-\begin{itemize}
-    \item Popularity of Video Games
-    \item Variety of Video games being played
-    \item Video Games as a testing ground for AI
+Game playing has often been used in Artificial Intelligence (AI) research to help push the field forward, developing new techniques to tackle harder and harder problems.
+Many of these AI techniques developed have since been applied to further applications proving that this field of study is not just producing novel solutions.
+\par
+Game Playing is a good testbed for AI techniques due to the many properties of games.
+Some of the following reasons show why games make good AI problems:
+\begin{itemize}[noitemsep,nolistsep]
+    \item Clear win states leading to easy objective evaluation
+    \item Limited actions creating fewer output options
+    \item Well defined documentation allowing for precise and simple simulations
+    \item Testing against different game types as defined in Game theory, such as imperfect information, stochastic outcomes, asymmetric gameplay etc.
+    \item Ability to test and rank AIs against human players
 \end{itemize}
+\par
+Artificial Intelligence has been a key component for video games as designers have tried to create compelling single player experiences.
+Often AI in video games aren't highly complex often being simple agents optimised for making the player experience fun rather than optimising to win.
+For this reason in game AI is often not comparable to academic AI research.
+\par
+General AI, the ability to create an AI that is deemed generally intelligent that it can complete a wide variety of tasks in many fields, is the ``holy grail'' of the AI field.
+Often this level of intelligence is compared to humans, or other animals, as they are good at adapting their knowledge to unseen problems.
+Many tests have been thought up to test how to compare the general intelligence of AIs such as the Turing test, Coffee Test or Robot College Student test\cite{AGITests}.
+\par
+Another strong case for the development of game playing AI is the simplicity of the problem description.
+It is a simple problem to define and for the general public to understand what is being achieved, while also being an interesting idea or news item.
+This gives the potential for these developments to become news worthy stories and hopefully motivate young people to pursue a career in AI or computer science.
+
 \subsection{Planning VS learning}
 \begin{itemize}
     \item As the title says, just to get some definitions out of the way
 \end{itemize}
+
 \subsection{Motivation}
 \begin{itemize}
     \item Individual desire to get better at deep reinforcement learning
@@ -83,16 +104,26 @@
     \item
     \item Seeing the state of the art in DRL and AI game playing
 \end{itemize}
+
 \subsection{Aims and Objectives}
-\begin{itemize}
-    \item Look at the project plan aims and objectives
-    \item
-    \item Discuss how we will be using OpenAI Baselines to test
-    Like the GVGAI Gym paper but applying it in a general setting.
-    \item Would like to get it working like in the competition (3 games 3 levels training, same games 2 levels validation).
-    \item Maybe run it on a larger sample of games in the same way.
-    \item Train on all levels of several games and see if it can just pick up an unseen game.
-\end{itemize}
+This research project sets out to create and implement a General AI to play video games.
+To allow access to a wide variety of video games all with the same interface the project will leverage the GVGAI framework\cite{GVGAI2014}, specifically the Gym variant which allows for learning agents\cite{GVGAIGYM}.
+The project will produce several AIs trained using different reinforcement learning techniques as well as producing a research paper comparing the performance of the resulting trained agents.
+The objectives of this project are as follows:
+\begin{description}
+    \setlength{\parskip}{0pt}
+    \item [Background Research]
+    Perform research into the current state of AI game playing, general AIs, and current well performing solutions to the GVGAI competition.
+    The result of this background study will be used to direct the rest of the project and determine a suitable method to tackle the problem with.
+
+    \item [Train multiple General AIs]
+    Leveraging the powerful OpenAI Baselines library\cite{baselines}, multiple agent AIs can be trained on various games within the GVGAI Gym framework.
+    The reinforcement learning techniques used will come from the selection that the baselines library has to offer, selecting algorithms that have shown promise in related works.
+
+    \item [Evaluation and Analysis of Solutions]
+    Compare and analyse the performance of the solutions against each other, previous entries to the GVGAI competition (both learning and planning tracks) and potentially against human players.
+    If the solution performs well there may be the ability to test them in unseen environments, such as Video Games that aren't shown in the training sets.
+\end{description}
 
 \section{Related Work}
 \subsection{AI and Game Playing}
@@ -159,9 +190,9 @@ AlphaGo had shown evidence of this when it played a so-called `divine move' agai
 Furthermore by also not having a reliance on human expert knowledge an AI system could be developed to complete task where there is limited or no expert knowledge to help guide it.
 \par
 AlphaGo Zero differs in 4 key ways to its predecessor AlphaGo:
-\begin{itemize}
+\begin{itemize}[noitemsep,nolistsep]
     \item It trained by selfplay reinforcement learning exclusively, starting with random play.
-    \item It only used the 19x19 board with the stone colours as input.
+    \item It only used the 19\( \times \)19 board with the stone colours as input.
     \item It used a single neural network rather than 2.
     \item A simpler tree search was used not requiring a Monte Carlo rollouts
 \end{itemize}
@@ -336,7 +367,7 @@ The following was discovered:
 \item [Total number of actions]
 Across all the games the same 6 actions were used, listed below with their typical meanings.
 \begin{multicols}{2}
-    \begin{itemize}
+    \begin{itemize}[noitemsep,nolistsep]
         \item ACTION\_NIL --- Make no action
         \item ACTION\_USE --- Interact in game
         \item ACTION\_LEFT --- Move the character left
@@ -384,7 +415,7 @@ It also runs the agent in each environment a few times so that random variation 
 As there are many environments to run the agent in, this tool makes effective use of multiprocessing allowing a significant speed up in the generating of data.
 For each run in an environment the following data is collected:
 \begin{multicols}{2}
-    \begin{itemize}
+    \begin{itemize}[noitemsep,nolistsep]
         \item Game --- The game being played
         \item Level --- The level of the game
         \item Version --- The game version
