@@ -90,11 +90,6 @@ Another strong case for the development of game playing AI is the simplicity of 
 It is a simple problem to define and for the general public to understand what is being achieved, while also being an interesting idea or news item.
 This gives the potential for these developments to become news worthy stories and hopefully motivate young people to pursue a career in AI or computer science.
 
-\subsection{Planning VS learning}
-\begin{itemize}
-    \item As the title says, just to get some definitions out of the way
-\end{itemize}
-
 \subsection{Motivation}
 The motivation for this project is to see how generalised reinforcement learning techniques can tackle not only video game playing but a general version of this problem.
 This showcases the state of the art in both deep reinforcement learning and AI game playing.
@@ -130,13 +125,7 @@ Also although the initial study introducing the GVGAI Gym framework appears to g
 
 \section{Related Work}
 \subsection{AI and Game Playing}
-\begin{itemize}
-    \item ALE --- Learning works for games
-    \item Conclusion for this section
-\end{itemize}
-
 \subsubsection{Early Artificial Intelligence}
-%TODO: Maybe extend / re sort this section
 The history of AI game playing begins near the start of artificial intelligence as a field, in the 1950s.
 Strachey created a draughts player for one of the first general computing machines (Manchester Ferranti Mark I) which by  1952 could ``play a complete game of draughts at a reasonable speed''\cite{BreifHistoryComputing}.
 Prinz wrote a simplified chess player for the Manchester Machine as well which could solve the mate-in-two problem.
@@ -275,14 +264,44 @@ The team behind OpenAI Five, OpenAI, believes that the rule changes weren't why 
 \begin{itemize}
     \item TODO Make some notes up here
 \end{itemize}
-\subsection{OPEN AI GYM and GVGAI GYM}
-\begin{itemize}
-    \item What is OPEN AI GYM
-    \item Why is OPEN AI GYM helpful for RL
-    \item GVGAI GYM
-    \item Initial results from GVG AI GYM paper
-    \item Maybe some more here
-\end{itemize}\cite{GVGAIGYM}
+\subsection{OpenAI Gym and GVGAI Gym}
+\subsubsection{OpenAI Gym}
+Recently the GVGAI framework has been made to support the OpenAI Gym framework, allowing for each level of every game to be a compatible gym environment.
+OpenAI, the creators of OpenAI Gym state that `OpenAI Gym is a toolkit for reinforcement learning research'\cite{OpenAIGym}.
+\par
+This tool is helpful as it uses a common interface for all of the learning environments, with the hope that this allows RL algorithms to be developed on one problem but easily tested on many others.
+For this projects purpose this feature allows the use of open source implementations of popular RL algorithms which are compatible with gym environments to be applied to the problem while reducing problems from poor implementation.
+Another benefit of this tool is the ability to independently compare and verify the results of other research knowing that the problem being tested upon is the same due to sharing of benchmark environments.
+\par
+At each time step an agent can take some input from the environment and process it to get an action to give perform.
+After the action is performed the agent receives some basic information; the updated state, reward for that action, is the problem done (this can be due to passing or failing) and some auxiliary information from the environment (typically information could be the environment name and version).
+\subsubsection{GVGAI Gym}
+As OpenAI Gym environments have proven to be a useful and popular tool amongst RL research, it would be beneficial to create Gym environments for the GVGAI Learning tracks.
+This would bring together the benefits of both the GVGAI framework and the Gym framework, allowing for consistent RL interfaces across over 100 games with multiple levels.
+This is what was achieved with the GVGAI Gym framework\cite{GVGAIGYM}.
+One of the main hopes of this change was that the learning track (which previously didn't see as many entries as other tracks) would be more popular due to ease of use.
+\par
+The GVGAI Gym environment incorporates all of the previous GVGAI games into their own Gym environments, with each level of the game being its own environment.
+This allows for easy splitting of training and validation data, allowing the choice between training on one level and testing on another or even testing on a few games and validating on others.
+The games use the incremental score changes as the reward for each time step, in some games this gives a gradual increase in score as the agent performs well and in others it gives a single binary value at the end state of the game.
+The agent can receive a mixture of game state opting for a screenshot of the game and/or a serialised state object for the game.
+This allows for multiple deep learning methods to be applied from simple artificial neural networks, to LSTM networks even to state of the art convolutional neural networks.
+
+\subsubsection{GVGAI Gym Initial Results}
+Some initial finding were made once the GVGAI framework was converted into Gym environments.
+In the study Torrado et al.\ used the OpenAI Baselines\cite{baselines} library due to being designed to learn on gym environments.
+3 RL algorithms were tested and compared to the state of the art planning algorithms from previous GVGAI competitions\cite{GVGAIGYM}.
+Although it appears that the study involved training of a general agent this wasn't the case as each agent was trained on an individual game.
+This study is still helpful in showing that RL algorithms can solve some of the games in the GVGAI framework and that the GVGAI Gym environments allow for easy use of other generalised RL algorithm with strong performance.
+\par
+It was shown in this study that the GVGAI gym environments on average don't perform as well as planning algorithms.
+This could possibly be attributed to the advantage a forward planning model provides or simply because the planning agents were taken from strong agents from past competitions and the RL agents were only simple implementations.
+What was shown was that on certain games (ones without a binary reward state on completion) were highly successful when applied to RL methods.
+\par
+Another comparison that can be made is to RL agents trained in the Atari Learning Environment as many of the games in the GVGAI framework are based upon simple Atari games, as well as both environments giving the raw screen data as a form of input\cite{ALE}.
+Although not directly comparable as the games are different the results suggest that the GVGAI Gym variants perform as well as Atari Learning Environment counterparts suggesting that this performance maybe extended to other games in the GVGAI Gym framework.
+\par
+The fact that this study doesn't test the general performance of the baselines library on the GVGAI Gym environments allows for a strong opening for furthering this area of research which is what this project aims to investigate and tackle.
 
 \subsection{Subsection to end all subsections}
 \begin{itemize}
