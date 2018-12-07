@@ -86,21 +86,19 @@
 \subsection{Aims and Objectives}
 \begin{itemize}
     \item Look at the project plan aims and objectives
+    \item
+    \item Discuss how we will be using OpenAI Baselines to test
+    Like the GVGAI Gym paper but applying it in a general setting.
+    \item Would like to get it working like in the competition (3 games 3 levels training, same games 2 levels validation).
+    \item Maybe run it on a larger sample of games in the same way.
+    \item Train on all levels of several games and see if it can just pick up an unseen game.
 \end{itemize}
 
 \section{Related Work}
 \subsection{AI and Game Playing}
 \begin{itemize}
-    \item AI approaches have specialised heuristics or only been developed for a single game
-    \item
-    \item Go --- previous interim report / PP
-    \item Chess --- previous interim report / PP
     \item ALE --- Learning works for games
-    \item OpenAIFive --- Learning works on big games too, and MP
-    \item GET MORE THINGS FROM PP
     \item Conclusion for this section
-    \item
-    \item Dartmouth Workshop
 \end{itemize}
 
 \subsubsection{Early Artificial Intelligence}
@@ -259,15 +257,13 @@ The team behind OpenAI Five, OpenAI, believes that the rule changes weren't why 
     \item Where does reinforcement learning come into this bad buoy
 \end{itemize}
 
-\section{Description of Work}
-
 \section{Progress}
 In this section the progress made up until the writing of this report will be discussed alongside any modifications that were made to the work plan, changes to future plans based upon the work so far will be discussed in the next section.
 \subsection{Modifications to the Work Plan}
 Some tasks have been modified to due to various factors, such as them taking longer than expected or new additions to help make easier progress.
 An up to date version of the work plan has been included in the appendix showing an accurate depiction of what tasks were completed over the previous term, with changes highlighted in a bold box.
-This can be seen in TODO INSERT SECTION 6.3.1.
-Below is a list of modifications that have been made and the reasons behind these changes.
+This can be seen in TODO INSERT SECTION 5.3.1.
+Following is a list of modifications that have been made and the reasons behind these changes.
 \begin{description}
 \setlength{\itemsep}{0pt}
 \setlength{\parskip}{0pt}
@@ -423,13 +419,73 @@ Spending hours researching a topic to only realise it is not what you thought it
 To aid with project management and accountability meetings have taken place, with a regular slot set aside to allow for agile meetings.
 These have often discussed upcoming tasks in relation to the work plan and what work has taken place.
 For each meeting a short set of minutes was created and emailed to attendees, allowing for all parties to know what was discussed and what was to happen before the next meeting.
-All of the minutes can be found in the appendix, section TODO INSERT SECTION 6.2.
+All of the minutes can be found in the appendix, section TODO INSERT SECTION 5.2.
 
 \section{Next Steps}
-\begin{itemize}
-    \item Addition of Task S6 --- Refactor to match Agent Structure. \\
-    What needs doing for this and how long.
-\end{itemize}
+This section will outline the next steps in the project as directed by the research done into what methods are effective.
+All of these steps are also outlined in the work plan and can be seen in the appendix section TODO INSERT SECTION 5.3.2.
+\subsection{Modifications to existing code}
+The current random agent and tool to run an agent in multiple environments doesn't use a preexisting class for agents.
+This is due to the fact an agent class wasn't given in the GVGAI Gym framework when these elements were developed.
+As these definitions exist all agents moving forwards can properly inherit from the agent class.
+\par
+To make use of this agent class, the agent and running script need to be updated to use them.
+This will help with compatibility and reusability of code in the project.
+It should also allow others to use the agents easily or, if any agents are released during the project, those agents to be compared with each other.
+\par
+This is set as task S6 --- Refactor to match Agent Structure in the work plan.
+
+\subsection{Breaking down Tasks R6 and S4}
+Tasks R6 and S4 for initially placeholders for the research and development of the final solution respectively.
+This was due to prior research needing to take place before these tasks could be accurately broken down into subtask.
+With the research from this section of the project completed it is possible to break down these tasks into appropriate sub tasks.
+\par
+The as stated in the aims and objectives (section TODO INSERT SECTION 1.4.) the project will aim to use several of the reinforcement learning algorithms in the OpenAI Baselines framework to general video game playing.
+This will involve selecting which RL algorithms to use, integrating the gym environments to run on the selected RL algorithms, and effectively setting the hyper-parameters for selected RL algorithms.
+It will also take a while to train all and validate all of these agents so that has also been accounted for in the work plan.
+\par
+Following is a list of how the tasks have been broken down and what each sub task entails.
+\begin{description}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{0pt}
+\item [\large{Research}]
+\item [R6.1--Baselines Basic Research]
+This task is to research the OpenAI Baselines framework to help understand how it all works.
+It will be done alongside S4.2 to help gain a practical understanding.
+\item [R6.2--Research effective RL Algorithms]
+During this task research into the reinforcement learning algorithms used in the related work examples will be used to guide which RL algorithms to focus on in the development of the final solutions.
+Other details such as hyper-parameters will also be researched in this task.
+\item [R6.3--Select Final Comparison Methodology]
+Based upon the initial performance of the baselines, a methodology for comparing the resulting agents together.
+This will involve deciding which games/levels to give access during training and validation.
+\item [R6.4--Analyse the Results]
+Once all the agents have trained and been tested, this task will aim to analyse the results to glean some interesting information.
+\end{description}
+
+\begin{description}
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{0pt}
+\item [\large{Development}]
+\item [S4.1--Install OpenAI Baselines]
+Simple task to get all of the required parts of the framework installed and working properly.
+It will also involve properly integrating it with the code base's virtual environment to allow easy moving to another system.
+\item [S4.2--Integrate Baselines on 1 Game]
+This task aims to help gain an understanding of the OpenAI Baselines framework by getting a single game to train through it.
+This should help gain the base understanding of the framework while testing how to run it effectively on powerful hardware such as a GPU\@.
+To help check if it has been successfully implement comparisons to the initial GVGAI Gym paper can be made as it explored this idea\cite{GVGAIGYM}.
+\item [S4.3--Integrate Logging via TensorBoard]
+TensorBoard is a powerful tool to help watch the training of various RL algorithms on neural networks.
+It should be possible to use this to help keep track of how well the agent is performing over the learning process.
+\item [S4.4--Baselines on Multiple Games]
+Alongside task R6.2, the selected RL algorithms will be integrated to train on multiple games.
+Once it can train on multiple games it should be fairly trivial to limit it to only a select few levels of the games if that is required.
+\item [S4.5--Train Agents for Comparison]
+Once the final comparison methods have been chosen in task R6.3, they can be implemented and ran so that the agents can train.
+This could take a while to successfully complete depending on the scope of the agents generality.
+This task may also overrun into the writing of the final paper but as most tasks in the writing process can be done without the final results this shouldn't be an issue.
+\item [S4.6--Validate the Trained Agents]
+Once the agents have been trained this task can evaluate the agents performance across the relevant games and levels to see how well it performs.
+\end{description}
 
 \pagebreak
 \section{Appendix}
@@ -455,14 +511,18 @@ Could run a baseline learning implementation as discussed although this will tak
 Current research is going well ready to start work on the interim report specifically background research. \\
 Will look into overleaf for sharing of the interim report drafts.
 
+\pagebreak
 \subsection{Work Plan}
+Some rows have been removed when they aren't showing a task in the time frame shown.
 \subsubsection{24\textsuperscript{th} September --- 7\textsuperscript{th} December}
 \begin{center}
 \includegraphics[width=17cm]{workPlan-7Dec.pdf} %17cm is 21cm of A4 width - (2cm * 2) margins
 \end{center}
 \subsubsection{7\textsuperscript{th} September --- 17\textsuperscript{th} May}
 \begin{center}
+\includegraphics[width=17cm]{workPlan-18Feb.pdf} %17cm is 21cm of A4 width - (2cm * 2) margins
 \includegraphics[width=17cm]{workPlan-17May.pdf} %17cm is 21cm of A4 width - (2cm * 2) margins
+
 \end{center}
 
 
