@@ -15,8 +15,6 @@
 
 \begin{document}
 
-% TODO: Anything else needed for titlepage
-% TODO: Adjust the spacing between bullet point sections
 \begin{titlepage}
 	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 	\center{}
@@ -261,16 +259,17 @@ Conclusions from previous video game playing AIs shown in this section can be su
 \end{itemize}
 
 \subsection{VGDL and GVGAI competition}
+\subsubsection{Motivation for General Video Game Playing}
 Levine et Al.\ set out to create a framework to allow for the use of video game playing to be used to help progress the field of general AI\cite{GVGP}.
 A similar more naive version of this already existed at the time but focused on board games.
 The idea was that a video game playing framework could be used to create a competition to help incentivise research in the area and allow for methods to be shared by many researchers.
 This later evolved into the GVGAI framework and competition.
-\par
+\subsubsection{Creation of a Video Game Description Language}
 Schaul created a simple way to describe 2D games in their Video Game Description Language (VGDL)\cite{VGDL}.
 This allowed for games to be quickly implemented to give a large set of games and levels to train and test on.
 Another advantage of the VGDL has been used to spawn a separate track of the GVGAI competition, where an AI has to design new games and levels.
 This could be used to dynamically generate more training levels for games without any human skill being required, or even generating entirely new games to test upon.
-\par
+\subsubsection{Current GVGAI Competition}
 The current GVGAI competition runs 5 tracks, 2 dedicated to game generation and 3 to game playing.
 In particular there is a single player planning, single player learning and 2 player playing tracks.
 While the difference between the single and 2 player tracks shows the differences in single and multi agent systems, the planning and learning track show the difference between 2 major forms of game playing algorithms.
@@ -286,7 +285,7 @@ After the 2014 GVGAI competition, the organisers, Perez et Al.\ compiled a compa
 This report clearly shows that planning agents are strongest but could have been due to the lack of a strong RL interface for the GVGAI framework.
 Very few of the entries achieved better results than sample agents, with some entries performing worse than random input.
 This shows that despite strong evidence that AI can tackle game playing it struggles when moving towards general game playing.
-This opens up the opportunity for further research into how best to take general gameplaying forward. 
+This opens up the opportunity for further research into how best to take general gameplaying forward.
 
 \subsection{OpenAI Gym and GVGAI Gym}
 \subsubsection{OpenAI Gym}
@@ -327,20 +326,13 @@ Although not directly comparable as the games are different the results suggest 
 \par
 The fact that this study doesn't test the general performance of the baselines library on the GVGAI Gym environments allows for a strong opening for furthering this area of research which is what this project aims to investigate and tackle.
 
-\subsection{Subsection to end all subsections}
-\begin{itemize}
-    \item Maybe something about the open AI baselines
-    \item Depends what technique I would be using but I should look into that
-    \item Where does reinforcement learning come into this bad buoy
-\end{itemize}
-
 \pagebreak
 \section{Progress}
 In this section the progress made up until the writing of this report will be discussed alongside any modifications that were made to the work plan, changes to future plans based upon the work so far will be discussed in the next section.
 \subsection{Modifications to the Work Plan}
 Some tasks have been modified to due to various factors, such as them taking longer than expected or new additions to help make easier progress.
 An up to date version of the work plan has been included in the appendix showing an accurate depiction of what tasks were completed over the previous term, with changes highlighted in a bold box.
-This can be seen in TODO INSERT SECTION 5.3.1.
+This can be seen in section 5.3.1.
 Following is a list of modifications that have been made and the reasons behind these changes.
 \begin{description}
 \setlength{\itemsep}{0pt}
@@ -497,12 +489,12 @@ Spending hours researching a topic to only realise it is not what you thought it
 To aid with project management and accountability meetings have taken place, with a regular slot set aside to allow for agile meetings.
 These have often discussed upcoming tasks in relation to the work plan and what work has taken place.
 For each meeting a short set of minutes was created and emailed to attendees, allowing for all parties to know what was discussed and what was to happen before the next meeting.
-All of the minutes can be found in the appendix, section TODO INSERT SECTION 5.2.
+All of the minutes can be found in the appendix, section 5.2.
 
 \pagebreak
 \section{Next Steps}
 This section will outline the next steps in the project as directed by the research done into what methods are effective.
-All of these steps are also outlined in the work plan and can be seen in the appendix section TODO INSERT SECTION 5.3.2.
+All of these steps are also outlined in the work plan and can be seen in the appendix section 5.3.2.
 \subsection{Modifications to existing code}
 The current random agent and tool to run an agent in multiple environments doesn't use a preexisting class for agents.
 This is due to the fact an agent class wasn't given in the GVGAI Gym framework when these elements were developed.
@@ -519,7 +511,7 @@ Tasks R6 and S4 for initially placeholders for the research and development of t
 This was due to prior research needing to take place before these tasks could be accurately broken down into subtask.
 With the research from this section of the project completed it is possible to break down these tasks into appropriate sub tasks.
 \par
-The as stated in the aims and objectives (section TODO INSERT SECTION 1.4.) the project will aim to use several of the reinforcement learning algorithms in the OpenAI Baselines framework to general video game playing.
+The as stated in the aims and objectives (section 1.3) the project will aim to use several of the reinforcement learning algorithms in the OpenAI Baselines framework to general video game playing.
 This will involve selecting which RL algorithms to use, integrating the gym environments to run on the selected RL algorithms, and effectively setting the hyper-parameters for selected RL algorithms.
 It will also take a while to train all and validate all of these agents so that has also been accounted for in the work plan.
 \par
@@ -590,7 +582,6 @@ Could run a baseline learning implementation as discussed although this will tak
 Current research is going well ready to start work on the interim report specifically background research. \\
 Will look into overleaf for sharing of the interim report drafts.
 
-\pagebreak
 \subsection{Work Plan}
 Some rows have been removed when they aren't showing a task in the time frame shown.
 \subsubsection{24\textsuperscript{th} September --- 7\textsuperscript{th} December}
