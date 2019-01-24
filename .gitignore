@@ -4,6 +4,8 @@ GVGAIVirtualEnv/
 
 Documentation/~\$WorkPlan\.xlsx
 
+*__pycache__/
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
