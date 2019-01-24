@@ -7,9 +7,10 @@ import sys
 import multiprocessing
 import random
 
+import Agents.randomAgent as Agent
+
 GAME_TICKS = 2000
 RUNS_PER_ENV = 5
-POSSIBLE_ACTIONS = ["ACTION_NIL", "ACTION_USE", "ACTION_LEFT", "ACTION_RIGHT", "ACTION_DOWN", "ACTION_UP"]
 
 def runAgentInEnvironment(env):
     # Make the environment while supressing the output to terminal of the server
@@ -18,34 +19,31 @@ def runAgentInEnvironment(env):
     env = gym.make(env)
     sys.stdout.close()
     sys.stdout = original_stdout
-
+    # Intitialise the agent
+    agent = Agent.Agent()
     # Create a list to return all the results in
     results = []
-
-    # Get the dictionary of actions in the env with their ids
-    actions = dict(zip(env.unwrapped.actions, [i for i in range(env.unwrapped.action_space.n)]))
+    # Get the list of actions in the env to pass to the agent
+    actions = env.unwrapped.actions
 
     # Run each environment a number of times to get multiple samples per environment
     #   This should help avoid random flukes
     for y in range(RUNS_PER_ENV):
         # Reset the enivronment and score
-        env.reset()
+        stateObs = env.reset()
         score = 0
 
         # Run game for a number game ticks
         for i in range(GAME_TICKS):
-            # Select a random action from all possible actions and check its valid
-            action = None
-            while action == None:
-                x = random.choice(POSSIBLE_ACTIONS)
-                if x in actions:
-                    action = actions[x]
+            # Ask Agent to give an action action based on trained policy
+            actionID = agent.act(stateObs, actions)
 
             # Perform the action choosen and get the info from the environment
-            state, reward, isOver, info = env.step(action)
+            stateObs, reward, isOver, info = env.step(actionID)
             # Update the cumilative score based upon the reward given
             score += reward
 
+            # End the game and collect results if game is over
             if isOver:
                 # Add the result to the result list
                 result = {"Game" : env.unwrapped.game,
