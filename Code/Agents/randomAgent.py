@@ -19,7 +19,6 @@ class Agent():
     def act(self, stateObs, actions):
         global actionsDict
         if actionsDict == None:
-            print("Setting up the action dictionary")
             actionsDict = dict(zip(actions, [i for i in range(len(actions))]))
 
         actionID = None
