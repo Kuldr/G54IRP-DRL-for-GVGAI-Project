@@ -19,7 +19,7 @@ def runAgentInEnvironment(env):
     env = gym.make(env)
     sys.stdout.close()
     sys.stdout = original_stdout
-    # Intitialise the agent
+    # Create and Intitialise the agent
     agent = Agent.Agent()
     # Create a list to return all the results in
     results = []
