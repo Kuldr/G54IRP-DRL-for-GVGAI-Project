@@ -55,6 +55,7 @@ def rollout(env):
     global human_agent_action, human_wants_restart, human_sets_pause
     human_wants_restart = False
     env.reset()
+    env.render()
     score = 0
     timestep = 0
     while True:
@@ -67,7 +68,7 @@ def rollout(env):
         if not window_still_open:
             return window_still_open
         if isOver:
-            print("\n\n-----RESTART-----")
+            print("\n\n-----FINISHD-----")
             print("Game Finished")
             print("Timesteps = %d" % timestep)
             print("Score = %d" % score)
@@ -83,10 +84,12 @@ def rollout(env):
             break
         while human_sets_pause:
             env.render()
+        timestep += 1
         time.sleep(MILLISECONDS_PER_FRAME*0.001)
     # Pause game for the start of the next game
     human_sets_pause = not human_sets_pause
     print("The game starts paused so press SPACE to unpause\n\n")
+    rollout(env)
 
 print("\n\n-----CONTROLS-----")
 print("WASD for Directional control")
