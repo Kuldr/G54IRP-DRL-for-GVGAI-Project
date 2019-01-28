@@ -5,6 +5,7 @@ import random
 import Agents.randomAgent as Agent
 
 RENDER_TO_SCREEN = True
+REPEAT_ON_OVER = True
 GAME_TICKS = 2000
 
 # Get all of the GVGAI Environments w/o ghostbuster, and killBill as they crash (in different ways)
@@ -22,25 +23,30 @@ actions = env.unwrapped.actions
 
 # Set the score counter to 0
 score = 0
-# Run game for a number game ticks
-for i in range(GAME_TICKS):
-    # Render the game to the screen if option is selected
-    if RENDER_TO_SCREEN:
-        env.render()
 
-    # Ask Agent to give an action action based on trained policy
-    actionID = agent.act(stateObs, actions)
+while REPEAT_ON_OVER:
+    # Run game for a number game ticks
+    for i in range(GAME_TICKS):
+        # Render the game to the screen if option is selected
+        if RENDER_TO_SCREEN:
+            env.render()
 
-    # Perform the action choosen and get the info from the environment
-    stateObs, reward, isOver, info = env.step(actionID)
-    # Update the cumilative score based upon the reward given
-    score += reward
+        # Ask Agent to give an action action based on trained policy
+        actionID = agent.act(stateObs, actions)
 
-    # Print the results of the action performed
-    print("Action " + str(actionID) + " played at game tick " + str(i+1) + ", reward=" + str(reward) + ", new score=" + str(score))
-    if isOver:
-        print("Game over at game tick " + str(i+1) + " with player " + info['winner'] + ". Score = " + str(score) + " at Env " + str(env))
-        break
+        # Perform the action choosen and get the info from the environment
+        stateObs, reward, isOver, info = env.step(actionID)
+        # Update the cumilative score based upon the reward given
+        score += reward
+
+        # Print the results of the action performed
+        print("Action " + str(actionID) + " played at game tick " + str(i+1) + ", reward=" + str(reward) + ", new score=" + str(score))
+        if isOver:
+            print("Game over at game tick " + str(i+1) + " with player " + info['winner'] + ". Score = " + str(score) + " at Env " + str(env))
+            if REPEAT_ON_OVER:
+                score = 0
+                stateObs = env.reset()
+            break
 
 # Close the environment render after game is finished
 if RENDER_TO_SCREEN:
