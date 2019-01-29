@@ -2,6 +2,8 @@ GVGAIVirtualEnv/
 
 *.DS_Store
 
+*tensorboard/
+
 Documentation/~\$WorkPlan\.xlsx
 
 *__pycache__/
