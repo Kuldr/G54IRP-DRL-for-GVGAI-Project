@@ -51,35 +51,35 @@ class CustomPolicy(ActorCriticPolicy):
 # Run 1M timestep run for each lvl
 env = SubprocVecEnv([lambda: gym.make('gvgai-boulderdash-lvl0-v0') for _ in range(12)])
 model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBoulderdash/")
-model.learn(total_timesteps=int(1e6), tb_log_name="1MLvl0", callback=callback)
+model.learn(total_timesteps=int(1e6), tb_log_name="1MLvl0")
 model.save("models/a2c-boulderdash-lvl0-1M")
 env.close()
 del model
 
 env = SubprocVecEnv([lambda: gym.make('gvgai-boulderdash-lvl1-v0') for _ in range(12)])
 model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBoulderdash/")
-model.learn(total_timesteps=int(1e6), tb_log_name="1MLvl1", callback=callback)
+model.learn(total_timesteps=int(1e6), tb_log_name="1MLvl1")
 model.save("models/a2c-boulderdash-lvl1-1M")
 env.close()
 del model
 
 env = SubprocVecEnv([lambda: gym.make('gvgai-boulderdash-lvl2-v0') for _ in range(12)])
 model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBoulderdash/")
-model.learn(total_timesteps=int(1e6), tb_log_name="1MLvl2", callback=callback)
+model.learn(total_timesteps=int(1e6), tb_log_name="1MLvl2")
 model.save("models/a2c-boulderdash-lvl2-1M")
 env.close()
 del model
 
 env = SubprocVecEnv([lambda: gym.make('gvgai-boulderdash-lvl3-v0') for _ in range(12)])
 model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBoulderdash/")
-model.learn(total_timesteps=int(1e6), tb_log_name="1MLvl3", callback=callback)
+model.learn(total_timesteps=int(1e6), tb_log_name="1MLvl3")
 model.save("models/a2c-boulderdash-lvl3-1M")
 env.close()
 del model
 
 env = SubprocVecEnv([lambda: gym.make('gvgai-boulderdash-lvl4-v0') for _ in range(12)])
 model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBoulderdash/")
-model.learn(total_timesteps=int(1e6), tb_log_name="1MLvl4", callback=callback)
+model.learn(total_timesteps=int(1e6), tb_log_name="1MLvl4")
 model.save("models/a2c-boulderdash-lvl4-1M")
 env.close()
 del model
@@ -87,7 +87,7 @@ del model
 list = [lambda: gym.make('gvgai-boulderdash-lvl0-v0') for _ in range(3)] + [lambda: gym.make('gvgai-boulderdash-lvl1-v0') for _ in range(3)] + [lambda: gym.make('gvgai-boulderdash-lvl2-v0') for _ in range(3)] + [lambda: gym.make('gvgai-boulderdash-lvl3-v0') for _ in range(3)] + [lambda: gym.make('gvgai-boulderdash-lvl4-v0') for _ in range(3)]
 env = SubprocVecEnv(list)
 model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBoulderdash/")
-model.learn(total_timesteps=int(1e6), tb_log_name="1MAll3times", callback=callback)
+model.learn(total_timesteps=int(1e6), tb_log_name="1MAll3times")
 model.save("models/a2c-boulderdash-AllLevels-1M")
 env.close()
 del model
