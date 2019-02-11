@@ -24,7 +24,8 @@ class CustomPolicy(ActorCriticPolicy):
             activ = tf.nn.relu
 
             # Transform input layer
-            input = tf.slice(self.processed_obs, [0,0,0,0], [-1,-1,-1,3], "AlphaSlice")
+            with tf.name_scope("Transform"):
+                input = tf.slice(self.processed_obs, [0,0,0,0], [-1,-1,-1,3], "SliceA")
 
             layer_1 = activ(conv(input, 'c1', n_filters=32, filter_size=8, stride=4, init_scale=np.sqrt(2), **kwargs))
             layer_2 = activ(conv(layer_1, 'c2', n_filters=64, filter_size=4, stride=2, init_scale=np.sqrt(2), **kwargs))
