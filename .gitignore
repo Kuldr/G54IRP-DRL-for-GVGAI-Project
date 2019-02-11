@@ -2,6 +2,8 @@ GVGAIVirtualEnv/
 
 *.DS_Store
 
+Code/DataCollection/NeedAlphaChannel/Images/*
+
 Documentation/~\$WorkPlan\.xlsx
 
 *__pycache__/
