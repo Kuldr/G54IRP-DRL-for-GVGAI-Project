@@ -10,12 +10,12 @@ from stable_baselines.common.vec_env import SubprocVecEnv
 from stable_baselines import A2C
 
 # Custom CNN policy as per Deep Reinforcement Learning for General Video Game AI
+# Removes the Alpha channel 
 # Name Depth Kernel Stride
 # C1 32 8 4
 # C2 64 4 2
 # C3 64 3 1
 # FC1 256
-
 class CustomPolicy(ActorCriticPolicy):
     def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, **kwargs):
         super(CustomPolicy, self).__init__(sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=reuse, scale=True)
