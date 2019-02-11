@@ -6,6 +6,8 @@ import os
 import sys
 import multiprocessing
 
+from scipy.misc import imsave
+
 def getAlphaUsage(env):
     # Make the environment while supressing the output to terminal of the server
     original_stdout = sys.stdout
@@ -17,15 +19,22 @@ def getAlphaUsage(env):
     # Wrap the relevant info in a dictionary and append it to the results list
     stateObs = env.reset()
     (y,x,c) = stateObs.shape
-    alphaChannel = stateObs[:,:,3:]
+    alphaChannel = stateObs[:,:,3]
+    alphaUsed = not bool(x*y*255 == alphaChannel.sum())
 
+    # If alpha channel is used save the image and the alpha channel
+    if alphaUsed:
+        saveString = "Images/" + env.unwrapped.game + "-" + str(env.unwrapped.lvl)
+        imsave(saveString+"-Alpha.png", alphaChannel)
+        imsave(saveString+"-RGB.png", stateObs[:,:,:3])
+        imsave(saveString+"-Full.png", stateObs)
 
     result = {"Game"      : env.unwrapped.game,
-                  "Level"     : env.unwrapped.lvl,
-                  "Version"   : env.unwrapped.version,
-                  "AlphaUsed" : not bool(x*y*255 == alphaChannel.sum()),
-                  "Area*255"  : int(x*y*255),
-                  "AlphaSum"  : int(alphaChannel.sum())}
+              "Level"     : env.unwrapped.lvl,
+              "Version"   : env.unwrapped.version,
+              "AlphaUsed" : alphaUsed,
+              "Area*255"  : int(x*y*255),
+              "AlphaSum"  : int(alphaChannel.sum())}
     return result
 
 # Get and print the start time
