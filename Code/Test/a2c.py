@@ -17,35 +17,22 @@ class CustomVecEnvWrapper(VecEnvWrapper):
     #   Add in scaling / padding / both
     #   Test on training with 2 games at once | different actions sizes may matter
     # IDEAS:
-    #   Do I pass in the shapes I want as a param
     #   Do I reshape the action space to be a constant size
     #       What happens if I try games that don't have the same action space size
     #       Might need to / be able to get batch size for nenvs
+    #   Set the Observation dType - are they all the same?
 
-    def __init__(self, venv, desiredShape):#, obs_shape, action_shape):
+    def __init__(self, venv, desiredShape, nEnvs):
         self.venv = venv
         self.desiredShape = desiredShape
         (self.y, self.x, self.c) = desiredShape
-        # self.obs_shape = obs_shape
-        # self.action_shape =
+        self.b = nEnvs # Would be nicer to get this from venv
 
-        # env.observation_space should be Box(110, 300, 4)
-        # env.action_space should be Discrete(4)
+        # Could set the observation dtype?
+        # Can you manually get low and high from dtype?
+        observation_space = gym.spaces.Box(low=0, high=255, shape=desiredShape, dtype=np.uint8)
 
-        # obs_low = venv.observation_space.low[:,:,:3]
-        # obs_high = venv.observation_space.high[:,:,:3]
-        # observation_space = spaces.Box(low=obs_low, high=obs_high, dtype=venv.observation_space.dtype)
-        # # COULD ALSO FORCE THE DTYPE
-        # shape = venv.observation_space.low[:,:,:3].shape
-        observation_space = gym.spaces.Box(low=0, high=255, shape=desiredShape, dtype=venv.observation_space.dtype)
-
-
-        # action_low = venv.action_space.low.reshape(action_shape)
-        # action_high = venv.action_space.high.reshape(action_shape)
-        # action_space = spaces.Box(low=action_low , high=action_high , dtype=venv.action_space.dtype)
-        action_space = venv.action_space
-
-        VecEnvWrapper.__init__(self, venv, observation_space=observation_space, action_space=action_space)
+        VecEnvWrapper.__init__(self, venv, observation_space=observation_space, action_space=venv.action_space)
 
     def step_async(self, actions):
         self.venv.step_async(actions)
@@ -61,34 +48,21 @@ class CustomVecEnvWrapper(VecEnvWrapper):
     def close(self):
         self.venv.close()
 
-    def transform(self, observation):
-        # This doesn't elegantly capture that I already know the shape ??
-        (b,x,y,c) = observation.shape
+    def transform(self, batchObs):
+        # Slice off the alpha channel
+        batchObs = batchObs[:,:,:,:3]
 
-        observation = observation[:,:,:,:3]
+        # Resize transformation
+        resizedBatchObs = np.empty((self.b, self.y, self.x, self.c), dtype=np.uint8) # Create output array
+        for i, frame in enumerate(batchObs[:]):
+            # Convert to PIL Image and resize before converting back and adding to new array
+            frameIm = Image.fromarray(frame)
+            frameIm = frameIm.resize((self.x,self.y))
+            frame = np.asarray(frameIm)
+            resizedBatchObs[i] = frame
 
-        # Doesn't do batch size yet
-        # obs = observation[0]
-        # im = Image.fromarray(obs)
-        # im = im.resize((520,260))
-        # obs = np.asarray(im)
-        # obs = obs[np.newaxis,:]
-        # # print(obs.shape)
-        # observation = obs
-
-        resizedObservations = np.empty((b,self.y,self.x,self.c))
-        for i, obs in enumerate(observation[:]):
-            im = Image.fromarray(obs)
-            im = im.resize((self.x,self.y))
-            obs = np.asarray(im)
-
-            resizedObservations[i] = obs
-
-        # a = np.empty((b,x*2,y*2,3))
-        # print(a.shape)
-
-        observation = resizedObservations
-
+        # Name output and return
+        observation = resizedBatchObs
         return observation
 
 # Custom CNN policy as per Deep Reinforcement Learning for General Video Game AI
@@ -153,18 +127,18 @@ def callback(locals, _):
     return True # Returns true as false ends the training
 
 # multiprocess environment
-n_cpu = 2#multiprocessing.cpu_count()
+n_cpu = multiprocessing.cpu_count()
 venv = SubprocVecEnv([lambda: gym.make('gvgai-boulderdash-lvl0-v0') for _ in range(n_cpu)])
-env = CustomVecEnvWrapper(venv, (260, 520, 3))
-
+env = CustomVecEnvWrapper(venv, (260, 520, 3), n_cpu)
 
 model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBoulderdash/", n_steps=stepsUpdate)
 model.learn(total_timesteps=int(1e2), tb_log_name="1MTimestepRun", callback=callback)
 env.close()
-#
-# env = SubprocVecEnv([lambda: gym.make('gvgai-aliens-lvl0-v0') for _ in range(n_cpu)])
-# model.set_env(env)
-# model.learn(total_timesteps=int(1e2), tb_log_name="1MTimestepRun_part2", callback=callback)
+
+venv = SubprocVecEnv([lambda: gym.make('gvgai-missilecommand-lvl0-v0') for _ in range(n_cpu)])
+env = CustomVecEnvWrapper(venv, (260, 520, 3), n_cpu)
+model.set_env(env)
+model.learn(total_timesteps=int(1e2), tb_log_name="1MTimestepRun_part2", callback=callback)
 
 model.save("models/a2c-boulderdash-lvl0-1M-Final")
 env.close()
