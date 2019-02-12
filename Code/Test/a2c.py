@@ -22,8 +22,10 @@ class CustomVecEnvWrapper(VecEnvWrapper):
     #       What happens if I try games that don't have the same action space size
     #       Might need to / be able to get batch size for nenvs
 
-    def __init__(self, venv):#, obs_shape, action_shape):
+    def __init__(self, venv, desiredShape):#, obs_shape, action_shape):
         self.venv = venv
+        self.desiredShape = desiredShape
+        (self.y, self.x, self.c) = desiredShape
         # self.obs_shape = obs_shape
         # self.action_shape =
 
@@ -35,7 +37,7 @@ class CustomVecEnvWrapper(VecEnvWrapper):
         # observation_space = spaces.Box(low=obs_low, high=obs_high, dtype=venv.observation_space.dtype)
         # # COULD ALSO FORCE THE DTYPE
         # shape = venv.observation_space.low[:,:,:3].shape
-        observation_space = gym.spaces.Box(low=0, high=255, shape=(130*2, 520, 3), dtype=venv.observation_space.dtype)
+        observation_space = gym.spaces.Box(low=0, high=255, shape=desiredShape, dtype=venv.observation_space.dtype)
 
 
         # action_low = venv.action_space.low.reshape(action_shape)
@@ -74,10 +76,10 @@ class CustomVecEnvWrapper(VecEnvWrapper):
         # # print(obs.shape)
         # observation = obs
 
-        resizedObservations = np.empty((b,260,520,3))
+        resizedObservations = np.empty((b,self.y,self.x,self.c))
         for i, obs in enumerate(observation[:]):
             im = Image.fromarray(obs)
-            im = im.resize((520,260))
+            im = im.resize((self.x,self.y))
             obs = np.asarray(im)
 
             resizedObservations[i] = obs
@@ -153,7 +155,7 @@ def callback(locals, _):
 # multiprocess environment
 n_cpu = 2#multiprocessing.cpu_count()
 venv = SubprocVecEnv([lambda: gym.make('gvgai-boulderdash-lvl0-v0') for _ in range(n_cpu)])
-env = CustomVecEnvWrapper(venv)
+env = CustomVecEnvWrapper(venv, (260, 520, 3))
 
 
 model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBoulderdash/", n_steps=stepsUpdate)
