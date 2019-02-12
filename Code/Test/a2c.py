@@ -6,11 +6,10 @@ import numpy as np
 
 from stable_baselines.common.policies import ActorCriticPolicy
 from stable_baselines.a2c.utils import conv, linear, conv_to_fc
-from stable_baselines.common.vec_env import SubprocVecEnv
+from stable_baselines.common.vec_env import SubprocVecEnv, VecEnvWrapper
 from stable_baselines import A2C
 
-from gym import spaces
-from stable_baselines.common.vec_env import VecEnvWrapper
+from PIL import Image
 
 class CustomVecEnvWrapper(VecEnvWrapper):
     # TODO:
@@ -21,6 +20,7 @@ class CustomVecEnvWrapper(VecEnvWrapper):
     #   Do I pass in the shapes I want as a param
     #   Do I reshape the action space to be a constant size
     #       What happens if I try games that don't have the same action space size
+    #       Might need to / be able to get batch size for nenvs
 
     def __init__(self, venv):#, obs_shape, action_shape):
         self.venv = venv
@@ -35,7 +35,7 @@ class CustomVecEnvWrapper(VecEnvWrapper):
         # observation_space = spaces.Box(low=obs_low, high=obs_high, dtype=venv.observation_space.dtype)
         # # COULD ALSO FORCE THE DTYPE
         # shape = venv.observation_space.low[:,:,:3].shape
-        observation_space = spaces.Box(low=0, high=255, shape=(130, 260, 3), dtype=venv.observation_space.dtype)
+        observation_space = gym.spaces.Box(low=0, high=255, shape=(130*2, 520, 3), dtype=venv.observation_space.dtype)
 
 
         # action_low = venv.action_space.low.reshape(action_shape)
@@ -53,9 +53,6 @@ class CustomVecEnvWrapper(VecEnvWrapper):
         return self.transform(observations), rewards, dones, infos
 
     def reset(self):
-        """
-        Reset all environments
-        """
         obs = self.venv.reset()
         return self.transform(obs)
 
@@ -64,7 +61,24 @@ class CustomVecEnvWrapper(VecEnvWrapper):
 
     def transform(self, observation):
         # This doesn't elegantly capture that I already know the shape ??
-        return observation[:,:,:,:3]
+        (b,x,y,c) = observation.shape
+
+        observation = observation[:,:,:,:3]
+
+        # Doesn't do batch size yet
+        obs = observation[0]
+        im = Image.fromarray(obs)
+        im = im.resize((520,260))
+        obs = np.asarray(im)
+        obs = obs[np.newaxis,:]
+        # print(obs.shape)
+        observation = obs
+
+        a = np.empty((b,x*2,y*2,3))
+        print(a.shape)
+
+
+        return observation
 
 # Custom CNN policy as per Deep Reinforcement Learning for General Video Game AI
 # Removes the Alpha channel
@@ -128,7 +142,7 @@ def callback(locals, _):
     return True # Returns true as false ends the training
 
 # multiprocess environment
-n_cpu = multiprocessing.cpu_count()
+n_cpu = 1#multiprocessing.cpu_count()
 venv = SubprocVecEnv([lambda: gym.make('gvgai-boulderdash-lvl0-v0') for _ in range(n_cpu)])
 env = CustomVecEnvWrapper(venv)
 
