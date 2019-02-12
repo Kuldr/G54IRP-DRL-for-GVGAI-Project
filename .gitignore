@@ -2,6 +2,8 @@ GVGAIVirtualEnv/
 
 *.DS_Store
 
+*models/
+
 *tensorboard/
 
 Documentation/~\$WorkPlan\.xlsx
