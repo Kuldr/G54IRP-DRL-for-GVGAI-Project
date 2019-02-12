@@ -21,7 +21,7 @@ class CustomVecEnvWrapper(VecEnvWrapper):
     #       Might need to / be able to get batch size for nenvs
     #   Set the Observation dType - are they all the same?
 
-    # I don't think rendering to screen works 
+    # I don't think rendering to screen works
     def __init__(self, venv, desiredShape, nEnvs):
         self.venv = venv
         self.desiredShape = desiredShape
@@ -146,7 +146,7 @@ def callback(locals, _):
         locals["self"].env.render()
     # Saves the model every 1000 calls
     if callbacks % 1000 == 0:
-        locals['self'].save("models/a2c-boulderdash-lvl0-1M-" + str(callbacks))
+        locals['self'].save("models/a2c-big-run-" + str(callbacks))
     return True # Returns true as false ends the training
 
 n = 1
@@ -161,15 +161,14 @@ list = [lambda: gym.make('gvgai-boulderdash-lvl0-v0') for _ in range(n)] + \
        [lambda: gym.make('gvgai-missilecommand-lvl3-v0') for _ in range(n)] + \
        [lambda: gym.make('gvgai-missilecommand-lvl4-v0') for _ in range(n)]
 
-
 # multiprocess environment
 n_cpu = multiprocessing.cpu_count()
 venv = SubprocVecEnv(list)
-env = CustomVecEnvWrapper(venv, (260, 520, 3), len(list))
-model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBoulderdash/", n_steps=stepsUpdate)
-model.learn(total_timesteps=int(1e2), tb_log_name="1MTimestepRun", callback=callback)
+env = CustomVecEnvWrapper(venv, (130, 260, 3), len(list))
+model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBigRun/", n_steps=stepsUpdate)
+model.learn(total_timesteps=int(1e8), tb_log_name="BigRun", callback=callback)
 env.close()
-model.save("models/a2c-boulderdash-lvl0-1M-Final")
+model.save("models/a2c-big-run-Final")
 
 
 
