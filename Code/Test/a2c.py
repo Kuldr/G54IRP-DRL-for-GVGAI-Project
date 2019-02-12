@@ -66,17 +66,26 @@ class CustomVecEnvWrapper(VecEnvWrapper):
         observation = observation[:,:,:,:3]
 
         # Doesn't do batch size yet
-        obs = observation[0]
-        im = Image.fromarray(obs)
-        im = im.resize((520,260))
-        obs = np.asarray(im)
-        obs = obs[np.newaxis,:]
-        # print(obs.shape)
-        observation = obs
+        # obs = observation[0]
+        # im = Image.fromarray(obs)
+        # im = im.resize((520,260))
+        # obs = np.asarray(im)
+        # obs = obs[np.newaxis,:]
+        # # print(obs.shape)
+        # observation = obs
 
-        a = np.empty((b,x*2,y*2,3))
-        print(a.shape)
+        resizedObservations = np.empty((b,260,520,3))
+        for i, obs in enumerate(observation[:]):
+            im = Image.fromarray(obs)
+            im = im.resize((520,260))
+            obs = np.asarray(im)
 
+            resizedObservations[i] = obs
+
+        # a = np.empty((b,x*2,y*2,3))
+        # print(a.shape)
+
+        observation = resizedObservations
 
         return observation
 
@@ -142,7 +151,7 @@ def callback(locals, _):
     return True # Returns true as false ends the training
 
 # multiprocess environment
-n_cpu = 1#multiprocessing.cpu_count()
+n_cpu = 2#multiprocessing.cpu_count()
 venv = SubprocVecEnv([lambda: gym.make('gvgai-boulderdash-lvl0-v0') for _ in range(n_cpu)])
 env = CustomVecEnvWrapper(venv)
 
