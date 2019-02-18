@@ -27,6 +27,7 @@ class CustomVecEnvWrapper(VecEnvWrapper):
         self.desiredShape = desiredShape
         (self.y, self.x, self.c) = desiredShape
         self.b = nEnvs # Would be nicer to get this from venv
+        # print(len(self.venv.remotes))
 
         # Could set the observation dtype?
         # Can you manually get low and high from dtype?
@@ -35,7 +36,20 @@ class CustomVecEnvWrapper(VecEnvWrapper):
         VecEnvWrapper.__init__(self, venv, observation_space=observation_space, action_space=venv.action_space)
 
     def step_async(self, actions):
-        self.venv.step_async(actions)
+        # actions is a list of ints for each action for each env
+
+        for remote, action in zip(self.venv.remotes, actions):
+            # remote.send(('get_attr', 'action_space'))
+            remote.send(('get_spaces', None))
+            _, actionSpace = remote.recv()
+            # print("Action Space: " + str(actionSpace.n))
+            # print("Action Chose: " + str(action))
+            if not action >= actionSpace.n:
+                remote.send(('step', action))
+            else:
+                # print("Action Changed to 0")
+                remote.send(('step', 0)) # Send the default ACTION_NIL code
+        self.venv.waiting = True
 
     def step_wait(self):
 
@@ -159,14 +173,20 @@ list = [lambda: gym.make('gvgai-boulderdash-lvl0-v0') for _ in range(n)] + \
        [lambda: gym.make('gvgai-missilecommand-lvl1-v0') for _ in range(n)] + \
        [lambda: gym.make('gvgai-missilecommand-lvl2-v0') for _ in range(n)] + \
        [lambda: gym.make('gvgai-missilecommand-lvl3-v0') for _ in range(n)] + \
-       [lambda: gym.make('gvgai-missilecommand-lvl4-v0') for _ in range(n)]
+       [lambda: gym.make('gvgai-missilecommand-lvl4-v0') for _ in range(n)] + \
+       [lambda: gym.make('gvgai-aliens-lvl0-v0') for _ in range(n)] + \
+       [lambda: gym.make('gvgai-aliens-lvl1-v0') for _ in range(n)] + \
+       [lambda: gym.make('gvgai-aliens-lvl2-v0') for _ in range(n)] + \
+       [lambda: gym.make('gvgai-aliens-lvl3-v0') for _ in range(n)] + \
+       [lambda: gym.make('gvgai-aliens-lvl4-v0') for _ in range(n)]
+
 
 # multiprocess environment
 n_cpu = multiprocessing.cpu_count()
 venv = SubprocVecEnv(list)
 env = CustomVecEnvWrapper(venv, (130, 260, 3), len(list))
 model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBigRun/", n_steps=stepsUpdate)
-model.learn(total_timesteps=int(1e8), tb_log_name="BigRun", callback=callback)
+model.learn(total_timesteps=int(1e3), tb_log_name="BigRun", callback=callback)
 env.close()
 model.save("models/a2c-big-run-Final")
 
