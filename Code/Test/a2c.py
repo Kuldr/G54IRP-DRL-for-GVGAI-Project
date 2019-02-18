@@ -32,8 +32,9 @@ class CustomVecEnvWrapper(VecEnvWrapper):
         # Could set the observation dtype?
         # Can you manually get low and high from dtype?
         observation_space = gym.spaces.Box(low=0, high=255, shape=desiredShape, dtype=np.uint8)
+        actionSpace = gym.spaces.Discrete(6)
 
-        VecEnvWrapper.__init__(self, venv, observation_space=observation_space, action_space=venv.action_space)
+        VecEnvWrapper.__init__(self, venv, observation_space=observation_space, action_space=actionSpace)
 
     def step_async(self, actions):
         # actions is a list of ints for each action for each env
