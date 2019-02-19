@@ -11,14 +11,10 @@ from stable_baselines.common.vec_env import SubprocVecEnv, VecEnvWrapper
 from stable_baselines import A2C
 
 class CustomVecEnvWrapper(VecEnvWrapper):
+    # Not happy how actions and observations are reshaped
+
     # TODO:
-    #   Make the transformations their own functions so its easier to edit
-    #   Add in scaling / padding / both
-    # IDEAS:
-    #   Do I reshape the action space to be a constant size
-    #       What happens if I try games that don't have the same action space size
-    #       Might need to / be able to get batch size for nenvs
-    #   Set the Observation dType - are they all the same?
+    #   Make action transforming its own functions
 
     # I don't think rendering to screen works
     def __init__(self, venv, desiredShape):
@@ -27,8 +23,15 @@ class CustomVecEnvWrapper(VecEnvWrapper):
         (self.y, self.x, self.c) = desiredShape
         self.b = len(self.venv.remotes)
 
-        # Could set the observation dtype?
-        # Can you manually get low and high from dtype?
+        # Manually get the dtype
+        # self.venv.remotes[0].send(('get_spaces', None))
+        # obsSpace, _ = self.venv.remotes[0].recv()
+        # dtype = obsSpace.dtype
+        # print(dtype)
+        # print(np.iinfo(dtype).max)
+        # print(np.iinfo(dtype).min)
+
+        # Create the new shapes for actions and observations
         observation_space = gym.spaces.Box(low=0, high=255, shape=desiredShape, dtype=np.uint8)
         actionSpace = gym.spaces.Discrete(6)
 
