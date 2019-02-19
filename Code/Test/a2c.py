@@ -14,7 +14,6 @@ class CustomVecEnvWrapper(VecEnvWrapper):
     # TODO:
     #   Make the transformations their own functions so its easier to edit
     #   Add in scaling / padding / both
-    #   Test on training with 2 games at once | different actions sizes may matter
     # IDEAS:
     #   Do I reshape the action space to be a constant size
     #       What happens if I try games that don't have the same action space size
@@ -22,12 +21,11 @@ class CustomVecEnvWrapper(VecEnvWrapper):
     #   Set the Observation dType - are they all the same?
 
     # I don't think rendering to screen works
-    def __init__(self, venv, desiredShape, nEnvs):
+    def __init__(self, venv, desiredShape):
         self.venv = venv
         self.desiredShape = desiredShape
         (self.y, self.x, self.c) = desiredShape
-        self.b = nEnvs # Would be nicer to get this from venv
-        # print(len(self.venv.remotes))
+        self.b = len(self.venv.remotes)
 
         # Could set the observation dtype?
         # Can you manually get low and high from dtype?
@@ -53,7 +51,6 @@ class CustomVecEnvWrapper(VecEnvWrapper):
         self.venv.waiting = True
 
     def step_wait(self):
-
         results = [remote.recv() for remote in self.venv.remotes]
         self.venv.waiting = False
         obs, rews, dones, infos = zip(*results)
@@ -182,10 +179,11 @@ list = [lambda: gym.make('gvgai-boulderdash-lvl0-v0') for _ in range(n)] + \
        [lambda: gym.make('gvgai-aliens-lvl4-v0') for _ in range(n)]
 
 
+
 # multiprocess environment
 n_cpu = multiprocessing.cpu_count()
 venv = SubprocVecEnv(list)
-env = CustomVecEnvWrapper(venv, (130, 260, 3), len(list))
+env = CustomVecEnvWrapper(venv, (130, 260, 3))
 model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBigRun/", n_steps=stepsUpdate)
 model.learn(total_timesteps=int(1e3), tb_log_name="BigRun", callback=callback)
 env.close()
