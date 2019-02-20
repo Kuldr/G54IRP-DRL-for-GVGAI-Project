@@ -20,12 +20,6 @@ class CustomPolicy(ActorCriticPolicy):
 
             input = self.processed_obs
 
-            # # Transform input layer
-            # with tf.name_scope("Transform"):
-            #     sliceA = tf.slice(self.processed_obs, [0,0,0,0], [-1,-1,-1,3], "SliceA")
-            #     resize = tf.image.resize_image_with_pad(sliceA, 300, 300)#, ResizeMethod.NEAREST_NEIGHBOR)
-            #     input = resize
-
             layer_1 = activ(conv(input, 'c1', n_filters=32, filter_size=8, stride=4, init_scale=np.sqrt(2), **kwargs))
             layer_2 = activ(conv(layer_1, 'c2', n_filters=64, filter_size=4, stride=2, init_scale=np.sqrt(2), **kwargs))
             layer_3 = activ(conv(layer_2, 'c3', n_filters=64, filter_size=3, stride=1, init_scale=np.sqrt(2), **kwargs))
@@ -41,7 +35,7 @@ class CustomPolicy(ActorCriticPolicy):
         self.initial_state = None
         self._setup_init()
 
-    def step(self, obs, state=None, mask=None):
+    def step(self, obs, state=None, mask=None, deterministic=False):
         action, value, neglogp = self.sess.run([self.action, self._value, self.neglogp], {self.obs_ph: obs})
         return action, value, self.initial_state, neglogp
 
