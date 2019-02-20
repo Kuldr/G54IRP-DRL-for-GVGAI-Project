@@ -1,7 +1,7 @@
 from PIL import Image
 import numpy as np
 
-def transfromFrame(frame, x, y):
+def transformFrame(frame, x, y):
     frame = frame[:,:,:3]
     # Convert to PIL Image and resize before converting back and adding to new array
     frameIm = Image.fromarray(frame)

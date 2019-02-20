@@ -3,7 +3,7 @@ from PIL import Image
 import numpy as np
 
 from Test.CustomPolicy import CustomPolicy
-from Test.modelHelperFunctions import transfromFrame, transformBatch
+from Test.modelHelperFunctions import transformFrame, transformBatch
 
 model = None
 
@@ -15,5 +15,5 @@ class Agent():
 
     def act(self, stateObs, _):
         global model
-        actionID, _ = model.predict(transfromFrame(stateObs, x=260, y=130))
+        actionID, _ = model.predict(transformFrame(stateObs, x=260, y=130))
         return actionID
