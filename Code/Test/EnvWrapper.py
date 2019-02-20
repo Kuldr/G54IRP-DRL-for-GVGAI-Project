@@ -4,6 +4,8 @@ from PIL import Image
 
 from stable_baselines.common.vec_env import VecEnvWrapper
 
+from modelHelperFunctions import transfromFrame, transformBatch
+
 class CustomVecEnvWrapper(VecEnvWrapper):
     # Not happy how actions and observations are reshaped
 
@@ -53,7 +55,7 @@ class CustomVecEnvWrapper(VecEnvWrapper):
         obs, rews, dones, infos = zip(*results)
         returnList = []
         for frame in obs:
-            returnList.append(self.transfromFrame(frame))
+            returnList.append(transfromFrame(frame, x=self.x, y=self.y))
         return np.stack(returnList), np.stack(rews), np.stack(dones), infos
 
         # observations, rewards, dones, infos = self.venv.step_wait()
@@ -66,7 +68,7 @@ class CustomVecEnvWrapper(VecEnvWrapper):
         resetFrames = [remote.recv() for remote in self.venv.remotes]
         returnList = []
         for frame in resetFrames:
-            returnList.append(self.transfromFrame(frame))
+            returnList.append(transfromFrame(frame, x=self.x, y=self.y))
         return np.stack(returnList)
         #
         # obs = self.venv.reset()
@@ -75,21 +77,29 @@ class CustomVecEnvWrapper(VecEnvWrapper):
     def close(self):
         self.venv.close()
 
-    def transfromFrame(self, frame):
-        frame = frame[:,:,:3]
-        # Convert to PIL Image and resize before converting back and adding to new array
-        frameIm = Image.fromarray(frame)
-        frameIm = frameIm.resize((self.x,self.y))
-        frame = np.asarray(frameIm)
-        return frame
+    # def transfromFrame(self, frame, x=self.x, y=self.y):
+    #     frame = frame[:,:,:3]
+    #     # Convert to PIL Image and resize before converting back and adding to new array
+    #     frameIm = Image.fromarray(frame)
+    #     frameIm = frameIm.resize((x,y))
+    #     frame = np.asarray(frameIm)
+    #     return frame
 
-    def transformBatch(self, batchObs):
-        # Resize transformation
-        resizedBatchObs = np.empty((self.b, self.y, self.x, self.c), dtype=np.uint8) # Create output array
-        for i, frame in enumerate(batchObs[:]):
-            frame = self.transfromFrame(frame)
-            resizedBatchObs[i] = frame
-
-        # Name output and return
-        observation = resizedBatchObs
-        return observation
+    # def transfromFrame(self, frame):
+    #     frame = frame[:,:,:3]
+    #     # Convert to PIL Image and resize before converting back and adding to new array
+    #     frameIm = Image.fromarray(frame)
+    #     frameIm = frameIm.resize((self.x,self.y))
+    #     frame = np.asarray(frameIm)
+    #     return frame
+    #
+    # def transformBatch(self, batchObs):
+    #     # Resize transformation
+    #     resizedBatchObs = np.empty((self.b, self.y, self.x, self.c), dtype=np.uint8) # Create output array
+    #     for i, frame in enumerate(batchObs[:]):
+    #         frame = self.transfromFrame(frame)
+    #         resizedBatchObs[i] = frame
+    #
+    #     # Name output and return
+    #     observation = resizedBatchObs
+    #     return observation
