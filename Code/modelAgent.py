@@ -1,6 +1,4 @@
 from stable_baselines import A2C
-from PIL import Image
-import numpy as np
 
 from Test.CustomPolicy import CustomPolicy
 from Test.modelHelperFunctions import transformFrame
