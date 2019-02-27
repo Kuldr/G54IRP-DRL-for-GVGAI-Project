@@ -3,7 +3,7 @@ import gym_gvgai
 import multiprocessing
 import numpy as np
 
-from stable_baselines.common.vec_env import SubprocVecEnv
+from stable_baselines.common.vec_env import SubprocVecEnv, VecNormalize
 from stable_baselines import A2C
 
 from CustomPolicy import CustomPolicy
@@ -45,7 +45,10 @@ list = [lambda: gym.make('gvgai-boulderdash-lvl0-v0') for _ in range(n)] + \
 # multiprocess environment
 n_cpu = multiprocessing.cpu_count()
 venv = SubprocVecEnv(list)
-env = CustomVecEnvWrapper(venv, (130, 260, 3))
+
+venv2 = VecNormalize(venv, norm_obs=False, norm_reward=True)
+
+env = CustomVecEnvWrapper(venv2, (130, 260, 3))
 model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBigRun/", n_steps=stepsUpdate)
 model.learn(total_timesteps=int(1e3), tb_log_name="BigRun", callback=callback)
 env.close()

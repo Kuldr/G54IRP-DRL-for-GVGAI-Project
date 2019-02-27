@@ -14,14 +14,14 @@ class CustomVecEnvWrapper(VecEnvWrapper):
 
     # I don't think rendering to screen works
     def __init__(self, venv, desiredShape):
-        self.venv = venv
+        self.vecenv = venv.venv
         self.desiredShape = desiredShape
         (self.y, self.x, self.c) = desiredShape
-        self.b = len(self.venv.remotes)
+        self.b = len(self.vecenv.remotes)
 
         # Manually get the dtype
-        # self.venv.remotes[0].send(('get_spaces', None))
-        # obsSpace, _ = self.venv.remotes[0].recv()
+        # self.vecenv.remotes[0].send(('get_spaces', None))
+        # obsSpace, _ = self.vecenv.remotes[0].recv()
         # dtype = obsSpace.dtype
         # print(dtype)
         # print(np.iinfo(dtype).max)
@@ -36,7 +36,7 @@ class CustomVecEnvWrapper(VecEnvWrapper):
     def step_async(self, actions):
         # actions is a list of ints for each action for each env
 
-        for remote, action in zip(self.venv.remotes, actions):
+        for remote, action in zip(self.vecenv.remotes, actions):
             # remote.send(('get_attr', 'action_space'))
             remote.send(('get_spaces', None))
             _, actionSpace = remote.recv()
@@ -47,11 +47,11 @@ class CustomVecEnvWrapper(VecEnvWrapper):
             else:
                 # print("Action Changed to 0")
                 remote.send(('step', 0)) # Send the default ACTION_NIL code
-        self.venv.waiting = True
+        self.vecenv.waiting = True
 
     def step_wait(self):
-        results = [remote.recv() for remote in self.venv.remotes]
-        self.venv.waiting = False
+        results = [remote.recv() for remote in self.vecenv.remotes]
+        self.vecenv.waiting = False
         obs, rews, dones, infos = zip(*results)
         returnList = []
         for frame in obs:
@@ -60,13 +60,13 @@ class CustomVecEnvWrapper(VecEnvWrapper):
 
     def reset(self):
         # This doesn't work if each environment has a different size
-        for remote in self.venv.remotes:
+        for remote in self.vecenv.remotes:
             remote.send(('reset', None))
-        resetFrames = [remote.recv() for remote in self.venv.remotes]
+        resetFrames = [remote.recv() for remote in self.vecenv.remotes]
         returnList = []
         for frame in resetFrames:
             returnList.append(transformFrame(frame, x=self.x, y=self.y))
         return np.stack(returnList)
 
     def close(self):
-        self.venv.close()
+        self.vecenv.close()
