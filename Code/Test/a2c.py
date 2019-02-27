@@ -12,6 +12,7 @@ from EnvWrapper import CustomVecEnvWrapper
 RENDER_TO_SCREEN = False
 stepsUpdate = 5 # 1 to render each frame | Otherwise not really sure why you want it larger
 callbacks = 0
+runName = "a2cBoulderdashAliensNormalised"
 
 def callback(locals, _):
     global callbacks
@@ -20,7 +21,7 @@ def callback(locals, _):
         locals["self"].env.render()
     # Saves the model every 1000 calls
     if callbacks % 1000 == 0:
-        locals['self'].save("models/a2c-big-run-" + str(callbacks))
+        locals['self'].save("models/" + runName + "-" + str(callbacks))
     return True # Returns true as false ends the training
 
 n = 1
@@ -49,10 +50,10 @@ venv = SubprocVecEnv(list)
 venv2 = VecNormalize(venv, norm_obs=False, norm_reward=True)
 
 env = CustomVecEnvWrapper(venv2, (130, 260, 3))
-model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBigRun/", n_steps=stepsUpdate)
-model.learn(total_timesteps=int(1e3), tb_log_name="BigRun", callback=callback)
+model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/"+runName+"/", n_steps=stepsUpdate)
+model.learn(total_timesteps=int(1e3), tb_log_name=runName, callback=callback)
 env.close()
-model.save("models/a2c-big-run-Final")
+model.save("models/" + runName + "-Final")
 
 
 
