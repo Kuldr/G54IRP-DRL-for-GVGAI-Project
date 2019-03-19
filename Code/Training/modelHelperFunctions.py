@@ -24,4 +24,5 @@ MAX_SCORES = {"<TimeLimit<GVGAI_Env<gvgai-boulderdash-lvl0-v0>>>" : 22,
               "<TimeLimit<GVGAI_Env<gvgai-missilecommand-lvl1-v0>>>" : 16,
               "<TimeLimit<GVGAI_Env<gvgai-missilecommand-lvl2-v0>>>" : 8,
               "<TimeLimit<GVGAI_Env<gvgai-missilecommand-lvl3-v0>>>" : 8,
-              "<TimeLimit<GVGAI_Env<gvgai-missilecommand-lvl4-v0>>>" : 14}
+              "<TimeLimit<GVGAI_Env<gvgai-missilecommand-lvl4-v0>>>" : 14,
+              "<TimeLimit<GVGAI_Env<gvgai-aliens-lvl1-v0>>>" : 1}
