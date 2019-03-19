@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#Variables
+nProcesses=12
+timesteps=1000000
+logDir="tensorboard/a2c/"
+games=("boulderdash" "aliens" "missilecommand" "seaquest" "waitforbreakfast" "zelda" "superman")
+#frogs felt pointless
+
+for g in "${games[@]}"; do
+    for i in {0..1}; do
+        echo "$g Level $i"
+        python run.py "gvgai-$g-lvl$i-v0" $nProcesses $logDir "$g-lvl$i" "models/a2c/$g-Lvl$i-1M" $timesteps
+    done
+done
