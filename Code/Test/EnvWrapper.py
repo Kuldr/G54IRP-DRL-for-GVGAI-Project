@@ -4,9 +4,9 @@ from PIL import Image
 
 from stable_baselines.common.vec_env import VecEnvWrapper
 
-from modelHelperFunctions import transformFrame
+from modelHelperFunctions import transformFrame, normalizeReward
 
-class CustomVecEnvWrapper(VecEnvWrapper):
+class EnvWrapper(VecEnvWrapper):
     # Not happy how actions and observations are reshaped
 
     # TODO:
@@ -14,7 +14,7 @@ class CustomVecEnvWrapper(VecEnvWrapper):
 
     # I don't think rendering to screen works
     def __init__(self, venv, desiredShape):
-        self.vecenv = venv.venv
+        self.vecenv = venv
         self.desiredShape = desiredShape
         (self.y, self.x, self.c) = desiredShape
         self.b = len(self.vecenv.remotes)
@@ -50,13 +50,24 @@ class CustomVecEnvWrapper(VecEnvWrapper):
         self.vecenv.waiting = True
 
     def step_wait(self):
-        results = [remote.recv() for remote in self.vecenv.remotes]
+        obsList, rewsList, donesList, infosList = ([] for i in range(4))
+
+        for remote in self.vecenv.remotes:
+            (ob, rew, done, info) = remote.recv()
+
+            remote.send(('env_method', ('__str__', {}, {})))
+            string = remote.recv()
+
+            if not rew == 0: # Don't need to waste time normalizing 0s
+                rew = normalizeReward(rew, string)
+            rewsList.append(rew)
+
+            obsList.append(transformFrame(ob, x=self.x, y=self.y))
+            donesList.append(done)
+            infosList.append(info)
+
         self.vecenv.waiting = False
-        obs, rews, dones, infos = zip(*results)
-        returnList = []
-        for frame in obs:
-            returnList.append(transformFrame(frame, x=self.x, y=self.y))
-        return np.stack(returnList), np.stack(rews), np.stack(dones), infos
+        return np.stack(obsList), np.stack(rewsList), np.stack(donesList), np.stack(infosList)
 
     def reset(self):
         # This doesn't work if each environment has a different size

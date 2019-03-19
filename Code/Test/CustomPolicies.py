@@ -11,9 +11,9 @@ from stable_baselines.a2c.utils import conv, linear, conv_to_fc
 # C2 64 4 2
 # C3 64 3 1
 # FC1 256
-class CustomPolicy(ActorCriticPolicy):
+class NatureCNN(ActorCriticPolicy):
     def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, **kwargs):
-        super(CustomPolicy, self).__init__(sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=reuse, scale=True)
+        super(NatureCNN, self).__init__(sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=reuse, scale=True)
 
         with tf.variable_scope("model", reuse=reuse):
             activ = tf.nn.relu
