@@ -12,7 +12,8 @@ from EnvWrapper import EnvWrapper
 RENDER_TO_SCREEN = False
 stepsUpdate = 5 # 1 to render each frame | Otherwise not really sure why you want it larger
 callbacks = 0
-runName = "AliensDefault-lvl1"
+folderName = "Adaptations/Default/"
+runName = "Aliens-lvl1"
 
 def callback(locals, _):
     global callbacks
@@ -21,7 +22,7 @@ def callback(locals, _):
         locals["self"].env.render()
     # Saves the model every 1000 calls
     if callbacks % 1000 == 0:
-        locals['self'].save("models/" + runName + "-" + str(callbacks))
+        locals['self'].save("models/" + folderName + runName + "-" + str(callbacks))
     return True # Returns true as false ends the training
 
 n = 1
@@ -34,4 +35,4 @@ env = EnvWrapper(venv, (130, 260, 3))
 model = A2C(NatureCNN, env, verbose=1, tensorboard_log="tensorboard/"+runName+"/", n_steps=stepsUpdate)
 model.learn(total_timesteps=int(1e6), tb_log_name=runName, callback=callback)
 env.close()
-model.save("models/" + runName + "-Final")
+model.save("models/" + folderName + runName + "-Final")
