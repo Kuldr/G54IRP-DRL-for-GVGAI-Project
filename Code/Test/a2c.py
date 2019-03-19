@@ -6,8 +6,8 @@ import numpy as np
 from stable_baselines.common.vec_env import SubprocVecEnv, VecNormalize
 from stable_baselines import A2C
 
-from CustomPolicy import CustomPolicy
-from EnvWrapper import CustomVecEnvWrapper
+from CustomPolicies import NatureCNN
+from EnvWrapper import EnvWrapper
 
 RENDER_TO_SCREEN = False
 stepsUpdate = 5 # 1 to render each frame | Otherwise not really sure why you want it larger
@@ -46,31 +46,8 @@ list = [lambda: gym.make('gvgai-boulderdash-lvl0-v0') for _ in range(n)] + \
 # multiprocess environment
 n_cpu = multiprocessing.cpu_count()
 venv = SubprocVecEnv(list)
-
-venv2 = VecNormalize(venv, norm_obs=False, norm_reward=True)
-
-env = CustomVecEnvWrapper(venv2, (130, 260, 3))
-model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/"+runName+"/", n_steps=stepsUpdate)
-model.learn(total_timesteps=int(1e3), tb_log_name=runName, callback=callback)
+env = EnvWrapper(venv, (130, 260, 3))
+model = A2C(NatureCNN, env, verbose=1, tensorboard_log="tensorboard/"+runName+"/", n_steps=stepsUpdate)
+model.learn(total_timesteps=int(1e6), tb_log_name=runName, callback=callback)
 env.close()
 model.save("models/" + runName + "-Final")
-
-
-
-
-# # multiprocess environment
-# n_cpu = multiprocessing.cpu_count()
-# venv = SubprocVecEnv([lambda: gym.make('gvgai-boulderdash-lvl0-v0') for _ in range(n_cpu)])
-# env = CustomVecEnvWrapper(venv, (260, 520, 3), n_cpu)
-#
-# model = A2C(CustomPolicy, env, verbose=1, tensorboard_log="tensorboard/a2cBoulderdash/", n_steps=stepsUpdate)
-# model.learn(total_timesteps=int(1e2), tb_log_name="1MTimestepRun", callback=callback)
-# env.close()
-#
-# venv = SubprocVecEnv([lambda: gym.make('gvgai-missilecommand-lvl0-v0') for _ in range(n_cpu)])
-# env = CustomVecEnvWrapper(venv, (260, 520, 3), n_cpu)
-# model.set_env(env)
-# model.learn(total_timesteps=int(1e2), tb_log_name="1MTimestepRun_part2", callback=callback)
-#
-# model.save("models/a2c-boulderdash-lvl0-1M-Final")
-# env.close()
