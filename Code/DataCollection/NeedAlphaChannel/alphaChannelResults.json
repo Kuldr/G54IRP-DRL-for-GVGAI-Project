@@ -1,0 +1,4226 @@
+[
+	{
+		"Game": "chopper",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9486000,
+		"AlphaSum": 9486000
+	},
+	{
+		"Game": "chopper",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9486000,
+		"AlphaSum": 9486000
+	},
+	{
+		"Game": "themole",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 15529500,
+		"AlphaSum": 15529500
+	},
+	{
+		"Game": "themole",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 15529500,
+		"AlphaSum": 15529500
+	},
+	{
+		"Game": "chopper",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9486000,
+		"AlphaSum": 9486000
+	},
+	{
+		"Game": "themole",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 15529500,
+		"AlphaSum": 15529500
+	},
+	{
+		"Game": "themole",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 15529500,
+		"AlphaSum": 15529500
+	},
+	{
+		"Game": "themole",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 15529500,
+		"AlphaSum": 15529500
+	},
+	{
+		"Game": "bait",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 765000,
+		"AlphaSum": 765000
+	},
+	{
+		"Game": "bait",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2983500,
+		"AlphaSum": 2983500
+	},
+	{
+		"Game": "chopper",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9486000,
+		"AlphaSum": 9486000
+	},
+	{
+		"Game": "bait",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3315000,
+		"AlphaSum": 3315000
+	},
+	{
+		"Game": "chopper",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9486000,
+		"AlphaSum": 9486000
+	},
+	{
+		"Game": "bait",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1606500,
+		"AlphaSum": 1606500
+	},
+	{
+		"Game": "bait",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3646500,
+		"AlphaSum": 3646500
+	},
+	{
+		"Game": "lemmings",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5890500,
+		"AlphaSum": 5890500
+	},
+	{
+		"Game": "lemmings",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5890500,
+		"AlphaSum": 5890500
+	},
+	{
+		"Game": "cookmepasta",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3927000,
+		"AlphaSum": 3927000
+	},
+	{
+		"Game": "cookmepasta",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3927000,
+		"AlphaSum": 3927000
+	},
+	{
+		"Game": "cookmepasta",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3927000,
+		"AlphaSum": 3927000
+	},
+	{
+		"Game": "lemmings",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5890500,
+		"AlphaSum": 5890500
+	},
+	{
+		"Game": "cookmepasta",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3927000,
+		"AlphaSum": 3927000
+	},
+	{
+		"Game": "lemmings",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5890500,
+		"AlphaSum": 5890500
+	},
+	{
+		"Game": "lemmings",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5890500,
+		"AlphaSum": 5890500
+	},
+	{
+		"Game": "seaquest",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4819500,
+		"AlphaSum": 4819500
+	},
+	{
+		"Game": "seaquest",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4819500,
+		"AlphaSum": 4819500
+	},
+	{
+		"Game": "cookmepasta",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3927000,
+		"AlphaSum": 3927000
+	},
+	{
+		"Game": "seaquest",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4819500,
+		"AlphaSum": 4819500
+	},
+	{
+		"Game": "pokemon",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2499000,
+		"AlphaSum": 2499000
+	},
+	{
+		"Game": "seaquest",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4819500,
+		"AlphaSum": 4819500
+	},
+	{
+		"Game": "seaquest",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4819500,
+		"AlphaSum": 4819500
+	},
+	{
+		"Game": "pokemon",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2499000,
+		"AlphaSum": 2499000
+	},
+	{
+		"Game": "pokemon",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2499000,
+		"AlphaSum": 2499000
+	},
+	{
+		"Game": "pokemon",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2499000,
+		"AlphaSum": 2499000
+	},
+	{
+		"Game": "pokemon",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2499000,
+		"AlphaSum": 2499000
+	},
+	{
+		"Game": "factorymanager",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "factorymanager",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "factorymanager",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "factorymanager",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "factorymanager",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "roguelike",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11781000,
+		"AlphaSum": 11781000
+	},
+	{
+		"Game": "thesnowman",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3927000,
+		"AlphaSum": 3927000
+	},
+	{
+		"Game": "roguelike",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 11781000,
+		"AlphaSum": 11755500
+	},
+	{
+		"Game": "thesnowman",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3927000,
+		"AlphaSum": 3927000
+	},
+	{
+		"Game": "thesnowman",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3927000,
+		"AlphaSum": 3927000
+	},
+	{
+		"Game": "roguelike",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11781000,
+		"AlphaSum": 11781000
+	},
+	{
+		"Game": "roguelike",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11781000,
+		"AlphaSum": 11781000
+	},
+	{
+		"Game": "roguelike",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11781000,
+		"AlphaSum": 11781000
+	},
+	{
+		"Game": "thesnowman",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3927000,
+		"AlphaSum": 3927000
+	},
+	{
+		"Game": "boloadventures",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4335000,
+		"AlphaSum": 4335000
+	},
+	{
+		"Game": "boloadventures",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7905000,
+		"AlphaSum": 7905000
+	},
+	{
+		"Game": "thecitadel",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2295000,
+		"AlphaSum": 2295000
+	},
+	{
+		"Game": "boloadventures",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8236500,
+		"AlphaSum": 8236500
+	},
+	{
+		"Game": "boloadventures",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9970500,
+		"AlphaSum": 9970500
+	},
+	{
+		"Game": "thesnowman",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3927000,
+		"AlphaSum": 3927000
+	},
+	{
+		"Game": "boloadventures",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7956000,
+		"AlphaSum": 7956000
+	},
+	{
+		"Game": "thecitadel",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 3672000,
+		"AlphaSum": 3034500
+	},
+	{
+		"Game": "thecitadel",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4207500,
+		"AlphaSum": 4207500
+	},
+	{
+		"Game": "thecitadel",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3085500,
+		"AlphaSum": 3085500
+	},
+	{
+		"Game": "thecitadel",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3927000,
+		"AlphaSum": 3927000
+	},
+	{
+		"Game": "beltmanager",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9817500,
+		"AlphaSum": 9817500
+	},
+	{
+		"Game": "beltmanager",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9817500,
+		"AlphaSum": 9817500
+	},
+	{
+		"Game": "beltmanager",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9817500,
+		"AlphaSum": 9817500
+	},
+	{
+		"Game": "beltmanager",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9817500,
+		"AlphaSum": 9817500
+	},
+	{
+		"Game": "beltmanager",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9817500,
+		"AlphaSum": 9817500
+	},
+	{
+		"Game": "labyrinth",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5712000,
+		"AlphaSum": 5712000
+	},
+	{
+		"Game": "labyrinth",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5712000,
+		"AlphaSum": 5712000
+	},
+	{
+		"Game": "labyrinth",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5712000,
+		"AlphaSum": 5712000
+	},
+	{
+		"Game": "labyrinth",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5712000,
+		"AlphaSum": 5712000
+	},
+	{
+		"Game": "labyrinth",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5712000,
+		"AlphaSum": 5712000
+	},
+	{
+		"Game": "investdie",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2320500,
+		"AlphaSum": 2320500
+	},
+	{
+		"Game": "cakybaky",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10353000,
+		"AlphaSum": 10353000
+	},
+	{
+		"Game": "roadfighter",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3825000,
+		"AlphaSum": 3825000
+	},
+	{
+		"Game": "roadfighter",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3825000,
+		"AlphaSum": 3825000
+	},
+	{
+		"Game": "roadfighter",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3825000,
+		"AlphaSum": 3825000
+	},
+	{
+		"Game": "roadfighter",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3825000,
+		"AlphaSum": 3825000
+	},
+	{
+		"Game": "cakybaky",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10353000,
+		"AlphaSum": 10353000
+	},
+	{
+		"Game": "cakybaky",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10353000,
+		"AlphaSum": 10353000
+	},
+	{
+		"Game": "cakybaky",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10353000,
+		"AlphaSum": 10353000
+	},
+	{
+		"Game": "cakybaky",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10353000,
+		"AlphaSum": 10353000
+	},
+	{
+		"Game": "roadfighter",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3825000,
+		"AlphaSum": 3825000
+	},
+	{
+		"Game": "sheriff",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11424000,
+		"AlphaSum": 11424000
+	},
+	{
+		"Game": "superman",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "sheriff",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11424000,
+		"AlphaSum": 11424000
+	},
+	{
+		"Game": "superman",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "sheriff",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11424000,
+		"AlphaSum": 11424000
+	},
+	{
+		"Game": "sheriff",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11424000,
+		"AlphaSum": 11424000
+	},
+	{
+		"Game": "sheriff",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11424000,
+		"AlphaSum": 11424000
+	},
+	{
+		"Game": "superman",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "bomber",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "bomber",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "bomber",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "superman",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "superman",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "bomber",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "modality",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 892500,
+		"AlphaSum": 892500
+	},
+	{
+		"Game": "bomber",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "modality",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1632000,
+		"AlphaSum": 1632000
+	},
+	{
+		"Game": "modality",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3646500,
+		"AlphaSum": 3646500
+	},
+	{
+		"Game": "modality",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1249500,
+		"AlphaSum": 1249500
+	},
+	{
+		"Game": "modality",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1071000,
+		"AlphaSum": 1071000
+	},
+	{
+		"Game": "frogs",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 7854000,
+		"AlphaSum": 7835385
+	},
+	{
+		"Game": "frogs",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 7854000,
+		"AlphaSum": 7838190
+	},
+	{
+		"Game": "frogs",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 7854000,
+		"AlphaSum": 7840230
+	},
+	{
+		"Game": "frogs",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 7854000,
+		"AlphaSum": 7820595
+	},
+	{
+		"Game": "frogs",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 7140000,
+		"AlphaSum": 7110675
+	},
+	{
+		"Game": "flower",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2320500,
+		"AlphaSum": 2320500
+	},
+	{
+		"Game": "brainman",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3901500,
+		"AlphaSum": 3901500
+	},
+	{
+		"Game": "brainman",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4590000,
+		"AlphaSum": 4590000
+	},
+	{
+		"Game": "brainman",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5635500,
+		"AlphaSum": 5635500
+	},
+	{
+		"Game": "brainman",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2040000,
+		"AlphaSum": 2040000
+	},
+	{
+		"Game": "enemycitadel",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3442500,
+		"AlphaSum": 3442500
+	},
+	{
+		"Game": "brainman",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3978000,
+		"AlphaSum": 3978000
+	},
+	{
+		"Game": "enemycitadel",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4080000,
+		"AlphaSum": 4080000
+	},
+	{
+		"Game": "enemycitadel",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3085500,
+		"AlphaSum": 3085500
+	},
+	{
+		"Game": "enemycitadel",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4207500,
+		"AlphaSum": 4207500
+	},
+	{
+		"Game": "testgame2",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3876000,
+		"AlphaSum": 3876000
+	},
+	{
+		"Game": "testgame2",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3876000,
+		"AlphaSum": 3876000
+	},
+	{
+		"Game": "enemycitadel",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3927000,
+		"AlphaSum": 3927000
+	},
+	{
+		"Game": "shipwreck",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11220000,
+		"AlphaSum": 11220000
+	},
+	{
+		"Game": "shipwreck",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11220000,
+		"AlphaSum": 11220000
+	},
+	{
+		"Game": "fireman",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8721000,
+		"AlphaSum": 8721000
+	},
+	{
+		"Game": "fireman",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8721000,
+		"AlphaSum": 8721000
+	},
+	{
+		"Game": "fireman",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 8721000,
+		"AlphaSum": 8695500
+	},
+	{
+		"Game": "shipwreck",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10659000,
+		"AlphaSum": 10659000
+	},
+	{
+		"Game": "shipwreck",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11220000,
+		"AlphaSum": 11220000
+	},
+	{
+		"Game": "fireman",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8721000,
+		"AlphaSum": 8721000
+	},
+	{
+		"Game": "shipwreck",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11220000,
+		"AlphaSum": 11220000
+	},
+	{
+		"Game": "fireman",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 8721000,
+		"AlphaSum": 8695500
+	},
+	{
+		"Game": "eighthpassenger",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 9996000,
+		"AlphaSum": 6907252
+	},
+	{
+		"Game": "surround",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6120000,
+		"AlphaSum": 6114390
+	},
+	{
+		"Game": "surround",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5712000,
+		"AlphaSum": 5708175
+	},
+	{
+		"Game": "surround",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6120000,
+		"AlphaSum": 6114390
+	},
+	{
+		"Game": "eighthpassenger",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 9996000,
+		"AlphaSum": 5684782
+	},
+	{
+		"Game": "eighthpassenger",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 9996000,
+		"AlphaSum": 4816252
+	},
+	{
+		"Game": "eighthpassenger",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 9996000,
+		"AlphaSum": 6271282
+	},
+	{
+		"Game": "eighthpassenger",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 9996000,
+		"AlphaSum": 5477722
+	},
+	{
+		"Game": "surround",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6120000,
+		"AlphaSum": 6109035
+	},
+	{
+		"Game": "catapults",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6528000,
+		"AlphaSum": 6525705
+	},
+	{
+		"Game": "catapults",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6528000,
+		"AlphaSum": 6525705
+	},
+	{
+		"Game": "surround",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6120000,
+		"AlphaSum": 6114390
+	},
+	{
+		"Game": "catapults",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6528000,
+		"AlphaSum": 6525705
+	},
+	{
+		"Game": "catapults",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6528000,
+		"AlphaSum": 6525705
+	},
+	{
+		"Game": "catapults",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6528000,
+		"AlphaSum": 6525705
+	},
+	{
+		"Game": "assemblyline",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "chainreaction",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4335000,
+		"AlphaSum": 4335000
+	},
+	{
+		"Game": "chainreaction",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4335000,
+		"AlphaSum": 4335000
+	},
+	{
+		"Game": "assemblyline",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "chainreaction",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4335000,
+		"AlphaSum": 4335000
+	},
+	{
+		"Game": "assemblyline",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "assemblyline",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "chainreaction",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4335000,
+		"AlphaSum": 4335000
+	},
+	{
+		"Game": "assemblyline",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "missilecommand",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "missilecommand",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "missilecommand",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "chainreaction",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4335000,
+		"AlphaSum": 4335000
+	},
+	{
+		"Game": "firestorms",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "missilecommand",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "missilecommand",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "firestorms",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "firestorms",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "firestorms",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "firestorms",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "blacksmoke",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "blacksmoke",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "blacksmoke",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "blacksmoke",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "blacksmoke",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "survivezombies",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "survivezombies",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "survivezombies",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "survivezombies",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "solarfox",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2805000,
+		"AlphaSum": 2805000
+	},
+	{
+		"Game": "survivezombies",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "solarfox",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2805000,
+		"AlphaSum": 2805000
+	},
+	{
+		"Game": "solarfox",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2805000,
+		"AlphaSum": 2805000
+	},
+	{
+		"Game": "solarfox",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2805000,
+		"AlphaSum": 2805000
+	},
+	{
+		"Game": "solarfox",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2805000,
+		"AlphaSum": 2805000
+	},
+	{
+		"Game": "mirrors",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9537000,
+		"AlphaSum": 9537000
+	},
+	{
+		"Game": "mirrors",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9537000,
+		"AlphaSum": 9537000
+	},
+	{
+		"Game": "colourescape",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5049000,
+		"AlphaSum": 5049000
+	},
+	{
+		"Game": "mirrors",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9537000,
+		"AlphaSum": 9537000
+	},
+	{
+		"Game": "mirrors",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9537000,
+		"AlphaSum": 9537000
+	},
+	{
+		"Game": "mirrors",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9537000,
+		"AlphaSum": 9537000
+	},
+	{
+		"Game": "colourescape",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5049000,
+		"AlphaSum": 5049000
+	},
+	{
+		"Game": "colourescape",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5049000,
+		"AlphaSum": 5049000
+	},
+	{
+		"Game": "intersection",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8950500,
+		"AlphaSum": 8950500
+	},
+	{
+		"Game": "intersection",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8950500,
+		"AlphaSum": 8950500
+	},
+	{
+		"Game": "intersection",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8950500,
+		"AlphaSum": 8950500
+	},
+	{
+		"Game": "intersection",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8950500,
+		"AlphaSum": 8950500
+	},
+	{
+		"Game": "colourescape",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5049000,
+		"AlphaSum": 5049000
+	},
+	{
+		"Game": "colourescape",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5049000,
+		"AlphaSum": 5049000
+	},
+	{
+		"Game": "intersection",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8950500,
+		"AlphaSum": 8950500
+	},
+	{
+		"Game": "portals",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "portals",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4845000,
+		"AlphaSum": 4845000
+	},
+	{
+		"Game": "portals",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "portals",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "chase",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6732000,
+		"AlphaSum": 6725625
+	},
+	{
+		"Game": "chase",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6732000,
+		"AlphaSum": 6725625
+	},
+	{
+		"Game": "portals",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "chase",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6732000,
+		"AlphaSum": 6725625
+	},
+	{
+		"Game": "chase",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6732000,
+		"AlphaSum": 6725625
+	},
+	{
+		"Game": "zelda",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2983500,
+		"AlphaSum": 2983500
+	},
+	{
+		"Game": "chase",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6732000,
+		"AlphaSum": 6725625
+	},
+	{
+		"Game": "zelda",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2983500,
+		"AlphaSum": 2983500
+	},
+	{
+		"Game": "zelda",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2983500,
+		"AlphaSum": 2983500
+	},
+	{
+		"Game": "zelda",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2983500,
+		"AlphaSum": 2983500
+	},
+	{
+		"Game": "zelda",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2983500,
+		"AlphaSum": 2983500
+	},
+	{
+		"Game": "eggomania",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 11424000,
+		"AlphaSum": 3340500
+	},
+	{
+		"Game": "eggomania",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 11424000,
+		"AlphaSum": 3338970
+	},
+	{
+		"Game": "eggomania",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 11424000,
+		"AlphaSum": 2585955
+	},
+	{
+		"Game": "eggomania",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 11424000,
+		"AlphaSum": 2624970
+	},
+	{
+		"Game": "sokoban",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2983500,
+		"AlphaSum": 2983500
+	},
+	{
+		"Game": "eggomania",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 11424000,
+		"AlphaSum": 2573970
+	},
+	{
+		"Game": "sokoban",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2983500,
+		"AlphaSum": 2983500
+	},
+	{
+		"Game": "sokoban",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2524500,
+		"AlphaSum": 2524500
+	},
+	{
+		"Game": "sokoban",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1249500,
+		"AlphaSum": 1249500
+	},
+	{
+		"Game": "sokoban",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1836000,
+		"AlphaSum": 1836000
+	},
+	{
+		"Game": "overload",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "invest",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2320500,
+		"AlphaSum": 2320500
+	},
+	{
+		"Game": "overload",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "overload",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "overload",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "overload",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "hungrybirds",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 4488000,
+		"AlphaSum": 4481625
+	},
+	{
+		"Game": "hungrybirds",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 3672000,
+		"AlphaSum": 3666135
+	},
+	{
+		"Game": "hungrybirds",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5712000,
+		"AlphaSum": 5704860
+	},
+	{
+		"Game": "wrapsokoban",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1428000,
+		"AlphaSum": 1428000
+	},
+	{
+		"Game": "hungrybirds",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5712000,
+		"AlphaSum": 5704860
+	},
+	{
+		"Game": "wrapsokoban",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1428000,
+		"AlphaSum": 1428000
+	},
+	{
+		"Game": "wrapsokoban",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1683000,
+		"AlphaSum": 1683000
+	},
+	{
+		"Game": "hungrybirds",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5712000,
+		"AlphaSum": 5704860
+	},
+	{
+		"Game": "wrapsokoban",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1071000,
+		"AlphaSum": 1071000
+	},
+	{
+		"Game": "testgame3",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2320500,
+		"AlphaSum": 2320500
+	},
+	{
+		"Game": "testgame3",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5533500,
+		"AlphaSum": 5533500
+	},
+	{
+		"Game": "waves",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "waves",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "waves",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8976000,
+		"AlphaSum": 8976000
+	},
+	{
+		"Game": "waves",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "wrapsokoban",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2448000,
+		"AlphaSum": 2448000
+	},
+	{
+		"Game": "waves",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "aliens",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8415000,
+		"AlphaSum": 8415000
+	},
+	{
+		"Game": "aliens",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8415000,
+		"AlphaSum": 8415000
+	},
+	{
+		"Game": "aliens",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8415000,
+		"AlphaSum": 8415000
+	},
+	{
+		"Game": "aliens",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8415000,
+		"AlphaSum": 8415000
+	},
+	{
+		"Game": "butterflies",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 7854000,
+		"AlphaSum": 7847625
+	},
+	{
+		"Game": "butterflies",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 7854000,
+		"AlphaSum": 7847625
+	},
+	{
+		"Game": "aliens",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8415000,
+		"AlphaSum": 8415000
+	},
+	{
+		"Game": "butterflies",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 7854000,
+		"AlphaSum": 7847625
+	},
+	{
+		"Game": "realportals",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5304000,
+		"AlphaSum": 5304000
+	},
+	{
+		"Game": "realportals",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5304000,
+		"AlphaSum": 5304000
+	},
+	{
+		"Game": "butterflies",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 8568000,
+		"AlphaSum": 8561370
+	},
+	{
+		"Game": "butterflies",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 7854000,
+		"AlphaSum": 7847625
+	},
+	{
+		"Game": "realportals",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5304000,
+		"AlphaSum": 5304000
+	},
+	{
+		"Game": "realportals",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5304000,
+		"AlphaSum": 5304000
+	},
+	{
+		"Game": "realportals",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5304000,
+		"AlphaSum": 5304000
+	},
+	{
+		"Game": "boulderchase",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "avoidgeorge",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6732000,
+		"AlphaSum": 6732000
+	},
+	{
+		"Game": "avoidgeorge",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6732000,
+		"AlphaSum": 6732000
+	},
+	{
+		"Game": "boulderchase",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "avoidgeorge",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6732000,
+		"AlphaSum": 6732000
+	},
+	{
+		"Game": "boulderchase",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "boulderchase",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "boulderchase",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "avoidgeorge",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6732000,
+		"AlphaSum": 6732000
+	},
+	{
+		"Game": "realsokoban",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1428000,
+		"AlphaSum": 1428000
+	},
+	{
+		"Game": "realsokoban",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1071000,
+		"AlphaSum": 1071000
+	},
+	{
+		"Game": "realsokoban",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1428000,
+		"AlphaSum": 1428000
+	},
+	{
+		"Game": "realsokoban",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 2142000,
+		"AlphaSum": 1836000
+	},
+	{
+		"Game": "avoidgeorge",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6732000,
+		"AlphaSum": 6732000
+	},
+	{
+		"Game": "realsokoban",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2448000,
+		"AlphaSum": 2448000
+	},
+	{
+		"Game": "vortex",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6528000,
+		"AlphaSum": 6520350
+	},
+	{
+		"Game": "chipschallenge",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5355000,
+		"AlphaSum": 5355000
+	},
+	{
+		"Game": "chipschallenge",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3366000,
+		"AlphaSum": 3366000
+	},
+	{
+		"Game": "vortex",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6528000,
+		"AlphaSum": 6520350
+	},
+	{
+		"Game": "chipschallenge",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3978000,
+		"AlphaSum": 3978000
+	},
+	{
+		"Game": "vortex",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6528000,
+		"AlphaSum": 6520350
+	},
+	{
+		"Game": "vortex",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6528000,
+		"AlphaSum": 6520350
+	},
+	{
+		"Game": "vortex",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 6528000,
+		"AlphaSum": 6520350
+	},
+	{
+		"Game": "chipschallenge",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1785000,
+		"AlphaSum": 1785000
+	},
+	{
+		"Game": "chipschallenge",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6961500,
+		"AlphaSum": 6961500
+	},
+	{
+		"Game": "deceptizelda",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3978000,
+		"AlphaSum": 3978000
+	},
+	{
+		"Game": "deceptizelda",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3978000,
+		"AlphaSum": 3978000
+	},
+	{
+		"Game": "deceptizelda",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3978000,
+		"AlphaSum": 3978000
+	},
+	{
+		"Game": "deceptizelda",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4309500,
+		"AlphaSum": 4309500
+	},
+	{
+		"Game": "cops",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6120000,
+		"AlphaSum": 6120000
+	},
+	{
+		"Game": "deceptizelda",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3978000,
+		"AlphaSum": 3978000
+	},
+	{
+		"Game": "cops",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6120000,
+		"AlphaSum": 6120000
+	},
+	{
+		"Game": "cops",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6120000,
+		"AlphaSum": 6120000
+	},
+	{
+		"Game": "cops",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6120000,
+		"AlphaSum": 6120000
+	},
+	{
+		"Game": "iceandfire",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5712000,
+		"AlphaSum": 5693895
+	},
+	{
+		"Game": "iceandfire",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5712000,
+		"AlphaSum": 5700270
+	},
+	{
+		"Game": "iceandfire",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5712000,
+		"AlphaSum": 5681655
+	},
+	{
+		"Game": "cops",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6120000,
+		"AlphaSum": 6120000
+	},
+	{
+		"Game": "iceandfire",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5712000,
+		"AlphaSum": 5696190
+	},
+	{
+		"Game": "iceandfire",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5712000,
+		"AlphaSum": 5690835
+	},
+	{
+		"Game": "racebet2",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 12495000,
+		"AlphaSum": 12495000
+	},
+	{
+		"Game": "racebet2",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 12495000,
+		"AlphaSum": 12495000
+	},
+	{
+		"Game": "x-racer",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7114500,
+		"AlphaSum": 7114500
+	},
+	{
+		"Game": "x-racer",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7114500,
+		"AlphaSum": 7114500
+	},
+	{
+		"Game": "x-racer",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7318500,
+		"AlphaSum": 7318500
+	},
+	{
+		"Game": "racebet2",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 12495000,
+		"AlphaSum": 12495000
+	},
+	{
+		"Game": "racebet2",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 12495000,
+		"AlphaSum": 12495000
+	},
+	{
+		"Game": "racebet2",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 12495000,
+		"AlphaSum": 12495000
+	},
+	{
+		"Game": "x-racer",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8695500,
+		"AlphaSum": 8695500
+	},
+	{
+		"Game": "islands",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4080000,
+		"AlphaSum": 4080000
+	},
+	{
+		"Game": "islands",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4080000,
+		"AlphaSum": 4080000
+	},
+	{
+		"Game": "x-racer",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11500500,
+		"AlphaSum": 11500500
+	},
+	{
+		"Game": "islands",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4080000,
+		"AlphaSum": 4080000
+	},
+	{
+		"Game": "islands",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4080000,
+		"AlphaSum": 4080000
+	},
+	{
+		"Game": "islands",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4080000,
+		"AlphaSum": 4080000
+	},
+	{
+		"Game": "doorkoban",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4972500,
+		"AlphaSum": 4972500
+	},
+	{
+		"Game": "doorkoban",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4972500,
+		"AlphaSum": 4972500
+	},
+	{
+		"Game": "waferthinmintsexit",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2040000,
+		"AlphaSum": 2040000
+	},
+	{
+		"Game": "doorkoban",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4972500,
+		"AlphaSum": 4972500
+	},
+	{
+		"Game": "escape",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2983500,
+		"AlphaSum": 2983500
+	},
+	{
+		"Game": "escape",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2983500,
+		"AlphaSum": 2983500
+	},
+	{
+		"Game": "escape",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2983500,
+		"AlphaSum": 2983500
+	},
+	{
+		"Game": "doorkoban",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4972500,
+		"AlphaSum": 4972500
+	},
+	{
+		"Game": "doorkoban",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4972500,
+		"AlphaSum": 4972500
+	},
+	{
+		"Game": "ikaruga",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4845000,
+		"AlphaSum": 4845000
+	},
+	{
+		"Game": "ikaruga",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4845000,
+		"AlphaSum": 4845000
+	},
+	{
+		"Game": "ikaruga",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4845000,
+		"AlphaSum": 4845000
+	},
+	{
+		"Game": "escape",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2983500,
+		"AlphaSum": 2983500
+	},
+	{
+		"Game": "escape",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2983500,
+		"AlphaSum": 2983500
+	},
+	{
+		"Game": "ikaruga",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4845000,
+		"AlphaSum": 4845000
+	},
+	{
+		"Game": "ikaruga",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4845000,
+		"AlphaSum": 4845000
+	},
+	{
+		"Game": "testgame1",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8415000,
+		"AlphaSum": 8415000
+	},
+	{
+		"Game": "zenpuzzle",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3672000,
+		"AlphaSum": 3672000
+	},
+	{
+		"Game": "zenpuzzle",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3366000,
+		"AlphaSum": 3366000
+	},
+	{
+		"Game": "zenpuzzle",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3672000,
+		"AlphaSum": 3672000
+	},
+	{
+		"Game": "testgame1",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8415000,
+		"AlphaSum": 8415000
+	},
+	{
+		"Game": "zenpuzzle",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3672000,
+		"AlphaSum": 3672000
+	},
+	{
+		"Game": "zenpuzzle",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3672000,
+		"AlphaSum": 3672000
+	},
+	{
+		"Game": "sistersavior",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2550000,
+		"AlphaSum": 2550000
+	},
+	{
+		"Game": "sistersavior",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5100000,
+		"AlphaSum": 5100000
+	},
+	{
+		"Game": "racebet",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "racebet",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "racebet",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "camelRace",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11016000,
+		"AlphaSum": 11016000
+	},
+	{
+		"Game": "racebet",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "camelRace",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11016000,
+		"AlphaSum": 11016000
+	},
+	{
+		"Game": "camelRace",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11016000,
+		"AlphaSum": 11016000
+	},
+	{
+		"Game": "racebet",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8925000,
+		"AlphaSum": 8925000
+	},
+	{
+		"Game": "camelRace",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11016000,
+		"AlphaSum": 11016000
+	},
+	{
+		"Game": "camelRace",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11016000,
+		"AlphaSum": 11016000
+	},
+	{
+		"Game": "run",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "run",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "run",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "run",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "run",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "lasers",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7905000,
+		"AlphaSum": 7905000
+	},
+	{
+		"Game": "lasers",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "lasers",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "pacman",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 22134000,
+		"AlphaSum": 22134000
+	},
+	{
+		"Game": "lasers",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "lasers",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "pacman",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 22134000,
+		"AlphaSum": 22134000
+	},
+	{
+		"Game": "pacman",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 22134000,
+		"AlphaSum": 22134000
+	},
+	{
+		"Game": "killBillVol1",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9537000,
+		"AlphaSum": 9537000
+	},
+	{
+		"Game": "pacman",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 22134000,
+		"AlphaSum": 22134000
+	},
+	{
+		"Game": "pacman",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 22134000,
+		"AlphaSum": 22134000
+	},
+	{
+		"Game": "killBillVol1",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11271000,
+		"AlphaSum": 11271000
+	},
+	{
+		"Game": "killBillVol1",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 9537000,
+		"AlphaSum": 9537000
+	},
+	{
+		"Game": "killBillVol1",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10098000,
+		"AlphaSum": 10098000
+	},
+	{
+		"Game": "theshepherd",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5508000,
+		"AlphaSum": 5502135
+	},
+	{
+		"Game": "killBillVol1",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11271000,
+		"AlphaSum": 11271000
+	},
+	{
+		"Game": "theshepherd",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5508000,
+		"AlphaSum": 5502135
+	},
+	{
+		"Game": "theshepherd",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5508000,
+		"AlphaSum": 5502135
+	},
+	{
+		"Game": "theshepherd",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5508000,
+		"AlphaSum": 5502135
+	},
+	{
+		"Game": "theshepherd",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 5508000,
+		"AlphaSum": 5502135
+	},
+	{
+		"Game": "crossfire",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11857500,
+		"AlphaSum": 11857500
+	},
+	{
+		"Game": "crossfire",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11857500,
+		"AlphaSum": 11857500
+	},
+	{
+		"Game": "crossfire",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11857500,
+		"AlphaSum": 11857500
+	},
+	{
+		"Game": "crossfire",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11857500,
+		"AlphaSum": 11857500
+	},
+	{
+		"Game": "crossfire",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11857500,
+		"AlphaSum": 11857500
+	},
+	{
+		"Game": "bomberman",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4590000,
+		"AlphaSum": 4590000
+	},
+	{
+		"Game": "bomberman",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4590000,
+		"AlphaSum": 4590000
+	},
+	{
+		"Game": "bomberman",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4590000,
+		"AlphaSum": 4590000
+	},
+	{
+		"Game": "bomberman",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4590000,
+		"AlphaSum": 4590000
+	},
+	{
+		"Game": "bomberman",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4590000,
+		"AlphaSum": 4590000
+	},
+	{
+		"Game": "boulderdash",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "boulderdash",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "boulderdash",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "boulderdash",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "boulderdash",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8619000,
+		"AlphaSum": 8619000
+	},
+	{
+		"Game": "rivers",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7650000,
+		"AlphaSum": 7650000
+	},
+	{
+		"Game": "rivers",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7140000,
+		"AlphaSum": 7140000
+	},
+	{
+		"Game": "rivers",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7650000,
+		"AlphaSum": 7650000
+	},
+	{
+		"Game": "rivers",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7140000,
+		"AlphaSum": 7140000
+	},
+	{
+		"Game": "rivers",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7140000,
+		"AlphaSum": 7140000
+	},
+	{
+		"Game": "watergame",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1071000,
+		"AlphaSum": 1071000
+	},
+	{
+		"Game": "watergame",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1249500,
+		"AlphaSum": 1249500
+	},
+	{
+		"Game": "watergame",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1606500,
+		"AlphaSum": 1606500
+	},
+	{
+		"Game": "watergame",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1632000,
+		"AlphaSum": 1632000
+	},
+	{
+		"Game": "watergame",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1428000,
+		"AlphaSum": 1428000
+	},
+	{
+		"Game": "infection",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "infection",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "infection",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "infection",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "infection",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "gymkhana",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6528000,
+		"AlphaSum": 6528000
+	},
+	{
+		"Game": "gymkhana",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6528000,
+		"AlphaSum": 6528000
+	},
+	{
+		"Game": "gymkhana",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6528000,
+		"AlphaSum": 6528000
+	},
+	{
+		"Game": "firecaster",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "firecaster",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "gymkhana",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6528000,
+		"AlphaSum": 6528000
+	},
+	{
+		"Game": "gymkhana",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6528000,
+		"AlphaSum": 6528000
+	},
+	{
+		"Game": "firecaster",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "firecaster",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "firecaster",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5329500,
+		"AlphaSum": 5329500
+	},
+	{
+		"Game": "angelsdemons",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11424000,
+		"AlphaSum": 11424000
+	},
+	{
+		"Game": "angelsdemons",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11424000,
+		"AlphaSum": 11424000
+	},
+	{
+		"Game": "angelsdemons",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11424000,
+		"AlphaSum": 11424000
+	},
+	{
+		"Game": "angelsdemons",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11424000,
+		"AlphaSum": 11424000
+	},
+	{
+		"Game": "wildgunman",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "angelsdemons",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11424000,
+		"AlphaSum": 11424000
+	},
+	{
+		"Game": "wildgunman",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "wildgunman",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "wildgunman",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "wildgunman",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7344000,
+		"AlphaSum": 7344000
+	},
+	{
+		"Game": "witnessprotected",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10659000,
+		"AlphaSum": 10659000
+	},
+	{
+		"Game": "witnessprotected",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10659000,
+		"AlphaSum": 10659000
+	},
+	{
+		"Game": "witnessprotected",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10659000,
+		"AlphaSum": 10659000
+	},
+	{
+		"Game": "witnessprotected",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10659000,
+		"AlphaSum": 10659000
+	},
+	{
+		"Game": "witnessprotected",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 15504000,
+		"AlphaSum": 15504000
+	},
+	{
+		"Game": "digdug",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10327500,
+		"AlphaSum": 10327500
+	},
+	{
+		"Game": "digdug",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10327500,
+		"AlphaSum": 10327500
+	},
+	{
+		"Game": "digdug",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10327500,
+		"AlphaSum": 10327500
+	},
+	{
+		"Game": "digdug",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10327500,
+		"AlphaSum": 10327500
+	},
+	{
+		"Game": "digdug",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10327500,
+		"AlphaSum": 10327500
+	},
+	{
+		"Game": "waferthinmints",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2550000,
+		"AlphaSum": 2550000
+	},
+	{
+		"Game": "waitforbreakfast",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2244000,
+		"AlphaSum": 2244000
+	},
+	{
+		"Game": "waitforbreakfast",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2244000,
+		"AlphaSum": 2244000
+	},
+	{
+		"Game": "waitforbreakfast",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2244000,
+		"AlphaSum": 2244000
+	},
+	{
+		"Game": "waitforbreakfast",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2244000,
+		"AlphaSum": 2244000
+	},
+	{
+		"Game": "waitforbreakfast",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2244000,
+		"AlphaSum": 2244000
+	},
+	{
+		"Game": "labyrinthdual",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5712000,
+		"AlphaSum": 5712000
+	},
+	{
+		"Game": "labyrinthdual",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5712000,
+		"AlphaSum": 5712000
+	},
+	{
+		"Game": "labyrinthdual",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5712000,
+		"AlphaSum": 5712000
+	},
+	{
+		"Game": "labyrinthdual",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5712000,
+		"AlphaSum": 5712000
+	},
+	{
+		"Game": "labyrinthdual",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5712000,
+		"AlphaSum": 5712000
+	},
+	{
+		"Game": "garbagecollector",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 43987500,
+		"AlphaSum": 43987500
+	},
+	{
+		"Game": "dungeon",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11781000,
+		"AlphaSum": 11781000
+	},
+	{
+		"Game": "garbagecollector",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 43987500,
+		"AlphaSum": 43987500
+	},
+	{
+		"Game": "garbagecollector",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 43987500,
+		"AlphaSum": 43987500
+	},
+	{
+		"Game": "garbagecollector",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 43987500,
+		"AlphaSum": 43987500
+	},
+	{
+		"Game": "dungeon",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11781000,
+		"AlphaSum": 11781000
+	},
+	{
+		"Game": "garbagecollector",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 43987500,
+		"AlphaSum": 43987500
+	},
+	{
+		"Game": "dungeon",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 11781000,
+		"AlphaSum": 11755500
+	},
+	{
+		"Game": "dungeon",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11781000,
+		"AlphaSum": 11781000
+	},
+	{
+		"Game": "dungeon",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11781000,
+		"AlphaSum": 11781000
+	},
+	{
+		"Game": "deflection",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 22542000,
+		"AlphaSum": 22542000
+	},
+	{
+		"Game": "deflection",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 22542000,
+		"AlphaSum": 22542000
+	},
+	{
+		"Game": "deflection",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 22542000,
+		"AlphaSum": 22542000
+	},
+	{
+		"Game": "deflection",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 22542000,
+		"AlphaSum": 22542000
+	},
+	{
+		"Game": "deflection",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 22542000,
+		"AlphaSum": 22542000
+	},
+	{
+		"Game": "tercio",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2448000,
+		"AlphaSum": 2448000
+	},
+	{
+		"Game": "tercio",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3570000,
+		"AlphaSum": 3570000
+	},
+	{
+		"Game": "tercio",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2448000,
+		"AlphaSum": 2448000
+	},
+	{
+		"Game": "whackamole",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1785000,
+		"AlphaSum": 1785000
+	},
+	{
+		"Game": "tercio",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2448000,
+		"AlphaSum": 2448000
+	},
+	{
+		"Game": "whackamole",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1785000,
+		"AlphaSum": 1785000
+	},
+	{
+		"Game": "whackamole",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1785000,
+		"AlphaSum": 1785000
+	},
+	{
+		"Game": "tercio",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3646500,
+		"AlphaSum": 3646500
+	},
+	{
+		"Game": "whackamole",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1785000,
+		"AlphaSum": 1785000
+	},
+	{
+		"Game": "whackamole",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 1785000,
+		"AlphaSum": 1785000
+	},
+	{
+		"Game": "defem",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6298500,
+		"AlphaSum": 6298500
+	},
+	{
+		"Game": "defem",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6298500,
+		"AlphaSum": 6298500
+	},
+	{
+		"Game": "donkeykong",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 19890000,
+		"AlphaSum": 19890000
+	},
+	{
+		"Game": "donkeykong",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 18054000,
+		"AlphaSum": 18054000
+	},
+	{
+		"Game": "donkeykong",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 19890000,
+		"AlphaSum": 19890000
+	},
+	{
+		"Game": "donkeykong",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 19890000,
+		"AlphaSum": 19890000
+	},
+	{
+		"Game": "donkeykong",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 19890000,
+		"AlphaSum": 19890000
+	},
+	{
+		"Game": "defem",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6298500,
+		"AlphaSum": 6298500
+	},
+	{
+		"Game": "jaws",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4819500,
+		"AlphaSum": 4819500
+	},
+	{
+		"Game": "jaws",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4819500,
+		"AlphaSum": 4819500
+	},
+	{
+		"Game": "defem",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6298500,
+		"AlphaSum": 6298500
+	},
+	{
+		"Game": "jaws",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4819500,
+		"AlphaSum": 4819500
+	},
+	{
+		"Game": "defem",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 6298500,
+		"AlphaSum": 6298500
+	},
+	{
+		"Game": "jaws",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 4819500,
+		"AlphaSum": 4819500
+	},
+	{
+		"Game": "jaws",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 4819500,
+		"AlphaSum": 4794000
+	},
+	{
+		"Game": "clusters",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3315000,
+		"AlphaSum": 3315000
+	},
+	{
+		"Game": "painter",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 306000,
+		"AlphaSum": 293250
+	},
+	{
+		"Game": "painter",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 1020000,
+		"AlphaSum": 1000875
+	},
+	{
+		"Game": "clusters",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3315000,
+		"AlphaSum": 3315000
+	},
+	{
+		"Game": "painter",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 535500,
+		"AlphaSum": 522750
+	},
+	{
+		"Game": "clusters",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3315000,
+		"AlphaSum": 3315000
+	},
+	{
+		"Game": "clusters",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3315000,
+		"AlphaSum": 3315000
+	},
+	{
+		"Game": "clusters",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 3315000,
+		"AlphaSum": 3315000
+	},
+	{
+		"Game": "painter",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 612000,
+		"AlphaSum": 605625
+	},
+	{
+		"Game": "painter",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": true,
+		"Area*255": 204000,
+		"AlphaSum": 191250
+	},
+	{
+		"Game": "lasers2",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "lasers2",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "lasers2",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "defender",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11067000,
+		"AlphaSum": 11067000
+	},
+	{
+		"Game": "lasers2",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7140000,
+		"AlphaSum": 7140000
+	},
+	{
+		"Game": "lasers2",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7854000,
+		"AlphaSum": 7854000
+	},
+	{
+		"Game": "defender",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11067000,
+		"AlphaSum": 11067000
+	},
+	{
+		"Game": "defender",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11067000,
+		"AlphaSum": 11067000
+	},
+	{
+		"Game": "defender",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11067000,
+		"AlphaSum": 11067000
+	},
+	{
+		"Game": "defender",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11067000,
+		"AlphaSum": 11067000
+	},
+	{
+		"Game": "plants",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 11628000,
+		"AlphaSum": 11628000
+	},
+	{
+		"Game": "plants",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 12240000,
+		"AlphaSum": 12240000
+	},
+	{
+		"Game": "plants",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10939500,
+		"AlphaSum": 10939500
+	},
+	{
+		"Game": "plants",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10710000,
+		"AlphaSum": 10710000
+	},
+	{
+		"Game": "plants",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10939500,
+		"AlphaSum": 10939500
+	},
+	{
+		"Game": "freeway",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10710000,
+		"AlphaSum": 10710000
+	},
+	{
+		"Game": "freeway",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10710000,
+		"AlphaSum": 10710000
+	},
+	{
+		"Game": "freeway",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10710000,
+		"AlphaSum": 10710000
+	},
+	{
+		"Game": "freeway",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10710000,
+		"AlphaSum": 10710000
+	},
+	{
+		"Game": "freeway",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 10710000,
+		"AlphaSum": 10710000
+	},
+	{
+		"Game": "witnessprotection",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8721000,
+		"AlphaSum": 8721000
+	},
+	{
+		"Game": "witnessprotection",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8721000,
+		"AlphaSum": 8721000
+	},
+	{
+		"Game": "witnessprotection",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8721000,
+		"AlphaSum": 8721000
+	},
+	{
+		"Game": "decepticoins",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2320500,
+		"AlphaSum": 2320500
+	},
+	{
+		"Game": "decepticoins",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5533500,
+		"AlphaSum": 5533500
+	},
+	{
+		"Game": "witnessprotection",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8721000,
+		"AlphaSum": 8721000
+	},
+	{
+		"Game": "decepticoins",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 7905000,
+		"AlphaSum": 7905000
+	},
+	{
+		"Game": "decepticoins",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 2805000,
+		"AlphaSum": 2805000
+	},
+	{
+		"Game": "witnessprotection",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 8721000,
+		"AlphaSum": 8721000
+	},
+	{
+		"Game": "decepticoins",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 5355000,
+		"AlphaSum": 5355000
+	},
+	{
+		"Game": "plaqueattack",
+		"Level": 0,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 13464000,
+		"AlphaSum": 13464000
+	},
+	{
+		"Game": "plaqueattack",
+		"Level": 1,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 13464000,
+		"AlphaSum": 13464000
+	},
+	{
+		"Game": "plaqueattack",
+		"Level": 2,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 13464000,
+		"AlphaSum": 13464000
+	},
+	{
+		"Game": "plaqueattack",
+		"Level": 3,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 13464000,
+		"AlphaSum": 13464000
+	},
+	{
+		"Game": "plaqueattack",
+		"Level": 4,
+		"Version": 0,
+		"AlphaUsed": false,
+		"Area*255": 12852000,
+		"AlphaSum": 12852000
+	}
+]

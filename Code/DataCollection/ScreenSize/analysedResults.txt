@@ -1,0 +1,5 @@
+  | Min | Max
+--|-----|-----
+X | 40  | 690
+Y | 20  | 310
+All games have 4 channels

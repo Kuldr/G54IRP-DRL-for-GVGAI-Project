@@ -3,8 +3,8 @@ GVGAIVirtualEnv/
 *.DS_Store
 
 *models/
-
 *tensorboard/
+Code/DataCollection/NeedAlphaChannel/Images/*
 
 Documentation/~\$WorkPlan\.xlsx
 
