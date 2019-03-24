@@ -6,7 +6,7 @@ import numpy as np
 from stable_baselines.common.vec_env import SubprocVecEnv, VecNormalize
 from stable_baselines import A2C
 
-from CustomPolicies import NatureCNN
+from Policies import NatureCNN
 from EnvWrapper import EnvWrapper
 
 RENDER_TO_SCREEN = False
