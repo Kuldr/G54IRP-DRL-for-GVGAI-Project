@@ -11,8 +11,8 @@ def transformFrame(frame, x, y):
 
 # NOTE: THIS DOESN'T SCALE -IVE REWARDS BASED ON MIN SCORE BUT ON MAX SCORE
 def normalizeReward(reward, envString):
-    newReward = reward * 100 / MAX_SCORES[envString]
-    print("Reward: " + str(reward) + " | newReward: " + str(newReward) + " | scale: " + str(MAX_SCORES[envString]) + " | env: " + envString)
+    newReward = 100 * reward / MAX_SCORES[envString]
+    # print("Reward: " + str(reward) + " | newReward: " + str(newReward) + " | scale: " + str(MAX_SCORES[envString]) + " | env: " + envString)
     return newReward
 
 MAX_SCORES = {"<TimeLimit<GVGAI_Env<gvgai-boulderdash-lvl0-v0>>>" : 22,
@@ -25,4 +25,5 @@ MAX_SCORES = {"<TimeLimit<GVGAI_Env<gvgai-boulderdash-lvl0-v0>>>" : 22,
               "<TimeLimit<GVGAI_Env<gvgai-missilecommand-lvl2-v0>>>" : 8,
               "<TimeLimit<GVGAI_Env<gvgai-missilecommand-lvl3-v0>>>" : 8,
               "<TimeLimit<GVGAI_Env<gvgai-missilecommand-lvl4-v0>>>" : 14,
+              "<TimeLimit<GVGAI_Env<gvgai-aliens-lvl0-v0>>>" : 87,
               "<TimeLimit<GVGAI_Env<gvgai-aliens-lvl1-v0>>>" : 87}

@@ -83,13 +83,14 @@ class ONet(ActorCriticPolicy):
                     layer_51 = activ(conv(layer_44, 'c51', n_filters=512, filter_size=3, stride=1, init_scale=np.sqrt(2), pad="SAME", **kwargs))
                     layer_52 = activ(conv(layer_51, 'c52', n_filters=512, filter_size=3, stride=1, init_scale=np.sqrt(2), pad="SAME", **kwargs))
                     layer_53 = activ(conv(layer_52, 'c53', n_filters=512, filter_size=3, stride=1, init_scale=np.sqrt(2), pad="SAME", **kwargs))
-                    layer_54 = tf.nn.max_pool(layer_53, name="p54", ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
+                    layer_54 = tf.nn.max_pool(layer_53, name="p54", ksize=[1, 8, 8, 1], strides=[1, 8, 8, 1], padding='SAME')
 
             with tf.variable_scope("DenseLayer6"):
                 layer_61 = conv_to_fc(layer_54)
-                layer_62 = activ(linear(layer_61, 'fc62', n_hidden=1024, init_scale=np.sqrt(2)))
-                layer_63 = activ(linear(layer_62, 'fc63', n_hidden=256, init_scale=np.sqrt(2)))
-                layer_64 = activ(linear(layer_63, 'fc64', n_hidden=64, init_scale=np.sqrt(2)))
+                layer_62 = activ(linear(layer_61, 'fc62', n_hidden=128, init_scale=np.sqrt(2)))
+                layer_63 = activ(linear(layer_62, 'fc63', n_hidden=64, init_scale=np.sqrt(2)))
+                #layer_64 = activ(linear(layer_63, 'fc64', n_hidden=64, init_scale=np.sqrt(2)))
+                layer_64 = layer_63
 
             value_fn = tf.layers.dense(layer_64, 1, name='vf')
 
