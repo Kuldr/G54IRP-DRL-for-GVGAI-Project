@@ -23,7 +23,7 @@ Markdown==3.0.1
 matplotlib==3.0.2
 mpi4py==3.0.1
 numpy==1.16.1
-opencv-python==4.0.0.21
+opencv-python==4.1.1.26
 pandas==0.24.1
 Pillow==5.4.1
 progressbar2==3.39.2
